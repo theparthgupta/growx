@@ -39,7 +39,7 @@ jobs:
         API_SECRET: ${{ secrets.API_SECRET }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-      run: python tweet_generator.py
+      run: python test.py
     
     - name: Commit and push tweet history
       run: |

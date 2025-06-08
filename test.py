@@ -35,7 +35,6 @@ generator = pipeline(
     top_k=40,
     top_p=0.9,
     temperature=0.7,
-    truncation=True,
     pad_token_id=50256
 )
 
@@ -203,57 +202,69 @@ template_variables = {
     "timeframes": ["5 years", "a decade", "the next few years"]
 }
 
-def generate_dynamic_tweet():
+def generate_dynamic_tweet(history):
     """Generate a tweet from dynamic templates"""
-    category = random.choice(list(dynamic_templates.keys()))
-    template = random.choice(dynamic_templates[category])
+    max_attempts = 30
+    attempts = 0
     
-    # Fill template with random variables
-    filled_template = template
-    for var_type, options in template_variables.items():
-        if f"{{{var_type}}}" in template:
-            filled_template = filled_template.replace(f"{{{var_type}}}", random.choice(options))
+    while attempts < max_attempts:
+        category = random.choice(list(dynamic_templates.keys()))
+        template = random.choice(dynamic_templates[category])
+        
+        # Fill template with random variables
+        filled_template = template
+        for var_type, options in template_variables.items():
+            if f"{{{var_type}}}" in template:
+                filled_template = filled_template.replace(f"{{{var_type}}}", random.choice(options))
+        
+        # Handle remaining generic placeholders
+        generic_replacements = {
+            "{reason}": random.choice(["it solves the wrong problem", "it creates more problems than it solves", "nobody asked for it", "the timing is perfect"]),
+            "{explanation}": random.choice(["we're solving yesterday's problems", "we're ignoring the human element", "the fundamentals still matter"]),
+            "{common_belief}": random.choice(["coding bootcamps guarantee jobs", "AI will replace all developers", "remote work kills innovation"]),
+            "{contrarian_view}": random.choice(["more nuanced than that", "completely backwards", "missing the point"]),
+            "{common_prediction}": random.choice(["replace humans", "solve everything", "be adopted quickly"]),
+            "{alternative_outcome}": random.choice(["augment human creativity", "create new problems", "take decades to mature"]),
+            "{popular_thing}": random.choice(["React", "Python", "Agile", "TypeScript", "Docker"]),
+            "{negative_adjective}": random.choice(["overused", "misapplied", "cargo-culted"]),
+            "{industry}": random.choice(["startups", "enterprise", "education", "healthcare"]),
+            "{insight}": random.choice(["simple solutions beat clever ones", "communication matters more than code", "users don't care about your tech stack"]),
+            "{skill}": random.choice(["most important skill", "key ability", "crucial talent"]),
+            "{obvious_skill}": random.choice(["coding", "algorithms", "frameworks"]),
+            "{unexpected_skill}": random.choice(["listening", "saying no", "admitting ignorance"]),
+            "{mistake}": random.choice(["chasing the latest framework", "not asking enough questions", "trying to build everything myself"]),
+            "{solution}": random.choice(["focus on fundamentals", "ask 'why' three times", "collaborate more"]),
+            "{target_audience}": random.choice(["new developers", "founders", "students"]),
+            "{topic}": random.choice(["programming", "startups", "AI", "career growth"]),
+            "{lesson}": random.choice(["it's not about the code", "users come first", "simple is better"]),
+            "{field}": random.choice(["tech", "programming", "startups", "AI"]),
+            "{lesson_learned}": random.choice(["perfection is the enemy of progress", "premature optimization kills projects", "users define success, not developers"]),
+            "{prediction}": random.choice(["democratize development", "change how we work", "reshape entire industries"]),
+            "{consequence}": random.choice(["the ethical implications", "the job displacement", "the security risks"]),
+            "{obvious_trend}": random.choice(["more automation", "faster computers", "better frameworks"]),
+            "{surprising_trend}": random.choice(["human-centered design", "simplification", "energy efficiency"]),
+            "{current_process}": random.choice(["manual testing", "traditional databases", "centralized systems"]),
+            "{new_process}": random.choice(["AI-assisted development", "edge computing", "decentralized networks"]),
+            "{impact_area}": random.choice(["how we work", "what we build", "who can participate"]),
+            "{popular_belief}": random.choice(["AI will replace developers", "remote work is the future", "blockchain solves everything"]),
+            "{contrarian_prediction}": random.choice(["human creativity becomes more valuable", "in-person collaboration makes a comeback", "simple solutions win"]),
+            "{unexpected_place}": random.choice(["education", "healthcare", "agriculture"]),
+            "{expected_place}": random.choice(["Silicon Valley", "big tech companies", "startups"])
+        }
+        
+        for placeholder, replacement in generic_replacements.items():
+            if placeholder in filled_template:
+                filled_template = filled_template.replace(placeholder, replacement)
+        
+        # Check if this tweet is too similar to recent ones
+        if not is_tweet_recent(filled_template, history):
+            return filled_template
+        
+        attempts += 1
     
-    # Handle remaining generic placeholders
-    generic_replacements = {
-        "{reason}": random.choice(["it solves the wrong problem", "it creates more problems than it solves", "nobody asked for it", "the timing is perfect"]),
-        "{explanation}": random.choice(["we're solving yesterday's problems", "we're ignoring the human element", "the fundamentals still matter"]),
-        "{common_belief}": random.choice(["coding bootcamps guarantee jobs", "AI will replace all developers", "remote work kills innovation"]),
-        "{contrarian_view}": random.choice(["more nuanced than that", "completely backwards", "missing the point"]),
-        "{common_prediction}": random.choice(["replace humans", "solve everything", "be adopted quickly"]),
-        "{alternative_outcome}": random.choice(["augment human creativity", "create new problems", "take decades to mature"]),
-        "{popular_thing}": random.choice(["React", "Python", "Agile", "TypeScript", "Docker"]),
-        "{negative_adjective}": random.choice(["overused", "misapplied", "cargo-culted"]),
-        "{industry}": random.choice(["startups", "enterprise", "education", "healthcare"]),
-        "{insight}": random.choice(["simple solutions beat clever ones", "communication matters more than code", "users don't care about your tech stack"]),
-        "{skill}": random.choice(["most important skill", "key ability", "crucial talent"]),
-        "{obvious_skill}": random.choice(["coding", "algorithms", "frameworks"]),
-        "{unexpected_skill}": random.choice(["listening", "saying no", "admitting ignorance"]),
-        "{mistake}": random.choice(["chasing the latest framework", "not asking enough questions", "trying to build everything myself"]),
-        "{solution}": random.choice(["focus on fundamentals", "ask 'why' three times", "collaborate more"]),
-        "{target_audience}": random.choice(["new developers", "founders", "students"]),
-        "{topic}": random.choice(["programming", "startups", "AI", "career growth"]),
-        "{lesson}": random.choice(["it's not about the code", "users come first", "simple is better"]),
-        "{field}": random.choice(["tech", "programming", "startups", "AI"]),
-        "{lesson_learned}": random.choice(["perfection is the enemy of progress", "premature optimization kills projects", "users define success, not developers"]),
-        "{prediction}": random.choice(["democratize development", "change how we work", "reshape entire industries"]),
-        "{consequence}": random.choice(["the ethical implications", "the job displacement", "the security risks"]),
-        "{obvious_trend}": random.choice(["more automation", "faster computers", "better frameworks"]),
-        "{surprising_trend}": random.choice(["human-centered design", "simplification", "energy efficiency"]),
-        "{current_process}": random.choice(["manual testing", "traditional databases", "centralized systems"]),
-        "{new_process}": random.choice(["AI-assisted development", "edge computing", "decentralized networks"]),
-        "{impact_area}": random.choice(["how we work", "what we build", "who can participate"]),
-        "{popular_belief}": random.choice(["AI will replace developers", "remote work is the future", "blockchain solves everything"]),
-        "{contrarian_prediction}": random.choice(["human creativity becomes more valuable", "in-person collaboration makes a comeback", "simple solutions win"]),
-        "{unexpected_place}": random.choice(["education", "healthcare", "agriculture"]),
-        "{expected_place}": random.choice(["Silicon Valley", "big tech companies", "startups"])
-    }
-    
-    for placeholder, replacement in generic_replacements.items():
-        if placeholder in filled_template:
-            filled_template = filled_template.replace(placeholder, replacement)
-    
-    return filled_template
+    # If all attempts failed, fall back to curated content
+    return generate_curated_tweet(history)
+
 # Question-based engaging tweets (expanded)
 engaging_questions = [
     "What's the one programming concept you wish you'd learned earlier?",
@@ -307,7 +318,7 @@ def generate_curated_tweet(history):
         attempts += 1
     
     # If all curated tweets are recent, generate a dynamic one
-    return generate_dynamic_tweet()
+    return generate_dynamic_tweet(history)
 
 def generate_question_tweet(history):
     """Generate an engaging question tweet, avoiding recent posts"""
@@ -323,7 +334,7 @@ def generate_question_tweet(history):
         attempts += 1
     
     # Fallback to dynamic generation
-    return generate_dynamic_tweet()
+    return generate_dynamic_tweet(history)
 
 def generate_contrarian_tweet(history):
     """Generate a thought-provoking contrarian take, avoiding recent posts"""
@@ -339,9 +350,9 @@ def generate_contrarian_tweet(history):
         attempts += 1
     
     # Fallback to dynamic generation
-    return generate_dynamic_tweet()
+    return generate_dynamic_tweet(history)
 
-def generate_gpt2_tweet():
+def generate_gpt2_tweet(history):
     """Generate tweet using GPT-2 with better prompts"""
     sophisticated_prompts = [
         "The intersection of technology and philosophy reveals that",
@@ -443,26 +454,33 @@ def main():
     history = clean_old_history(history)
     
     tweet_type = select_tweet_type()
+    max_attempts = 3  # Maximum number of attempts to generate a unique tweet
+    attempts = 0
     
-    if tweet_type == 'curated':
-        base_tweet = generate_curated_tweet(history)
-    elif tweet_type == 'question':
-        base_tweet = generate_question_tweet(history)
-    elif tweet_type == 'contrarian':
-        base_tweet = generate_contrarian_tweet(history)
-    elif tweet_type == 'dynamic':
-        base_tweet = generate_dynamic_tweet()
-    else:  # gpt2
-        base_tweet = generate_gpt2_tweet()
-    
-    final_tweet = enhance_tweet(base_tweet)
-    
-    # Check if final tweet is too similar to recent tweets
-    if is_tweet_recent(final_tweet, history):
-        print("Generated tweet too similar to recent post, trying again...")
-        # Try one more time with dynamic generation
-        base_tweet = generate_dynamic_tweet()
+    while attempts < max_attempts:
+        if tweet_type == 'curated':
+            base_tweet = generate_curated_tweet(history)
+        elif tweet_type == 'question':
+            base_tweet = generate_question_tweet(history)
+        elif tweet_type == 'contrarian':
+            base_tweet = generate_contrarian_tweet(history)
+        elif tweet_type == 'dynamic':
+            base_tweet = generate_dynamic_tweet(history)
+        else:  # gpt2
+            base_tweet = generate_gpt2_tweet(history)
+        
         final_tweet = enhance_tweet(base_tweet)
+        
+        # Check if final tweet is too similar to recent tweets
+        if not is_tweet_recent(final_tweet, history):
+            break
+        
+        print(f"Attempt {attempts + 1}: Generated tweet too similar to recent post, trying again...")
+        attempts += 1
+    
+    if attempts == max_attempts:
+        print("Warning: Could not generate a unique tweet after maximum attempts")
+        return
     
     # Post the tweet
     try:

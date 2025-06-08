@@ -5,7 +5,13 @@ import random
 import json
 from datetime import datetime, timedelta
 import hashlib
-import groq
+import logging
+from filelock import FileLock
+from groq import Groq  # Updated import for groq==0.9.0
+
+# Configure logging
+logging.basicConfig(filename='tweet_bot.log', level=logging.INFO, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Load environment variables
 load_dotenv()
@@ -17,6 +23,12 @@ ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 ACCESS_TOKEN_SECRET = os.getenv("ACCESS_TOKEN_SECRET")
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
+# Validate environment variables
+required_vars = [API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET, GROQ_API_KEY]
+if not all(required_vars):
+    logging.error("Missing required environment variables")
+    raise ValueError("Missing required environment variables")
+
 # Initialize X API client
 client = tweepy.Client(
     consumer_key=API_KEY,
@@ -26,29 +38,31 @@ client = tweepy.Client(
 )
 
 # Initialize Groq client
-groq_client = groq.Client(api_key=GROQ_API_KEY)
+groq_client = Groq(api_key=GROQ_API_KEY)
 
 # Tweet history tracking
 TWEET_HISTORY_FILE = "tweet_history.json"
-COOLDOWN_DAYS = 30  # Don't repeat tweets for 30 days
+COOLDOWN_DAYS = 30
+LOCK_FILE = "tweet_history.json.lock"
 
 def load_tweet_history():
-    """Load previously posted tweets"""
-    try:
-        with open(TWEET_HISTORY_FILE, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {"posted_tweets": [], "last_cleanup": str(datetime.now())}
+    """Load previously posted tweets with file locking"""
+    with FileLock(LOCK_FILE):
+        try:
+            with open(TWEET_HISTORY_FILE, 'r') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            return {"posted_tweets": [], "last_cleanup": str(datetime.now())}
 
 def save_tweet_history(history):
-    """Save tweet history to file"""
-    with open(TWEET_HISTORY_FILE, 'w') as f:
-        json.dump(history, f, indent=2)
+    """Save tweet history to file with file locking"""
+    with FileLock(LOCK_FILE):
+        with open(TWEET_HISTORY_FILE, 'w') as f:
+            json.dump(history, f, indent=2)
 
 def clean_old_history(history):
     """Remove tweets older than cooldown period"""
     cutoff_date = datetime.now() - timedelta(days=COOLDOWN_DAYS)
-    
     history["posted_tweets"] = [
         tweet for tweet in history["posted_tweets"]
         if datetime.fromisoformat(tweet["date"]) > cutoff_date
@@ -57,18 +71,14 @@ def clean_old_history(history):
     return history
 
 def get_tweet_hash(tweet_content):
-    """Generate hash for tweet to check duplicates"""
+    """Generate SHA-256 hash for tweet to check duplicates"""
     clean_tweet = ' '.join(tweet_content.split()).replace('#', '').lower()
-    return hashlib.md5(clean_tweet.encode()).hexdigest()
+    return hashlib.sha256(clean_tweet.encode()).hexdigest()
 
 def is_tweet_recent(tweet_content, history):
     """Check if similar tweet was posted recently"""
     tweet_hash = get_tweet_hash(tweet_content)
-    
-    for posted_tweet in history["posted_tweets"]:
-        if posted_tweet["hash"] == tweet_hash:
-            return True
-    return False
+    return any(posted_tweet["hash"] == tweet_hash for posted_tweet in history["posted_tweets"])
 
 def add_tweet_to_history(tweet_content, history):
     """Add posted tweet to history"""
@@ -83,26 +93,28 @@ def add_tweet_to_history(tweet_content, history):
 def generate_tweet_with_groq():
     """Generate a tweet using Groq API"""
     prompts = [
-        "Write a concise, insightful tweet about a breakthrough in AI or technology. Include a surprising fact or statistic. Keep it under 200 characters to leave room for hashtags.",
-        "Create an engaging tweet about the future of technology that includes a thought-provoking question. Keep it under 200 characters to leave room for hashtags.",
-        "Write a tweet about a recent tech innovation that could change our lives. Include one specific example. Keep it under 200 characters to leave room for hashtags.",
-        "Create a tweet about programming or software development that shares a valuable insight or tip. Keep it under 200 characters to leave room for hashtags.",
-        "Write a tweet about the intersection of technology and society that makes people think. Include a compelling observation. Keep it under 200 characters to leave room for hashtags."
+        "Write a concise tweet about a recent AI breakthrough, including a surprising statistic. Keep it under 200 characters.",
+        "Craft a tweet about the future of tech with a thought-provoking question. Keep it under 200 characters.",
+        "Share a tweet about a tech innovation that could change lives, with a specific example. Keep it under 200 characters.",
+        "Write a tweet with a programming tip or insight for developers. Keep it under 200 characters.",
+        "Create a tweet about tech's impact on society with a compelling observation. Keep it under 200 characters."
     ]
     
     prompt = random.choice(prompts)
     
     try:
-        completion = groq_client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+        response = groq_client.chat.completions.create(
+            model="llama3-70b-8192",  # Updated model name for compatibility
             messages=[
-                {"role": "system", "content": """You are a tech thought leader who writes engaging, insightful tweets. Follow these rules:
+                {
+                    "role": "system",
+                    "content": """You are a tech thought leader creating engaging tweets. Rules:
 1. Keep tweets under 200 characters to leave room for hashtags
-2. Include specific facts, statistics, or examples
-3. Make content informative and valuable
-4. Use clear, concise language
-5. End with a thought-provoking point or question
-6. Do not include hashtags in the main tweet text"""},
+2. Include specific facts, stats, or examples
+3. Use clear, concise language
+4. End with a thought-provoking point or question
+5. Do not include hashtags in the main tweet text"""
+                },
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
@@ -110,28 +122,23 @@ def generate_tweet_with_groq():
             top_p=0.9
         )
         
-        generated_tweet = completion.choices[0].message.content.strip()
+        generated_tweet = response.choices[0].message.content.strip()
         
         # Clean up the tweet
-        generated_tweet = generated_tweet.replace('"', '').replace('"', '')
-        if generated_tweet.startswith('"') and generated_tweet.endswith('"'):
-            generated_tweet = generated_tweet[1:-1]
-            
+        generated_tweet = generated_tweet.replace('"', '').strip()
+        
         # Ensure the tweet is not too long
         if len(generated_tweet) > 200:
-            # Try to cut at a sentence boundary
             sentences = generated_tweet.split('. ')
-            shortened_tweet = sentences[0]
-            if len(shortened_tweet) > 200:
-                # If still too long, cut at word boundary
-                words = shortened_tweet.split()
-                shortened_tweet = ' '.join(words[:30])  # Approximate 200 chars
-            generated_tweet = shortened_tweet.strip()
+            generated_tweet = sentences[0] if sentences else generated_tweet[:200]
+            if len(generated_tweet) > 200:
+                words = generated_tweet.split()
+                generated_tweet = ' '.join(words[:30])  # Approximate 200 chars
         
         return generated_tweet
         
     except Exception as e:
-        print(f"Error generating tweet with Groq: {e}")
+        logging.error(f"Error generating tweet with Groq: {e}")
         return None
 
 def enhance_tweet(base_tweet):
@@ -139,89 +146,95 @@ def enhance_tweet(base_tweet):
     if not base_tweet:
         return None
         
-    # Smart hashtag selection based on content
-    hashtags = []
+    hashtag_groups = {
+        'ai': ['#AI', '#MachineLearning', '#TechInnovation'],
+        'programming': ['#Programming', '#SoftwareDev', '#Coding'],
+        'future': ['#FutureTech', '#Innovation', '#TechTrends'],
+        'business': ['#Startup', '#TechBusiness', '#Entrepreneurship'],
+        'ethics': ['#TechEthics', '#DigitalEthics', '#TechImpact']
+    }
     
-    # Tech and AI related
-    if any(word in base_tweet.lower() for word in ['ai', 'artificial intelligence', 'machine learning', 'algorithm', 'neural', 'model']):
-        hashtags.extend(['#AI', '#MachineLearning', '#TechInnovation'])
+    hashtags = set()
+    base_tweet_lower = base_tweet.lower()
     
-    # Programming related
-    if any(word in base_tweet.lower() for word in ['code', 'programming', 'developer', 'software', 'debug', 'algorithm']):
-        hashtags.extend(['#Programming', '#SoftwareDev', '#Coding'])
-    
-    # Future and innovation
-    if any(word in base_tweet.lower() for word in ['future', 'innovation', 'breakthrough', 'disrupt', 'transform']):
-        hashtags.extend(['#FutureTech', '#Innovation', '#TechTrends'])
-    
-    # Business and startup
-    if any(word in base_tweet.lower() for word in ['startup', 'entrepreneur', 'business', 'market', 'industry']):
-        hashtags.extend(['#Startup', '#TechBusiness', '#Entrepreneurship'])
-    
-    # Ethics and society
-    if any(word in base_tweet.lower() for word in ['ethics', 'privacy', 'security', 'society', 'impact']):
-        hashtags.extend(['#TechEthics', '#DigitalEthics', '#TechImpact'])
+    # Select hashtags based on content
+    if any(word in base_tweet_lower for word in ['ai', 'artificial intelligence', 'machine learning', 'algorithm', 'neural', 'model']):
+        hashtags.update(hashtag_groups['ai'])
+    if any(word in base_tweet_lower for word in ['code', 'programming', 'developer', 'software', 'debug', 'algorithm']):
+        hashtags.update(hashtag_groups['programming'])
+    if any(word in base_tweet_lower for word in ['future', 'innovation', 'breakthrough', 'disrupt', 'transform']):
+        hashtags.update(hashtag_groups['future'])
+    if any(word in base_tweet_lower for word in ['startup', 'entrepreneur', 'business', 'market', 'industry']):
+        hashtags.update(hashtag_groups['business'])
+    if any(word in base_tweet_lower for word in ['ethics', 'privacy', 'security', 'society', 'impact']):
+        hashtags.update(hashtag_groups['ethics'])
     
     # Default hashtags if none matched
     if not hashtags:
-        hashtags = ['#Tech', '#Innovation', '#Future']
+        hashtags = {'#Tech', '#Innovation', '#Future'}
     
-    # Limit hashtags to avoid spam appearance
-    hashtags = hashtags[:3]
+    # Limit to 3 hashtags
+    hashtags = list(hashtags)[:3]
+    hashtag_string = ' '.join(hashtags)
     
     # Construct final tweet
-    hashtag_string = ' '.join(set(hashtags))  # Remove duplicates
     final_tweet = f"{base_tweet} {hashtag_string}"
     
     # Ensure under 280 characters
     if len(final_tweet) > 280:
         available_chars = 280 - len(hashtag_string) - 1
-        final_tweet = f"{base_tweet[:available_chars].strip()} {hashtag_string}"
+        final_tweet = f"{base_tweet[:available_chars].rstrip('.')} {hashtag_string}"
     
     return final_tweet
 
 def main():
+    """Main function to generate and post a tweet"""
+    logging.info("Starting tweet bot")
+    
     # Load and clean tweet history
     history = load_tweet_history()
     history = clean_old_history(history)
     
-    max_attempts = 3  # Maximum number of attempts to generate a unique tweet
+    max_attempts = 3
     attempts = 0
     
     while attempts < max_attempts:
         base_tweet = generate_tweet_with_groq()
         if not base_tweet:
-            print("Failed to generate tweet, trying again...")
+            logging.warning(f"Attempt {attempts + 1}: Failed to generate tweet")
             attempts += 1
             continue
             
         final_tweet = enhance_tweet(base_tweet)
+        if not final_tweet:
+            logging.warning(f"Attempt {attempts + 1}: Failed to enhance tweet")
+            attempts += 1
+            continue
         
         # Check if final tweet is too similar to recent tweets
         if not is_tweet_recent(final_tweet, history):
             break
         
-        print(f"Attempt {attempts + 1}: Generated tweet too similar to recent post, trying again...")
+        logging.warning(f"Attempt {attempts + 1}: Generated tweet too similar to recent post")
         attempts += 1
     
     if attempts == max_attempts:
-        print("Warning: Could not generate a unique tweet after maximum attempts")
+        logging.error("Could not generate a unique tweet after maximum attempts")
         return
     
     # Post the tweet
     try:
         client.create_tweet(text=final_tweet)
+        logging.info(f"Tweet posted successfully: {final_tweet}")
         
         # Add to history after successful post
         history = add_tweet_to_history(final_tweet, history)
         save_tweet_history(history)
+        logging.info(f"Total tweets in history: {len(history['posted_tweets'])}")
         
-        print(f"Tweet posted successfully: {final_tweet}")
-        print(f"Total tweets in history: {len(history['posted_tweets'])}")
-        
-    except Exception as e:
-        print(f"Error posting tweet: {e}")
-        print(f"Attempted tweet: {final_tweet}")
+    except tweepy.TweepyException as e:
+        logging.error(f"Error posting tweet: {e}")
+        logging.error(f"Attempted tweet: {final_tweet}")
 
 if __name__ == "__main__":
     main()

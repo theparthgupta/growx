@@ -2,8 +2,8 @@ name: Tweet Bot
 
 on:
   schedule:
-    # Run every 2 hours
-    - cron: '0 */2 * * *'
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -39,8 +39,8 @@ jobs:
         API_SECRET: ${{ secrets.API_SECRET }}
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET }}
-      run: python test.py
-    
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      run: python test.py    
     - name: Commit and push tweet history
       run: |
         git config --local user.email "action@github.com"

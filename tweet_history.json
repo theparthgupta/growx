@@ -54,7 +54,12 @@
       "hash": "b046ece5a83e87859d3ce085898c14df6a46c405ba8facb7d56c04791c44c67a",
       "content": "AI model achieves 99.9% accuracy in detecting breast cancer from mammograms, outperforming human doc...",
       "date": "2025-06-09 20:14:52.030187"
+    },
+    {
+      "hash": "6cacaa84c029279227894edb284985f1d3497a929e9b034bcff2f66567e24341",
+      "content": "AI model surpasses human accuracy in medical diagnoses! 81% of doctors agree with AI's diagnoses, bu...",
+      "date": "2025-06-10 01:05:57.284510"
     }
   ],
-  "last_cleanup": "2025-06-09 20:14:51.260972"
+  "last_cleanup": "2025-06-10 01:05:56.451870"
 }

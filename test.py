@@ -91,55 +91,89 @@ def add_tweet_to_history(tweet_content, history):
     return history
 
 def generate_tweet_with_groq():
-    """Generate a tweet using Groq API"""
-    prompts = [
-        "Write a concise tweet about a recent AI breakthrough, including a surprising statistic. Keep it under 200 characters.",
-        "Craft a tweet about the future of tech with a thought-provoking question. Keep it under 200 characters.",
-        "Share a tweet about a tech innovation that could change lives, with a specific example. Keep it under 200 characters.",
-        "Write a tweet with a programming tip or insight for developers. Keep it under 200 characters.",
-        "Create a tweet about tech's impact on society with a compelling observation. Keep it under 200 characters."
+    """Generate a high-engagement tweet using Groq"""
+    styles = [
+        "Surprising fact + insight + question",
+        "Contrarian opinion + example + challenge",
+        "Mini story + lesson + question",
+        "Bold prediction + why + CTA",
+        "Metaphor or analogy + insight + takeaway",
+        "Frustration + insight + mini-solution",
+        "Common developer mistake + how to avoid it",
+        "Unpopular opinion + short explanation + invitation to discuss",
+        "Real-world example + micro-lesson",
+        "Better alternative to common tools + quick use-case",
+        "Quick fix for a dev error + why it works",
+        "Relatable dev struggle + emotional hook"
     ]
-    
-    prompt = random.choice(prompts)
-    
+
+    topics = [
+        "AI and its real-world use cases",
+        "how AI is transforming daily life or work",
+        "common misconceptions in tech or startups",
+        "how developers can grow faster",
+        "what most people miss about innovation",
+        "what the future of work with AI could look like",
+        "how to build in public or share progress",
+        "problems developers face while building side projects",
+        "frameworks or stacks that simplify product building",
+        "common tech errors devs face (e.g., CORS, env config, dependency hell)",
+        "which tools are overrated in dev workflow",
+        "how small teams can ship faster without overengineering",
+        "real reasons why most MVPs fail",
+        "self-hosted vs SaaS solutions: pros and cons",
+        "productive habits or shortcuts developers actually use",
+        "tech stacks that feel simple but scale well",
+        "when to ditch your current stack for something better"
+    ]
+
+    selected_style = random.choice(styles)
+    selected_topic = random.choice(topics)
+
+    system_prompt = (
+        "You're a tech thought leader writing engaging tweets. Your tone is clear, clever, and thought-provoking. "
+        "Structure tweets in this format:\n"
+        "- Hook (question, stat, bold statement)\n"
+        "- Insight or example\n"
+        "- End with a question or reflective CTA\n"
+        "Keep tweets under 200 characters. No hashtags. Avoid generic or robotic phrasing. Use natural, casual tone."
+    )
+
+    user_prompt = f"Write a tweet in the style of: {selected_style}, about: {selected_topic}."
+
     try:
         response = groq_client.chat.completions.create(
-            model="llama3-70b-8192",  # Updated model name for compatibility
+            model="llama3-70b-8192",
             messages=[
-                {
-                    "role": "system",
-                    "content": """You are a tech thought leader creating engaging tweets. Rules:
-1. Keep tweets under 200 characters to leave room for hashtags
-2. Include specific facts, stats, or examples
-3. Use clear, concise language
-4. End with a thought-provoking point or question
-5. Do not include hashtags in the main tweet text"""
-                },
-                {"role": "user", "content": prompt}
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
             ],
-            temperature=0.7,
-            max_tokens=100,
-            top_p=0.9
+            temperature=0.8,
+            max_tokens=120,
+            top_p=0.95
         )
-        
+
         generated_tweet = response.choices[0].message.content.strip()
-        
-        # Clean up the tweet
+
+        # Basic cleanup
         generated_tweet = generated_tweet.replace('"', '').strip()
-        
-        # Ensure the tweet is not too long
+
+        # Truncate if needed
         if len(generated_tweet) > 200:
             sentences = generated_tweet.split('. ')
-            generated_tweet = sentences[0] if sentences else generated_tweet[:200]
-            if len(generated_tweet) > 200:
-                words = generated_tweet.split()
-                generated_tweet = ' '.join(words[:30])  # Approximate 200 chars
-        
+            for s in sentences:
+                if len(s) < 200:
+                    generated_tweet = s.strip()
+                    break
+            else:
+                generated_tweet = generated_tweet[:200]
+
         return generated_tweet
-        
+
     except Exception as e:
         logging.error(f"Error generating tweet with Groq: {e}")
         return None
+
 
 def enhance_tweet(base_tweet):
     """Add appropriate hashtags and ensure quality"""

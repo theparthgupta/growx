@@ -204,7 +204,12 @@
       "hash": "d3cab5fb41f8c67793ad2dd67bb68f7804dbc6c141882ed669434dbf5a008855",
       "content": "Unpopular opinion: most dev 'mistakes' aren't mistakes at all - they're just CORS, env vars, and dep...",
       "date": "2025-06-14 16:14:25.644166"
+    },
+    {
+      "hash": "7c16b2ecce3577efd7042eacfbe3246bdbd8c7aedd4bb6479c29bfe16f02a297",
+      "content": "I once spent 3 hours debugging a 'simple' React app, only to find the issue was a misplaced semicolo...",
+      "date": "2025-06-14 20:13:21.751063"
     }
   ],
-  "last_cleanup": "2025-06-14 16:14:24.780730"
+  "last_cleanup": "2025-06-14 20:13:20.760035"
 }

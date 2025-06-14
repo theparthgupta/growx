@@ -184,7 +184,12 @@
       "hash": "fdaeca387dd1f92f035c60b5f802d2be77cbea884090d521f85a590b89abf81d",
       "content": "Did you know that 60% of tech debt is caused by sticking with outdated tools too long? It's like hol...",
       "date": "2025-06-14 01:02:45.597766"
+    },
+    {
+      "hash": "dbc942e67b6fcc5e9b5785c2c4b3d4adee341382d200be3f479f83756490cfc8",
+      "content": "Ever wondered how some tech stacks feel ridiculously simple, yet scale like a beast? It's because th...",
+      "date": "2025-06-14 04:17:10.326671"
     }
   ],
-  "last_cleanup": "2025-06-14 01:02:44.646226"
+  "last_cleanup": "2025-06-14 04:17:09.088509"
 }

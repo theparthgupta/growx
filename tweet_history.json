@@ -199,7 +199,12 @@
       "hash": "713bf5207c163309853cfc2a04c00d0c59fb196e14dfd8bda5b6abc3dfae6bd8",
       "content": "Tired of side projects feeling like a second job? I've been there #Future #Tech #Innovation",
       "date": "2025-06-14 12:23:06.489320"
+    },
+    {
+      "hash": "d3cab5fb41f8c67793ad2dd67bb68f7804dbc6c141882ed669434dbf5a008855",
+      "content": "Unpopular opinion: most dev 'mistakes' aren't mistakes at all - they're just CORS, env vars, and dep...",
+      "date": "2025-06-14 16:14:25.644166"
     }
   ],
-  "last_cleanup": "2025-06-14 12:23:05.434282"
+  "last_cleanup": "2025-06-14 16:14:24.780730"
 }

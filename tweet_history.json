@@ -354,7 +354,12 @@
       "hash": "26ec6f7dcb9b03b95869530c65400e9e7fca64fb3ece5511519b0555b2d57ca5",
       "content": "I once knew a dev who spent 3 months building a feature, only to realize it wasn't what users wanted...",
       "date": "2025-06-19 16:16:18.650344"
+    },
+    {
+      "hash": "ec363f2870992fb7ce08e20d08e2cfd9ca4fdf0f2669a6417d1e56dd9cd6fc54",
+      "content": "Building in public is overrated. Most people don't care about your progress, they only care about th...",
+      "date": "2025-06-19 20:15:36.613147"
     }
   ],
-  "last_cleanup": "2025-06-19 16:16:17.826696"
+  "last_cleanup": "2025-06-19 20:15:35.759478"
 }

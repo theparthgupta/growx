@@ -349,7 +349,12 @@
       "hash": "fe1c311e0ad32ad3885d41eed4ef989939290024570db82347e28be85ce06e2c",
       "content": "Most devs waste time switching between tools. Boost productivity by setting up a Command Central - a...",
       "date": "2025-06-19 12:26:49.763232"
+    },
+    {
+      "hash": "26ec6f7dcb9b03b95869530c65400e9e7fca64fb3ece5511519b0555b2d57ca5",
+      "content": "I once knew a dev who spent 3 months building a feature, only to realize it wasn't what users wanted...",
+      "date": "2025-06-19 16:16:18.650344"
     }
   ],
-  "last_cleanup": "2025-06-19 12:26:48.955147"
+  "last_cleanup": "2025-06-19 16:16:17.826696"
 }

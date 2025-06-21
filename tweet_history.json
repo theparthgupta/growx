@@ -399,7 +399,12 @@
       "hash": "7d9ba875c9b54c8f6246191f3ff4c58433c31628e0fae6c891f326eb5e904b50",
       "content": "Still stuck in the 'build it from scratch' mindset? Newsflash: you don't have to reinvent the wheel ...",
       "date": "2025-06-21 04:17:23.386017"
+    },
+    {
+      "hash": "aad2a18bbef4a86f89afe1bec3af39bbb91755f914d9e7cf98cd98d669c4d0b0",
+      "content": "Sticking with a tech stack out of sunk cost fallacy? Don't let we've always done it this way hold yo...",
+      "date": "2025-06-21 08:16:07.235075"
     }
   ],
-  "last_cleanup": "2025-06-21 04:17:22.375426"
+  "last_cleanup": "2025-06-21 08:16:06.310171"
 }

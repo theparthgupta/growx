@@ -444,7 +444,12 @@
       "hash": "8dfbbbe3855d549d7d07fa6bf2edf088515a486ba3ca4bc5b6021d9b7f3c5bf5",
       "content": "I once knew a startup that clung to their outdated tech stack out of loyalty #TechBusiness #Startup ...",
       "date": "2025-06-22 16:14:42.609393"
+    },
+    {
+      "hash": "29cc0f49976a06885b7dd6365f7ff679266fc4ac376e20079c46c88a397ad5c5",
+      "content": "Ever spent hours debugging only to find a misplaced comma in your env config? Don't get caught out! ...",
+      "date": "2025-06-22 20:13:36.557032"
     }
   ],
-  "last_cleanup": "2025-06-22 16:14:41.719392"
+  "last_cleanup": "2025-06-22 20:13:35.555802"
 }

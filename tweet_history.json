@@ -449,7 +449,12 @@
       "hash": "29cc0f49976a06885b7dd6365f7ff679266fc4ac376e20079c46c88a397ad5c5",
       "content": "Ever spent hours debugging only to find a misplaced comma in your env config? Don't get caught out! ...",
       "date": "2025-06-22 20:13:36.557032"
+    },
+    {
+      "hash": "3e8d70d9d0f5d15da6cc3cc3b9ed43be4a5883721d0091643274f1d4c080a211",
+      "content": "Unpopular opinion: Agile project management tools are overhyped. Most devs I know spend more time up...",
+      "date": "2025-06-23 01:09:19.580233"
     }
   ],
-  "last_cleanup": "2025-06-22 20:13:35.555802"
+  "last_cleanup": "2025-06-23 01:09:18.845934"
 }

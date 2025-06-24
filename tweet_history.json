@@ -489,7 +489,12 @@
       "hash": "42ca5d60761954f2527e2e3707b8992f81b598f14cc32a6af56b810abe0e912e",
       "content": "Tired of vendor lock-in? Self-hosted solutions give you control, but at the cost of maintenance head...",
       "date": "2025-06-24 04:23:36.458054"
+    },
+    {
+      "hash": "79d9d209138ed68cc2d24d5917cbaea3b5dddf4f73c69422cba5468dcb3d54f3",
+      "content": "Tired of reinventing the wheel with every new product? Frameworks like Webflow and Bubble are changi...",
+      "date": "2025-06-24 08:18:49.295367"
     }
   ],
-  "last_cleanup": "2025-06-24 04:23:35.497063"
+  "last_cleanup": "2025-06-24 08:18:48.361786"
 }

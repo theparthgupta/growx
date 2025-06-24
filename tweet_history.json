@@ -484,7 +484,12 @@
       "hash": "d1df2822afac8b11f728e5eb7ba748ca42557cd3f932485e0b10c3d628930c9a",
       "content": "Tired of feeling like you're stuck in a dev rut? I was too, until I realized I was focusing on maste...",
       "date": "2025-06-24 01:05:53.518341"
+    },
+    {
+      "hash": "42ca5d60761954f2527e2e3707b8992f81b598f14cc32a6af56b810abe0e912e",
+      "content": "Tired of vendor lock-in? Self-hosted solutions give you control, but at the cost of maintenance head...",
+      "date": "2025-06-24 04:23:36.458054"
     }
   ],
-  "last_cleanup": "2025-06-24 01:05:52.663344"
+  "last_cleanup": "2025-06-24 04:23:35.497063"
 }

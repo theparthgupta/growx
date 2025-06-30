@@ -674,7 +674,12 @@
       "hash": "7c37e4e7bc59f6fd1c4a5b556995110825d0a8069f656673380e57c9cfc2eb04",
       "content": "Airbnb's early prototype was built in just 3 days! They focused on solving one problem at a time, ra...",
       "date": "2025-06-30 08:19:28.791257"
+    },
+    {
+      "hash": "bb38b1d9e306eab27fa96dad93d066709c8826b4a68ad13ea377c3601709969d",
+      "content": "Ever wondered why your dev workflow feels clunky? I'd argue it's because we're over-relying on trend...",
+      "date": "2025-06-30 12:27:08.845829"
     }
   ],
-  "last_cleanup": "2025-06-30 08:19:27.915053"
+  "last_cleanup": "2025-06-30 12:27:07.704081"
 }

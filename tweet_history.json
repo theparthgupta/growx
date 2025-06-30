@@ -659,7 +659,12 @@
       "hash": "cff6915a82abfa71cee0b12d068d2c531765873cc85efc4501508d6aa73da888",
       "content": "Tired of feeling like you're rebuilding the wheel with every new project? I know I am #Future #Innov...",
       "date": "2025-06-29 20:13:56.145311"
+    },
+    {
+      "hash": "86aafd7eab77509c1a603cf9b98c7ce6b0eeea8ff1ae5932cfc951f532af54d2",
+      "content": "Tired of vendor lock-in? Self-hosted solutions give you control, but at the cost of maintenance head...",
+      "date": "2025-06-30 01:10:05.127160"
     }
   ],
-  "last_cleanup": "2025-06-29 20:13:55.251704"
+  "last_cleanup": "2025-06-30 01:10:04.389907"
 }

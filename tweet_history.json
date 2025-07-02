@@ -734,7 +734,12 @@
       "hash": "661e91eded03fb566016b7a84b31d77d4cdb7c3f08dc1ab15855eb2302c22f6e",
       "content": "By 2025, 80% of new products will be built on no-code frameworks. Why? They're slashing dev time and...",
       "date": "2025-07-02 08:18:58.543620"
+    },
+    {
+      "hash": "051878374035a46fbcf183cc65eb7219a125ad065f5adb6876aed99de6ed07aa",
+      "content": "Did you know that 70% of dev time is spent on maintenance, not new features? We're so focused on shi...",
+      "date": "2025-07-02 12:27:10.580107"
     }
   ],
-  "last_cleanup": "2025-07-02 08:18:57.525661"
+  "last_cleanup": "2025-07-02 12:27:09.482274"
 }

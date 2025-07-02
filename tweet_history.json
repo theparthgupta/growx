@@ -739,7 +739,12 @@
       "hash": "051878374035a46fbcf183cc65eb7219a125ad065f5adb6876aed99de6ed07aa",
       "content": "Did you know that 70% of dev time is spent on maintenance, not new features? We're so focused on shi...",
       "date": "2025-07-02 12:27:10.580107"
+    },
+    {
+      "hash": "b86d6ec2e556247f65190dfb50c8d7cebf0ab95aae4052d21f31857b906af1d6",
+      "content": "Remember that time you spent 3 weeks building a feature only to realize nobody needed it? I did #Tec...",
+      "date": "2025-07-02 16:16:21.345622"
     }
   ],
-  "last_cleanup": "2025-07-02 12:27:09.482274"
+  "last_cleanup": "2025-07-02 16:16:20.463424"
 }

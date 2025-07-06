@@ -839,7 +839,12 @@
       "hash": "da8b643ba24f9a70f28c3ba3835b2a02f523c2493c6f0bc8b33854ede95a2b52",
       "content": "Tired of wasting hours on CORS headaches and env config nightmares? Try using a service worker to pr...",
       "date": "2025-07-05 20:13:24.576363"
+    },
+    {
+      "hash": "8bdf919ecf0c96c3098282af4a56764f2cbff2ce123b74d368882772848e2bcc",
+      "content": "Instead of chasing the latest frameworks and tools, what if developers focused on mastering the fund...",
+      "date": "2025-07-06 01:12:21.433406"
     }
   ],
-  "last_cleanup": "2025-07-05 20:13:23.842863"
+  "last_cleanup": "2025-07-06 01:12:20.615617"
 }

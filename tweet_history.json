@@ -894,7 +894,12 @@
       "hash": "6069106bad84c6d033bfa12c889ebcea6f542685cd8cb6b828d43e11d22094d0",
       "content": "Did you know 60% of dev time is spent debugging? Often, it's the same old culprits: CORS misconfigs,...",
       "date": "2025-07-07 16:17:12.256797"
+    },
+    {
+      "hash": "cc8db8286e6bbe337e9638d4e26a646a7a9c678e2e16fbff8f42f56b474c7593",
+      "content": "Building in public is overrated. Most projects fail, and sharing every misstep can be more intimidat...",
+      "date": "2025-07-07 20:15:05.975788"
     }
   ],
-  "last_cleanup": "2025-07-07 16:17:11.385871"
+  "last_cleanup": "2025-07-07 20:15:05.012910"
 }

@@ -884,7 +884,12 @@
       "hash": "502b71de2ab3e32fa8dceaa08e9d704436d423818bb76426e0582b58dd2fffef",
       "content": "Did you know that AI could automate 80% of routine tasks by 2025? That means we'll have more time fo...",
       "date": "2025-07-07 08:20:00.887414"
+    },
+    {
+      "hash": "234fd4ecfe489c22226cdfc76a3647f24db59249f68b3a000ba38ed6449756b6",
+      "content": "Did you know that AI-powered chatbots are now helping doctors diagnose patients more accurately? By ...",
+      "date": "2025-07-07 12:27:16.103642"
     }
   ],
-  "last_cleanup": "2025-07-07 08:20:00.019619"
+  "last_cleanup": "2025-07-07 12:27:15.329209"
 }

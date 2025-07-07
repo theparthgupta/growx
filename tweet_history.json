@@ -889,7 +889,12 @@
       "hash": "234fd4ecfe489c22226cdfc76a3647f24db59249f68b3a000ba38ed6449756b6",
       "content": "Did you know that AI-powered chatbots are now helping doctors diagnose patients more accurately? By ...",
       "date": "2025-07-07 12:27:16.103642"
+    },
+    {
+      "hash": "6069106bad84c6d033bfa12c889ebcea6f542685cd8cb6b828d43e11d22094d0",
+      "content": "Did you know 60% of dev time is spent debugging? Often, it's the same old culprits: CORS misconfigs,...",
+      "date": "2025-07-07 16:17:12.256797"
     }
   ],
-  "last_cleanup": "2025-07-07 12:27:15.329209"
+  "last_cleanup": "2025-07-07 16:17:11.385871"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "a67af4ea3cb2610675cd7d353ea41b02",
-      "content": "We're teaching machines to be intelligent, but forgot to teach them wisdom. #Innovation #Tech",
-      "date": "2025-06-08 04:47:14.467571"
-    },
-    {
       "hash": "503ec3c082d6ed521af1c9a4b3fa0ef5",
       "content": "If you could uninvent one technology, what would it be and why? #Tech #Innovation",
       "date": "2025-06-08 10:22:00.050152"
@@ -899,7 +894,12 @@
       "hash": "435f2d49f2739db64f13a0fba4cf9789d2efe5f583816349a15d0c9d798c0fd8",
       "content": "MVPs are like first dates - everyone's excited, but most end in disappointment #Innovation #Future #...",
       "date": "2025-07-08 04:24:25.044575"
+    },
+    {
+      "hash": "ff2bd87b4fe2ce2e7f72a26387c00d6962cb74ba0a63fc52ec1fdfdb6a1e54fc",
+      "content": "A well-designed tech stack is like a Swiss Army knife - it may look simple at first, but it's packed...",
+      "date": "2025-07-08 08:19:11.577770"
     }
   ],
-  "last_cleanup": "2025-07-08 04:24:24.085817"
+  "last_cleanup": "2025-07-08 08:19:10.709341"
 }

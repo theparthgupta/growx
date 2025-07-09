@@ -1,16 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "51a05b7e0a472522a905e4e1ab0086739d2b182e314ce2bd9fca6456cce4f5ab",
-      "content": "Today, we spend more time interacting with our devices than with our families. Have we traded conven...",
-      "date": "2025-06-09 16:16:51.319896"
-    },
-    {
-      "hash": "b046ece5a83e87859d3ce085898c14df6a46c405ba8facb7d56c04791c44c67a",
-      "content": "AI model achieves 99.9% accuracy in detecting breast cancer from mammograms, outperforming human doc...",
-      "date": "2025-06-09 20:14:52.030187"
-    },
-    {
       "hash": "6cacaa84c029279227894edb284985f1d3497a929e9b034bcff2f66567e24341",
       "content": "AI model surpasses human accuracy in medical diagnoses! 81% of doctors agree with AI's diagnoses, bu...",
       "date": "2025-06-10 01:05:57.284510"
@@ -909,7 +899,12 @@
       "hash": "a4b80752321fd8a2d9d1b23526898d4431729b3038fc6ac3ed6571bc3389ca9b",
       "content": "Stuck on a bug for hours? Try the '20-minute rule': set a timer, focus on the error, and when it goe...",
       "date": "2025-07-09 16:14:32.430819"
+    },
+    {
+      "hash": "0fca41d248a6ff55b960b3f66a116e3219b4396b6dcbf82efeadcd787476c833",
+      "content": "Ever spent hours debugging only to realize you forgot to update your env variables? It's a classic! ...",
+      "date": "2025-07-09 20:15:05.534529"
     }
   ],
-  "last_cleanup": "2025-07-09 16:14:31.491389"
+  "last_cleanup": "2025-07-09 20:15:04.594536"
 }

@@ -1,16 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "b102827b2b68d679bb273515e6894ae8d51a432294228e8703d53a0a050cb453",
-      "content": "As AI automates 80% of today's jobs, will we redefine 'work' or risk a global identity crisis? #Tech...",
-      "date": "2025-06-09 08:19:37.158743"
-    },
-    {
-      "hash": "21c58b0b102c1af461ef8c85e513a4dfb9d3b7e49e03b0b6d6f1d3186d7aa72a",
-      "content": "Did you know? Using consistent naming conventions in your code can reduce bugs by up to 20%! Take th...",
-      "date": "2025-06-09 12:26:49.259116"
-    },
-    {
       "hash": "51a05b7e0a472522a905e4e1ab0086739d2b182e314ce2bd9fca6456cce4f5ab",
       "content": "Today, we spend more time interacting with our devices than with our families. Have we traded conven...",
       "date": "2025-06-09 16:16:51.319896"
@@ -909,7 +899,12 @@
       "hash": "e3038f069ec5bbc8eccf7ab90117d676df361b05d365f0541a89f96b3142ba3e",
       "content": "Building in public? Don't fall into the 'highlight reel' trap! Share your mistakes, not just success...",
       "date": "2025-07-09 08:18:40.850604"
+    },
+    {
+      "hash": "12d35e0617faaceda1702b438ea9dea0aec8f12b59eba943feda75048b5e1b73",
+      "content": "Remember that friend who built an MVP to solve their own problem, only to realize no one else cared?...",
+      "date": "2025-07-09 12:27:26.395572"
     }
   ],
-  "last_cleanup": "2025-07-09 08:18:39.997310"
+  "last_cleanup": "2025-07-09 12:27:25.353567"
 }

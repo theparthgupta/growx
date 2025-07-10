@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "6cacaa84c029279227894edb284985f1d3497a929e9b034bcff2f66567e24341",
-      "content": "AI model surpasses human accuracy in medical diagnoses! 81% of doctors agree with AI's diagnoses, bu...",
-      "date": "2025-06-10 01:05:57.284510"
-    },
-    {
       "hash": "5ec62b371e724d6706efa715a9c8f0a50108672e041e503c3a5bf77f3a4c8f11",
       "content": "Most dev productivity hacks are just cleverly disguised procrastination techniques #Innovation #Tech...",
       "date": "2025-06-10 03:37:22.354111"
@@ -904,7 +899,12 @@
       "hash": "0fca41d248a6ff55b960b3f66a116e3219b4396b6dcbf82efeadcd787476c833",
       "content": "Ever spent hours debugging only to realize you forgot to update your env variables? It's a classic! ...",
       "date": "2025-07-09 20:15:05.534529"
+    },
+    {
+      "hash": "2232a91d7020c94377f7e5595e58992dfa274cbc62f6674ce58ef0ec1ceb0fb1",
+      "content": "By 2025, 80% of new products will be built on no-code frameworks #Coding #SoftwareDev #Programming",
+      "date": "2025-07-10 01:07:32.913971"
     }
   ],
-  "last_cleanup": "2025-07-09 20:15:04.594536"
+  "last_cleanup": "2025-07-10 01:07:32.084463"
 }

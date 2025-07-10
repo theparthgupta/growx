@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "caa3b339070690f6378c337470fa26251bd7f6823e46ca94be985d477ed2302c",
-      "content": "Tired of AI' being used as a buzzword? I was, until I saw how machine learning is helping doctors de...",
-      "date": "2025-06-10 12:27:22.565870"
-    },
-    {
       "hash": "82de9b49867b66c7922220d39c3402f5f530d7dcf7fee6966b4d66e33d4f5bd3",
       "content": "Building a side hustle is like trying to build a house of cards on a wobbly table #Future #Innovatio...",
       "date": "2025-06-10 16:16:56.801870"
@@ -899,7 +894,12 @@
       "hash": "1b1bb699bbd82b70a414159b9017be20c49dcef4c24e9714bad6e2024374b49b",
       "content": "Stop learning new programming languages! Focus on solving real-world problems and you'll grow faster...",
       "date": "2025-07-10 08:18:53.966355"
+    },
+    {
+      "hash": "7f5c29dd75c08842acd78375c2019227ccd4502525b4cb03a4f1799f9c29b6a9",
+      "content": "Most devs think CORS, env config, and dependency hell are inevitable evils, but what if I told you t...",
+      "date": "2025-07-10 12:27:48.818656"
     }
   ],
-  "last_cleanup": "2025-07-10 08:18:53.068060"
+  "last_cleanup": "2025-07-10 12:27:47.793952"
 }

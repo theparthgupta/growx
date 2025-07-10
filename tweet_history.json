@@ -1,16 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "5ec62b371e724d6706efa715a9c8f0a50108672e041e503c3a5bf77f3a4c8f11",
-      "content": "Most dev productivity hacks are just cleverly disguised procrastination techniques #Innovation #Tech...",
-      "date": "2025-06-10 03:37:22.354111"
-    },
-    {
-      "hash": "4ac43591234185f5352e39c9d0a29d2b53485218c62659f31122e9401c393edf",
-      "content": "Swapping tedious to-do lists for personalized task assistants #Innovation #Tech #Future",
-      "date": "2025-06-10 04:22:01.777044"
-    },
-    {
       "hash": "547e28faab360ce35d29279a5d5ff09e236a1c11a597f6c3b1d85f8a653aa135",
       "content": "Most startups fail due to poor execution, not a lack of innovation. What's the most common misconcep...",
       "date": "2025-06-10 08:18:49.402147"
@@ -904,7 +894,12 @@
       "hash": "2232a91d7020c94377f7e5595e58992dfa274cbc62f6674ce58ef0ec1ceb0fb1",
       "content": "By 2025, 80% of new products will be built on no-code frameworks #Coding #SoftwareDev #Programming",
       "date": "2025-07-10 01:07:32.913971"
+    },
+    {
+      "hash": "35b368d725778c8fb6009f76f1f20567ad1f6abc554f69ddc92f64ea97e1d09f",
+      "content": "Most MVPs fail not because they're minimum or viable, but because they're built on unvalidated assum...",
+      "date": "2025-07-10 04:26:57.470906"
     }
   ],
-  "last_cleanup": "2025-07-10 01:07:32.084463"
+  "last_cleanup": "2025-07-10 04:26:56.542800"
 }

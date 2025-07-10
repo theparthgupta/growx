@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "82de9b49867b66c7922220d39c3402f5f530d7dcf7fee6966b4d66e33d4f5bd3",
-      "content": "Building a side hustle is like trying to build a house of cards on a wobbly table #Future #Innovatio...",
-      "date": "2025-06-10 16:16:56.801870"
-    },
-    {
       "hash": "6229d9c373fd1ca04dffd35fba95ff5f5a95a55b656c7ac7cef86ea10646a6b2",
       "content": "Small teams will ship 2x faster in the next 6 months by embracing 'good enough' solutions #Future #T...",
       "date": "2025-06-10 20:15:10.647966"
@@ -899,7 +894,12 @@
       "hash": "7f5c29dd75c08842acd78375c2019227ccd4502525b4cb03a4f1799f9c29b6a9",
       "content": "Most devs think CORS, env config, and dependency hell are inevitable evils, but what if I told you t...",
       "date": "2025-07-10 12:27:48.818656"
+    },
+    {
+      "hash": "15994c36fcea480dcf1fecc10ad85cad146ad83e6faa902135f0a43e704ed42b",
+      "content": "Imagine a world where AI assistants help doctors diagnose patients, freeing them to focus on empathy...",
+      "date": "2025-07-10 16:17:05.339913"
     }
   ],
-  "last_cleanup": "2025-07-10 12:27:47.793952"
+  "last_cleanup": "2025-07-10 16:17:04.402211"
 }

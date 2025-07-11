@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "04fff2dea39045cdc73a27d101cf6b274de3a38b0ace139d1d7c4c6533c2b350",
-      "content": "Building a dev workflow is like decorating a cake - everyone's obsessed with the fancy icing (fancy ...",
-      "date": "2025-06-11 16:17:05.565433"
-    },
-    {
       "hash": "83dc11f4951880c750637c9348736130611f5e1dfc9ff15ab7d86a6372d687ad",
       "content": "Innovation isn't about being the first, it's about being the first to make it matter #Innovation #Fu...",
       "date": "2025-06-11 20:13:18.888261"
@@ -1014,7 +1009,12 @@
       "hash": "9141ba9272d06aebf81aed5f19d907d8daf700b602c9fffb22ee6cd640975f8e",
       "content": "been thinking about this \u2014 building in public is cool & all, but let's be real, most of us are just ...",
       "date": "2025-07-11 15:51:07.193519"
+    },
+    {
+      "hash": "6af6da69809fceb229244d4f0c6ecf8629615d1f5840a8bb9105d34e53f28efb",
+      "content": "dev confession: CORS is just a social experiment to see how many devs it takes to drive mad with 'ac...",
+      "date": "2025-07-11 16:31:49.825208"
     }
   ],
-  "last_cleanup": "2025-07-11 15:51:06.107739"
+  "last_cleanup": "2025-07-11 16:31:48.745034"
 }

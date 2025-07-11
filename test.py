@@ -91,48 +91,57 @@ def add_tweet_to_history(tweet_content, history):
     return history
 
 def generate_tweet_with_groq():
-    """Generate a high-engagement tweet using Groq"""
+    """Generate a tweet that sounds personal and human."""
     styles = [
-    "Hot take + quick tip + question ",
-    "Relatable dev fail + fix + poll idea",
-    "Mini startup story + lesson + CTA ",
-    "Bold prediction + why it matters + vibe check",
-    "Coding hack + use case + what’s your take?",
-    "Marketing oops + recovery tip + let’s hear yours",
-    "Tech stack roast + better option + thoughts?",
-    "Founder struggle + quick win + drop your hack"
+        "Bold hot take + a follow-up punch",
+        "Relatable dev L + ironic twist",
+        "Random rant + actual insight",
+        "Curious founder thought + subtle sarcasm",
+        "Midnight shower thought + code pain",
+        "Petty tech gripe + overreaction"
     ]
 
     topics = [
-        "AI and its real-world use cases",
-        "how AI is transforming daily life or work",
-        "common misconceptions in tech or startups",
-        "how developers can grow faster",
-        "what most people miss about innovation",
-        "what the future of work with AI could look like",
-        "how to build in public or share progress",
-        "problems developers face while building side projects",
-        "frameworks or stacks that simplify product building",
-        "common tech errors devs face (e.g., CORS, env config, dependency hell)",
-        "which tools are overrated in dev workflow",
-        "how small teams can ship faster without overengineering",
-        "real reasons why most MVPs fail",
-        "self-hosted vs SaaS solutions: pros and cons",
-        "productive habits or shortcuts developers actually use",
-        "tech stacks that feel simple but scale well",
-        "when to ditch your current stack for something better"
+        "frameworks that waste time",
+        "when AI tools gaslight devs",
+        "tech that looks cool but solves nothing",
+        "shipping MVPs just to feel productive",
+        "writing code that works but feels cursed",
+        "the lies in job descriptions vs reality",
+        "building in public with no audience yet",
+        "why CORS exists just to hurt us",
+        "startups naming bugs as features",
+        "self-hosted tools that ruin your weekend"
+    ]
+
+    tone_prefixes = [
+        "Not to sound bitter, but ",
+        "Can we talk about how ",
+        "Unpopular opinion: ",
+        "I might delete this later but ",
+        "Tell me I’m wrong: ",
+        "Dev confession: ",
+        "Been thinking about this — ",
     ]
 
     selected_style = random.choice(styles)
     selected_topic = random.choice(topics)
+    selected_prefix = random.choice(tone_prefixes)
 
     system_prompt = (
-    "You're a startup founder and tech nerd sharing bite-sized insights on X. Focus on AI, automation, web dev, startups, product-building or marketing. "
-    "Write in a casual, human, Twitter-like style: punchy hook (question or hot take), quick tip or story, and a vibe-y CTA (question or nudge). "
-    "Keep it under 150 chars, no robotic vibes, use slang if it fits. Target devs, founders, and marketers."
+        "You're a sarcastic yet insightful software engineer tweeting as a real person, not a brand. "
+        "Style: short, edgy, human, not polished, not corporate. Be smart but not preachy. Swear mildly if it feels natural. "
+        "Make the reader chuckle, nod or argue. Under 160 characters max."
+        "You're a sarcastic dev/founder tweeting brutally honest, sometimes spicy takes on coding, AI, side projects, and building in public. "
+        "Your tweets feel like: hot takes, coding pain, dumb ideas that worked, dev chaos, and late-night builds. "
+        "Use informal tone, dev slang, unfinished thoughts if needed, lowercase is okay. Aim for <150 characters. "
+        "Write like you’re talking to other devs, founders, and internet friends. Don’t explain too much. Be punchy."
     )
 
-    user_prompt = f"Write a tweet in the style of: {selected_style}, about: {selected_topic}."
+    user_prompt = (
+        f"Write a tweet in the style of: {selected_style}, about: {selected_topic}. "
+        f"Start with: '{selected_prefix}'"
+    )
 
     try:
         response = groq_client.chat.completions.create(
@@ -141,7 +150,7 @@ def generate_tweet_with_groq():
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
-            temperature=0.8,
+            temperature=0.95,
             max_tokens=120,
             top_p=0.95
         )
@@ -151,7 +160,7 @@ def generate_tweet_with_groq():
         # Basic cleanup
         generated_tweet = generated_tweet.replace('"', '').strip()
 
-        # Truncate if needed
+        # Truncate if too long
         if len(generated_tweet) > 200:
             sentences = generated_tweet.split('. ')
             for s in sentences:
@@ -168,18 +177,20 @@ def generate_tweet_with_groq():
         return None
 
 
+
 def enhance_tweet(base_tweet):
     """Add appropriate hashtags and ensure quality"""
     if not base_tweet:
         return None
         
     hashtag_groups = {
-        'ai': ['#AI', '#MachineLearning', '#TechInnovation'],
-        'programming': ['#Programming', '#SoftwareDev', '#Coding'],
-        'future': ['#FutureTech', '#Innovation', '#TechTrends'],
-        'business': ['#Startup', '#TechBusiness', '#Entrepreneurship'],
-        'ethics': ['#TechEthics', '#DigitalEthics', '#TechImpact']
+        'ai': ['#buildinpublic', '#AIhumor', '#AIMemes', '#LLMthings'],
+        'programming': ['#devhumor', '#techtwitter', '#100DaysOfCode', '#showerthoughts'],
+        'future': ['#indiehacker', '#web3ishard', '#startuplife'],
+        'business': ['#founderlife', '#nocode', '#bootstrap'],
+        'ethics': ['#techethics', '#AIethics', '#digitalrights']
     }
+
     
     hashtags = set()
     base_tweet_lower = base_tweet.lower()

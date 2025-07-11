@@ -1014,7 +1014,12 @@
       "hash": "6af6da69809fceb229244d4f0c6ecf8629615d1f5840a8bb9105d34e53f28efb",
       "content": "dev confession: CORS is just a social experiment to see how many devs it takes to drive mad with 'ac...",
       "date": "2025-07-11 16:31:49.825208"
+    },
+    {
+      "hash": "8180ca5baa0b694f855b0d352906b5d7c3fedefb816e6d7b55b2d9acb5426ab6",
+      "content": "not to sound bitter, but shipping an mvp just to feel productive is like eating a whole pizza by mys...",
+      "date": "2025-07-11 16:55:36.125158"
     }
   ],
-  "last_cleanup": "2025-07-11 16:31:48.745034"
+  "last_cleanup": "2025-07-11 16:55:34.556026"
 }

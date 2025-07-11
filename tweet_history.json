@@ -1,16 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "6229d9c373fd1ca04dffd35fba95ff5f5a95a55b656c7ac7cef86ea10646a6b2",
-      "content": "Small teams will ship 2x faster in the next 6 months by embracing 'good enough' solutions #Future #T...",
-      "date": "2025-06-10 20:15:10.647966"
-    },
-    {
-      "hash": "c40788ccb70eaf5fd378257e1990138dd25387f2a809c524a1ae6a0bb33c951a",
-      "content": "I once built a startup on a tech stack that felt like a Toyota Corolla - simple, reliable, and easy ...",
-      "date": "2025-06-11 01:05:35.229901"
-    },
-    {
       "hash": "d8fd8969b14e6dbf7c91b272efb8fb6ea7924f6138571e4525b80e0386bde53f",
       "content": "I knew a dev who wrote 100 lines of code in 1 hour #Coding #Programming #SoftwareDev",
       "date": "2025-06-11 04:22:42.632578"
@@ -904,7 +894,12 @@
       "hash": "b5ddda3670387b20dc9ec59b8279b7a26d75228df6d77ac4ddbf84a86db260f9",
       "content": "Ever spent hours setting up a flashy new tool, only to realize it's just getting in the way? I'm gui...",
       "date": "2025-07-10 20:15:04.148615"
+    },
+    {
+      "hash": "817546586d38ee38cb6fd17e0e04e1a39f63abe242ed1f3fba52c687378306ab",
+      "content": "Assuming AI will replace human judgment? Think again #TechInnovation #AI #MachineLearning",
+      "date": "2025-07-11 01:08:10.709060"
     }
   ],
-  "last_cleanup": "2025-07-10 20:15:03.197269"
+  "last_cleanup": "2025-07-11 01:08:09.879603"
 }

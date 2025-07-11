@@ -1069,7 +1069,12 @@
       "hash": "e34219e1d1e66ee04a19131437f30d632f3791c26ce64a6de7191b63c44121af",
       "content": "unpopular opinion: most frameworks are just elaborate excuses to avoid actually learning the underly...",
       "date": "2025-07-11 23:08:10.733999"
+    },
+    {
+      "hash": "939351ef60e3b99cf0bf87c33ae04c19c8bcfdf36af37cc07d01559a3d36d0e0",
+      "content": "dev confession: i'm starting to think CORS was invented solely to torment developers and make them q...",
+      "date": "2025-07-11 23:30:52.380891"
     }
   ],
-  "last_cleanup": "2025-07-11 23:08:09.762203"
+  "last_cleanup": "2025-07-11 23:30:51.448898"
 }

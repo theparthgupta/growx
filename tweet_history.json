@@ -1064,7 +1064,12 @@
       "hash": "b9499070747abfc0b49709ed8276d2d21f30a140410a6740a1fa864dc5e0a211",
       "content": "can we talk about how CORS exists solely to torment devs and crush our souls? like, what's the actua...",
       "date": "2025-07-11 22:28:54.704551"
+    },
+    {
+      "hash": "e34219e1d1e66ee04a19131437f30d632f3791c26ce64a6de7191b63c44121af",
+      "content": "unpopular opinion: most frameworks are just elaborate excuses to avoid actually learning the underly...",
+      "date": "2025-07-11 23:08:10.733999"
     }
   ],
-  "last_cleanup": "2025-07-11 22:28:53.928614"
+  "last_cleanup": "2025-07-11 23:08:09.762203"
 }

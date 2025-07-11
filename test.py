@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import hashlib
 import logging
 from filelock import FileLock
-from groq import Groq  # Updated import for groq==0.9.0
+from groq import Groq  
 
 # Configure logging
 logging.basicConfig(filename='tweet_bot.log', level=logging.INFO, 
@@ -93,18 +93,14 @@ def add_tweet_to_history(tweet_content, history):
 def generate_tweet_with_groq():
     """Generate a high-engagement tweet using Groq"""
     styles = [
-        "Surprising fact + insight + question",
-        "Contrarian opinion + example + challenge",
-        "Mini story + lesson + question",
-        "Bold prediction + why + CTA",
-        "Metaphor or analogy + insight + takeaway",
-        "Frustration + insight + mini-solution",
-        "Common developer mistake + how to avoid it",
-        "Unpopular opinion + short explanation + invitation to discuss",
-        "Real-world example + micro-lesson",
-        "Better alternative to common tools + quick use-case",
-        "Quick fix for a dev error + why it works",
-        "Relatable dev struggle + emotional hook"
+    "Hot take + quick tip + question 😎",
+    "Relatable dev fail + fix + poll idea",
+    "Mini startup story + lesson + CTA 🔥",
+    "Bold prediction + why it matters + vibe check",
+    "Coding hack + use case + what’s your take?",
+    "Marketing oops + recovery tip + let’s hear yours",
+    "Tech stack roast + better option + thoughts?",
+    "Founder struggle + quick win + drop your hack"
     ]
 
     topics = [
@@ -131,12 +127,9 @@ def generate_tweet_with_groq():
     selected_topic = random.choice(topics)
 
     system_prompt = (
-        "You're a tech thought leader writing engaging tweets. Your tone is clear, clever, and thought-provoking. "
-        "Structure tweets in this format:\n"
-        "- Hook (question, stat, bold statement)\n"
-        "- Insight or example\n"
-        "- End with a question or reflective CTA\n"
-        "Keep tweets under 200 characters. No hashtags. Avoid generic or robotic phrasing. Use natural, casual tone."
+    "You're a startup founder and tech nerd sharing bite-sized insights on X. Focus on AI, automation, web dev, startups, product-building or marketing. "
+    "Write in a casual, human, Twitter-like style: punchy hook (question or hot take), quick tip or story, and a vibe-y CTA (question or nudge). "
+    "Keep it under 150 chars, no robotic vibes, use slang or emojis if it fits. Target devs, founders, and marketers."
     )
 
     user_prompt = f"Write a tweet in the style of: {selected_style}, about: {selected_topic}."

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "83dc11f4951880c750637c9348736130611f5e1dfc9ff15ab7d86a6372d687ad",
-      "content": "Innovation isn't about being the first, it's about being the first to make it matter #Innovation #Fu...",
-      "date": "2025-06-11 20:13:18.888261"
-    },
-    {
       "hash": "e333d3264a8e5414a31dae31bb63131ab71520f02e861d5fc34fc6415fbcd3f5",
       "content": "Did you know that 75% of top coders use a 'stop' timer to boost focus? It's not about being more pro...",
       "date": "2025-06-12 01:04:41.748404"
@@ -1044,7 +1039,12 @@
       "hash": "b9409811df442bb13865d75bec9edd0f04c9e3da5127d07f74eea86042fd9d2d",
       "content": "unpopular opinion: most 'innovative' tech i see is just shiny objects solving fake problems. meanwhi...",
       "date": "2025-07-11 19:23:58.297659"
+    },
+    {
+      "hash": "1d95d14b04c85154653e09c0ef95d744369a0989965a1e753e8a03e1fa787b20",
+      "content": "tell me i'm wrong: CORS only exists to punish devs for trying to make cool shit on the web #Innovati...",
+      "date": "2025-07-11 20:30:51.876745"
     }
   ],
-  "last_cleanup": "2025-07-11 19:23:57.489220"
+  "last_cleanup": "2025-07-11 20:30:50.907115"
 }

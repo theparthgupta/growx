@@ -914,7 +914,12 @@
       "hash": "2eaf9780a3a1bed8fa69b90eb8c398e3eb1dbaaf5da513c6a3d1c1ee46b32fd5",
       "content": "80% of devs will ditch traditional to-do lists for AI-powered task management by 2025 Why? It's all ...",
       "date": "2025-07-11 01:22:33.718359"
+    },
+    {
+      "hash": "52bfd16803e9a6eccd189f3b6366fab587279bfdd0eac4657f34196f9fa2fb9c",
+      "content": "Still stuck on monolithic codebases? Ditch the overengineered tech stack and opt for micro-frontends...",
+      "date": "2025-07-11 01:22:54.613039"
     }
   ],
-  "last_cleanup": "2025-07-11 01:22:32.572775"
+  "last_cleanup": "2025-07-11 01:22:53.538489"
 }

@@ -999,7 +999,12 @@
       "hash": "6ee78a3acfdc93dc1ef62adfa2fef8d632c342da2c07a7c04719a34a32656571",
       "content": "tell me i'm wrong: code that 'just works' but has a 90% chance of summoning a demon from the depths ...",
       "date": "2025-07-11 12:56:43.905514"
+    },
+    {
+      "hash": "49aab7c3e2517f9ef57c40e8189921961c704bc269aaf79ac29125e3ad81b6d4",
+      "content": "can we talk about how CORS exists solely to punish us for trying to make cool stuff on the internet?...",
+      "date": "2025-07-11 14:25:42.194809"
     }
   ],
-  "last_cleanup": "2025-07-11 12:56:42.778533"
+  "last_cleanup": "2025-07-11 14:25:41.282293"
 }

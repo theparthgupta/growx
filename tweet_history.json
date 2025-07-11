@@ -1059,7 +1059,12 @@
       "hash": "cd0ff9c29a4c2bd29ef1d67ab0e9781f5f32c2529b6be574f0169c9706fb1eaa",
       "content": "dev confession: sometimes i ship an mvp just to feel like i've accomplished something this week, eve...",
       "date": "2025-07-11 21:57:29.545230"
+    },
+    {
+      "hash": "b9499070747abfc0b49709ed8276d2d21f30a140410a6740a1fa864dc5e0a211",
+      "content": "can we talk about how CORS exists solely to torment devs and crush our souls? like, what's the actua...",
+      "date": "2025-07-11 22:28:54.704551"
     }
   ],
-  "last_cleanup": "2025-07-11 21:57:28.688120"
+  "last_cleanup": "2025-07-11 22:28:53.928614"
 }

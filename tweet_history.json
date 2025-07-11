@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "bc842c24f486acf68bbfb638715e80d5451c0991d7f0a92a66ab54d10f3c9561",
-      "content": "Ever felt like you're just building a better mousetrap, but not really changing the game? Most peopl...",
-      "date": "2025-06-11 12:27:04.267452"
-    },
-    {
       "hash": "04fff2dea39045cdc73a27d101cf6b274de3a38b0ace139d1d7c4c6533c2b350",
       "content": "Building a dev workflow is like decorating a cake - everyone's obsessed with the fancy icing (fancy ...",
       "date": "2025-06-11 16:17:05.565433"
@@ -999,7 +994,12 @@
       "hash": "6933e480f7e44b3e22e333622641c86e6bf182dd30a7427af9c99b1fd1fa8629",
       "content": "I might delete this later but can ai tools pls stop telling me my code is 'suboptimal' and then offe...",
       "date": "2025-07-11 11:57:29.817857"
+    },
+    {
+      "hash": "6ee78a3acfdc93dc1ef62adfa2fef8d632c342da2c07a7c04719a34a32656571",
+      "content": "tell me i'm wrong: code that 'just works' but has a 90% chance of summoning a demon from the depths ...",
+      "date": "2025-07-11 12:56:43.905514"
     }
   ],
-  "last_cleanup": "2025-07-11 11:57:28.747839"
+  "last_cleanup": "2025-07-11 12:56:42.778533"
 }

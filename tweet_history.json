@@ -1,65 +1,905 @@
 {
   "posted_tweets": [
     {
-      "hash": "a67af4ea3cb2610675cd7d353ea41b02",
-      "content": "We're teaching machines to be intelligent, but forgot to teach them wisdom. #Innovation #Tech",
-      "date": "2025-06-08 04:47:14.467571"
+      "hash": "d8fd8969b14e6dbf7c91b272efb8fb6ea7924f6138571e4525b80e0386bde53f",
+      "content": "I knew a dev who wrote 100 lines of code in 1 hour #Coding #Programming #SoftwareDev",
+      "date": "2025-06-11 04:22:42.632578"
     },
     {
-      "hash": "382a6242e56fad30e9ff77331c52dcb2",
-      "content": "Unpopular opinion: The best programmers are lazy. They automate everything because they hate repetit...",
-      "date": "2025-06-08 00:07:16.359454"
+      "hash": "a1de1cc38b6d2e76af20fd495474693ef4725c64e9f3b87b197caf25091a9a40",
+      "content": "Error 404: Humanity Not Found #Future #Tech #Innovation",
+      "date": "2025-06-11 08:18:25.921109"
     },
     {
-      "hash": "4d0087851e905241719bc2902022cbce",
-      "content": "AI doesn't think like humans. It optimizes like humans wish they could\u2014without emotion, bias, or sec...",
-      "date": "2025-06-08 03:26:53.545186"
+      "hash": "bc842c24f486acf68bbfb638715e80d5451c0991d7f0a92a66ab54d10f3c9561",
+      "content": "Ever felt like you're just building a better mousetrap, but not really changing the game? Most peopl...",
+      "date": "2025-06-11 12:27:04.267452"
     },
     {
-      "hash": "503ec3c082d6ed521af1c9a4b3fa0ef5",
-      "content": "If you could uninvent one technology, what would it be and why? #Tech #Innovation",
-      "date": "2025-06-08 10:22:00.050152"
+      "hash": "04fff2dea39045cdc73a27d101cf6b274de3a38b0ace139d1d7c4c6533c2b350",
+      "content": "Building a dev workflow is like decorating a cake - everyone's obsessed with the fancy icing (fancy ...",
+      "date": "2025-06-11 16:17:05.565433"
     },
     {
-      "hash": "d872418a60d9743b3c55cffcc7c2f3d5",
-      "content": "Hot take: We don't have an AI problem. We have a human problem that we're trying to solve with AI. #...",
-      "date": "2025-06-08 12:40:43.742583"
+      "hash": "83dc11f4951880c750637c9348736130611f5e1dfc9ff15ab7d86a6372d687ad",
+      "content": "Innovation isn't about being the first, it's about being the first to make it matter #Innovation #Fu...",
+      "date": "2025-06-11 20:13:18.888261"
     },
     {
-      "hash": "962e29cd54952ff1463ecd6c6c8766e4d814b8acc4a0091489fe90a7a5b729ed",
-      "content": "AI-powered prosthetics can now be controlled by the user's thoughts! Example: a paralyzed man regain...",
-      "date": "2025-06-09 01:08:32.794377"
+      "hash": "e333d3264a8e5414a31dae31bb63131ab71520f02e861d5fc34fc6415fbcd3f5",
+      "content": "Did you know that 75% of top coders use a 'stop' timer to boost focus? It's not about being more pro...",
+      "date": "2025-06-12 01:04:41.748404"
     },
     {
-      "hash": "500aed76a2e7c1cbc3a3519abe28737e4fa844518b211756e79f764c9b597d45",
-      "content": "Brain-computer interfaces (BCIs) are revolutionizing healthcare! For example, a paralyzed man was ab...",
-      "date": "2025-06-09 04:25:26.683257"
+      "hash": "68daa106006bb24aa391678879fc10f1b5f4859c71c56a2dc01b5391488e385d",
+      "content": "Did you know 70% of dev time is spent on maintenance? Sometimes, it's not about optimizing your curr...",
+      "date": "2025-06-12 04:20:33.682941"
     },
     {
-      "hash": "b102827b2b68d679bb273515e6894ae8d51a432294228e8703d53a0a050cb453",
-      "content": "As AI automates 80% of today's jobs, will we redefine 'work' or risk a global identity crisis? #Tech...",
-      "date": "2025-06-09 08:19:37.158743"
+      "hash": "8410e534ef0f06afba7e663da922547db03ca96a2121be171d6a953ee734bcc1",
+      "content": "JIRA is the new Microsoft Office - everyone uses it because everyone uses it. I've seen teams of 5 m...",
+      "date": "2025-06-12 08:18:15.154086"
     },
     {
-      "hash": "21c58b0b102c1af461ef8c85e513a4dfb9d3b7e49e03b0b6d6f1d3186d7aa72a",
-      "content": "Did you know? Using consistent naming conventions in your code can reduce bugs by up to 20%! Take th...",
-      "date": "2025-06-09 12:26:49.259116"
+      "hash": "92dc7aa4e15541978b5eeafde9cfdaa56777f22ab551729a05db0604c9c57811",
+      "content": "Building a startup is like trying to fix a leaky faucet - everyone thinks it's just a simple fix, bu...",
+      "date": "2025-06-12 12:26:24.560344"
     },
     {
-      "hash": "51a05b7e0a472522a905e4e1ab0086739d2b182e314ce2bd9fca6456cce4f5ab",
-      "content": "Today, we spend more time interacting with our devices than with our families. Have we traded conven...",
-      "date": "2025-06-09 16:16:51.319896"
+      "hash": "2145955772ca8d30ffaea3fa8572e1968c04cf6f4cc26d752fc8e988a74cf48b",
+      "content": "Built an MVP to test the market, but users barely showed up #Entrepreneurship #TechBusiness #Startup",
+      "date": "2025-06-12 16:16:40.091945"
     },
     {
-      "hash": "b046ece5a83e87859d3ce085898c14df6a46c405ba8facb7d56c04791c44c67a",
-      "content": "AI model achieves 99.9% accuracy in detecting breast cancer from mammograms, outperforming human doc...",
-      "date": "2025-06-09 20:14:52.030187"
+      "hash": "3553a6e01cf3f82d75311d49503b580c8e20fe6a35037be239accb8cef5e226d",
+      "content": "Building a side project is like gardening in the dark #Innovation #Tech #Future",
+      "date": "2025-06-12 20:15:00.465318"
     },
     {
-      "hash": "6cacaa84c029279227894edb284985f1d3497a929e9b034bcff2f66567e24341",
-      "content": "AI model surpasses human accuracy in medical diagnoses! 81% of doctors agree with AI's diagnoses, bu...",
-      "date": "2025-06-10 01:05:57.284510"
+      "hash": "95a989d3e5c4d371e99b7ab538a34b6f2131e6173324966d6dd81cbe7334fe5b",
+      "content": "Building a side project? You're not alone #Innovation #Future #Tech",
+      "date": "2025-06-13 01:05:52.988835"
+    },
+    {
+      "hash": "789c0787ddc20a4e592e6a4224dd583ed39a067af745b46d9d625abaf365ba75",
+      "content": "By 2025, devs who master AI-assisted coding will outpace peers by 30%! It's not about replacing huma...",
+      "date": "2025-06-13 04:21:39.646921"
+    },
+    {
+      "hash": "ef1fc527e698ebece8279c450e7ab54238d165fe40b4eb5bcd162eafc3c6e3a6",
+      "content": "By 2025, AI will have replaced 10% of human managers #MachineLearning #AI #TechInnovation",
+      "date": "2025-06-13 08:18:09.985700"
+    },
+    {
+      "hash": "c6d66c8897f29f103c049897b7e0824d413ffb4c4faf5dd4c69679ab129d8705",
+      "content": "I once built a custom app, only to spend 90% of my time maintaining it #AI #TechInnovation #MachineL...",
+      "date": "2025-06-13 12:26:30.867690"
+    },
+    {
+      "hash": "bcfd38ab2717bb4efe97a1955c15f4af0f7490946fc082a40100d5a8f61e5243",
+      "content": "Most MVPs fail because they're built on assumptions, not problems. I saw a startup spend 6 months bu...",
+      "date": "2025-06-13 16:16:33.735306"
+    },
+    {
+      "hash": "b56b1c707dc03cd32dd0befd85f8e0e686b62c0a5d39247e39f9ff77e919a3b9",
+      "content": "Just learned about a hospital using AI to detect breast cancer more accurately than human doctors #A...",
+      "date": "2025-06-13 20:14:32.433921"
+    },
+    {
+      "hash": "fdaeca387dd1f92f035c60b5f802d2be77cbea884090d521f85a590b89abf81d",
+      "content": "Did you know that 60% of tech debt is caused by sticking with outdated tools too long? It's like hol...",
+      "date": "2025-06-14 01:02:45.597766"
+    },
+    {
+      "hash": "dbc942e67b6fcc5e9b5785c2c4b3d4adee341382d200be3f479f83756490cfc8",
+      "content": "Ever wondered how some tech stacks feel ridiculously simple, yet scale like a beast? It's because th...",
+      "date": "2025-06-14 04:17:10.326671"
+    },
+    {
+      "hash": "edf9e63a5ccd9327187ec0f9492fb201f773baef30094a0f44248821d7ed0648",
+      "content": "Tired of tedious coding? I've found a game-changer: AI-powered code completion tool that learns from...",
+      "date": "2025-06-14 08:15:33.484946"
+    },
+    {
+      "hash": "713bf5207c163309853cfc2a04c00d0c59fb196e14dfd8bda5b6abc3dfae6bd8",
+      "content": "Tired of side projects feeling like a second job? I've been there #Future #Tech #Innovation",
+      "date": "2025-06-14 12:23:06.489320"
+    },
+    {
+      "hash": "d3cab5fb41f8c67793ad2dd67bb68f7804dbc6c141882ed669434dbf5a008855",
+      "content": "Unpopular opinion: most dev 'mistakes' aren't mistakes at all - they're just CORS, env vars, and dep...",
+      "date": "2025-06-14 16:14:25.644166"
+    },
+    {
+      "hash": "7c16b2ecce3577efd7042eacfbe3246bdbd8c7aedd4bb6479c29bfe16f02a297",
+      "content": "I once spent 3 hours debugging a 'simple' React app, only to find the issue was a misplaced semicolo...",
+      "date": "2025-06-14 20:13:21.751063"
+    },
+    {
+      "hash": "afa417ca84e44cba782c1d964011d8cf2edaaf3b54d245484f2ba2ff5ab335f3",
+      "content": "Most devs think innovation means building something entirely from scratch #Innovation #TechTrends #F...",
+      "date": "2025-06-15 01:12:20.716578"
+    },
+    {
+      "hash": "82388c320cb244ea7f1cc9cadd806be195abbd061033eae4f98ee401cd6237ca",
+      "content": "Tired of juggling multiple tools for your side hustle? I switched to a single platform for dev, depl...",
+      "date": "2025-06-15 04:23:39.153692"
+    },
+    {
+      "hash": "216841726363e7abecf45bf997f5153bf6527090900089b1ffd0867dba7d5b2d",
+      "content": "My grandma's Alexa-powered walker alerts her family if she needs help #Future #Tech #Innovation",
+      "date": "2025-06-15 08:15:49.153256"
+    },
+    {
+      "hash": "80625236292010d2076f82f21c84513071c62581df6111765b531fac851abf2a",
+      "content": "WhatsApp's entire infrastructure was built on top of just 2 programming languages: Erlang and Java #...",
+      "date": "2025-06-15 12:23:34.816740"
+    },
+    {
+      "hash": "6d56160296e1ffe102e093f7d0a9e11d33d3ff88bf673c8315151e44b240532b",
+      "content": "Tired of scrambling for answers on Stack Overflow? Try pairing with a seasoned dev for a week - you'...",
+      "date": "2025-06-15 16:14:44.629577"
+    },
+    {
+      "hash": "d977280c640ea288aff795bb919887bd3be153d8fadaeff175dc5d501983ac66",
+      "content": "Did you know that Airbnb's founder codes with a timer set to 25 minutes, then takes a 5-minute break...",
+      "date": "2025-06-15 20:13:36.325389"
+    },
+    {
+      "hash": "71e7faf488cd7c0dac1ae369a54d38f39623eb41a2350fa81984c324f8ec99e0",
+      "content": "Still believing that 'move fast and break things' means sacrificing quality and stability? You're no...",
+      "date": "2025-06-16 01:07:26.880709"
+    },
+    {
+      "hash": "6480728cc9f5186fe5d56ac74a1dfc44810cfafc39fad647afe8da9a6e1ac216",
+      "content": "Thinking AI will replace human intuition? Not so fast. AI amplifies our biases if we don't diversify...",
+      "date": "2025-06-16 04:26:22.719613"
+    },
+    {
+      "hash": "f83de84c936942782780f178dc3c5af9e486c47d73626678ac9e9e9a3d0647b0",
+      "content": "Imagine a master chef who's also a brilliant engineer. That's the future of work with AI - humans de...",
+      "date": "2025-06-16 08:19:43.157624"
+    },
+    {
+      "hash": "0ae1eceb3311392a1c0156df0b77d8daac408e76d3071f0190ae81ebe743b000",
+      "content": "Most devs don't use fancy productivity systems. They just use a few reliable shortcuts to get stuff ...",
+      "date": "2025-06-16 12:27:39.609898"
+    },
+    {
+      "hash": "ab4edb806cb9c639f84f815cfe940f8e43aa0921e1c8dcf55867215018cf677a",
+      "content": "Airbnb's earliest devs built the entire site in 2 weeks #AI #TechInnovation #MachineLearning",
+      "date": "2025-06-16 16:17:01.592073"
+    },
+    {
+      "hash": "daab6d809573e3456febf98b4c9c096e1a7864c1d8823869ef214d2438c78a57",
+      "content": "Building a house with a broken hammer is just a fancy way of saying you're overcomplicating things. ...",
+      "date": "2025-06-16 20:14:41.444424"
+    },
+    {
+      "hash": "16f270a4ef9296921f17c46fc2588634e50eb9f95478f37c04d3d406cba4025c",
+      "content": "Building a product is like cooking a recipe #Innovation #Future #Tech",
+      "date": "2025-06-17 01:05:37.338022"
+    },
+    {
+      "hash": "1e7d96356652296d53a3226a9b6cb56435bcf58d16dd8268f71dc126f1f7ad48",
+      "content": "Who else has wasted an entire day on a 'simple' bug, only to find out it was a CORS issue? I've lost...",
+      "date": "2025-06-17 04:22:34.238892"
+    },
+    {
+      "hash": "4b72baf0ccef0cb26a8402b870879e31d458cb64557a54db1ed0254ed3ecea60",
+      "content": "What's holding you back from sharing your progress with the world? #Tech #Future #Innovation",
+      "date": "2025-06-17 08:18:48.930170"
+    },
+    {
+      "hash": "8a22806e9b38419216d18b0d9f69b40eff5df1cc4dcdf09dc7796209758e300a",
+      "content": "Most people think innovation is about creating something new, but what if it's actually about removi...",
+      "date": "2025-06-17 12:27:39.047581"
+    },
+    {
+      "hash": "98b1e12df1b49ecc82ff18de8ae576cb213e1ecc42a8269fcc9c9649df0e3ac8",
+      "content": "Still think MVP means 'minimum viable product'? Newsflash: it's about minimum viable proposition. Wh...",
+      "date": "2025-06-17 16:17:02.804687"
+    },
+    {
+      "hash": "11cef4b517b089162f070199039366952da1eec3e97b32de7e51f49816de402b",
+      "content": "Ever wondered why AI-powered' chatbots still can't grasp human nuance? It's because they're trained ...",
+      "date": "2025-06-17 20:14:34.286437"
+    },
+    {
+      "hash": "bab8f2db5f87a486e9e41599f0cdf93b4cc7f4b7975e5d0c8b82af55f93724ca",
+      "content": "Small teams don't need to overengineer to ship fast. In fact, constraints breed creative solutions. ...",
+      "date": "2025-06-18 01:05:20.265320"
+    },
+    {
+      "hash": "31bef3b484238e08c69833428eddc7d5cc23a0210ff45f1114abca751daf5488",
+      "content": "Stuck in dev limbo? You're not alone #Tech #Innovation #Future",
+      "date": "2025-06-18 04:22:35.185774"
+    },
+    {
+      "hash": "c60c5c5b534b3906b99f3f15dcfff0fe0c4d045d19a952b4637364731c00f24d",
+      "content": "Small teams can ship faster without overengineering. By embracing 'good enough' and iterating, you'l...",
+      "date": "2025-06-18 08:18:22.984833"
+    },
+    {
+      "hash": "d1e27c836a7fbf61c67bdfec6a9b1a98c90bba809fff112abf1dc3e56ca63e5f",
+      "content": "Unpopular opinion: Most startups fail because they solve a problem nobody has, not because they can'...",
+      "date": "2025-06-18 12:27:19.859002"
+    },
+    {
+      "hash": "0706161730d846954b0dcbe0c90f658febee5609898ae34a409a094070aaaf45",
+      "content": "Slack's first product was a video game #Future #Tech #Innovation",
+      "date": "2025-06-18 16:16:59.986823"
+    },
+    {
+      "hash": "261f3a1d0842881e093ca8e076107b98251ccb299d27e093d118376cdeeda69d",
+      "content": "Ever spent hours debugging a side project only to realize you forgot to update a dependency? I've be...",
+      "date": "2025-06-18 20:15:51.848069"
+    },
+    {
+      "hash": "2f242705891dc43d783a6c038e5d903c88c0c34a25390a20b63e8fd83541a324",
+      "content": "Tired of juggling multiple tools for your side project? I switched to a single platform that handles...",
+      "date": "2025-06-19 01:05:26.944847"
+    },
+    {
+      "hash": "fe15da6518a91407d0f0b76cc11980e31c70bf54bdeadc0da9609f811c295988",
+      "content": "Innovation isn't just about creating something new, it's about creating something that solves a real...",
+      "date": "2025-06-19 04:22:00.376663"
+    },
+    {
+      "hash": "ac835df7328471dc2d7cd713292b038a74de6af56bff577fc686bb83c7b1c867",
+      "content": "Thinking a simple tech stack means it'll always stay that way? I've seen devs sacrifice scalability ...",
+      "date": "2025-06-19 08:18:21.325295"
+    },
+    {
+      "hash": "fe1c311e0ad32ad3885d41eed4ef989939290024570db82347e28be85ce06e2c",
+      "content": "Most devs waste time switching between tools. Boost productivity by setting up a Command Central - a...",
+      "date": "2025-06-19 12:26:49.763232"
+    },
+    {
+      "hash": "26ec6f7dcb9b03b95869530c65400e9e7fca64fb3ece5511519b0555b2d57ca5",
+      "content": "I once knew a dev who spent 3 months building a feature, only to realize it wasn't what users wanted...",
+      "date": "2025-06-19 16:16:18.650344"
+    },
+    {
+      "hash": "ec363f2870992fb7ce08e20d08e2cfd9ca4fdf0f2669a6417d1e56dd9cd6fc54",
+      "content": "Building in public is overrated. Most people don't care about your progress, they only care about th...",
+      "date": "2025-06-19 20:15:36.613147"
+    },
+    {
+      "hash": "004c3e7e5f2f05ade917922a002916d7c71250b6610253c3f603310673211ecc",
+      "content": "Most devs waste 30 minutes daily searching for code snippets #Coding #MachineLearning #Programming",
+      "date": "2025-06-20 01:05:05.648360"
+    },
+    {
+      "hash": "be1be10b124dae4e53a1640a6773b9894f78804f8f8b6fd6b60b525fd9386965",
+      "content": "Did you know that 40% of top coders use a 'delete' key shortcut to speed up their workflow? It's not...",
+      "date": "2025-06-20 04:20:47.365741"
+    },
+    {
+      "hash": "ea47c5991aed3755081ea53e315abbec26b7fe5ea4fa182096ee79fc0c1a910c",
+      "content": "I just asked my AI assistant to summarize a 2hr meeting for me #MachineLearning #AI #TechInnovation",
+      "date": "2025-06-20 08:18:05.609598"
+    },
+    {
+      "hash": "93a9cd866f28bba0cb76e7ab84bce57b5ac147756e53cd0a83dba316bc501886",
+      "content": "Tired of juggling multiple tools for your side hustle? I just swapped my dev workflow to a single pl...",
+      "date": "2025-06-20 12:26:44.423715"
+    },
+    {
+      "hash": "a8b8aba181c70fec29f33af0d73d96fa5b94e0af8e96dc10dd0a85aeb878ad8b",
+      "content": "Imagine a world where AI handles all repetitive tasks, and humans focus on high-touch, high-creativi...",
+      "date": "2025-06-20 16:16:07.287704"
+    },
+    {
+      "hash": "3bc234b4289446aa3748bacba035147b7053625cdcaffe8b243a989ad7caf9b1",
+      "content": "The Wright brothers didn't invent the airplane, they figured out how to make the 5th prototype not k...",
+      "date": "2025-06-20 20:14:40.949479"
+    },
+    {
+      "hash": "6ac8a7fedd5a2f470a764741b7569e8b055a86f17f5e18e52f4357c30507dbae",
+      "content": "Self-driving taxis in Phoenix are already reducing labor costs by 50%! Imagine AI augmenting human s...",
+      "date": "2025-06-21 01:04:11.213474"
+    },
+    {
+      "hash": "7d9ba875c9b54c8f6246191f3ff4c58433c31628e0fae6c891f326eb5e904b50",
+      "content": "Still stuck in the 'build it from scratch' mindset? Newsflash: you don't have to reinvent the wheel ...",
+      "date": "2025-06-21 04:17:23.386017"
+    },
+    {
+      "hash": "aad2a18bbef4a86f89afe1bec3af39bbb91755f914d9e7cf98cd98d669c4d0b0",
+      "content": "Sticking with a tech stack out of sunk cost fallacy? Don't let we've always done it this way hold yo...",
+      "date": "2025-06-21 08:16:07.235075"
+    },
+    {
+      "hash": "519101e6234fdc55732bf3b581e1955d11342643e92fb072bd2848f04d13b5b9",
+      "content": "Did you know that 80% of startups that share their progress publicly are more likely to succeed? Tra...",
+      "date": "2025-06-21 12:23:07.878904"
+    },
+    {
+      "hash": "9c375fbe5d3af84d78e44f0adec19d6979926a48ec6f778c9d5c8a5be0d10865",
+      "content": "Building habits is like coding a script: you start with a single line, then iterate and refine until...",
+      "date": "2025-06-21 16:14:41.462067"
+    },
+    {
+      "hash": "18fd72713209b5c50ec87310061af9b6c8ca9a616bbf539253d49c99f6b78f81",
+      "content": "Did you know the first iPhone was released without an App Store? Apple's innovative leap wasn't the ...",
+      "date": "2025-06-21 20:13:46.699202"
+    },
+    {
+      "hash": "e7330e5546a78da3a88fddc26857e38d7c60501d0caa9844b9b3db3524a11f69",
+      "content": "Ever wondered how AI is being used in real-world applications? I just learned that AI-powered chatbo...",
+      "date": "2025-06-22 01:11:43.498356"
+    },
+    {
+      "hash": "803dc423ce875d572bf4fc2abfee3954444b014211e89d64507f3029e301f7ea",
+      "content": "Simplistic dev frameworks are stifling innovation #FutureTech #TechTrends #Innovation",
+      "date": "2025-06-22 04:25:00.467901"
+    },
+    {
+      "hash": "f438a6ee435db858a22bbf1657177b0ac2a5029be29be3bc5c30148cc44b131b",
+      "content": "By 2025, 80% of devs will ditch traditional to-do lists for AI-powered task management #AI #MachineL...",
+      "date": "2025-06-22 08:16:15.026624"
+    },
+    {
+      "hash": "c99fd9817eb6379118f5bbbf6439323a99cee85ebc602ec775b96535c9894a08",
+      "content": "Tired of wasting hours debugging CORS issues or wrestling with env config? It's not you, it's the co...",
+      "date": "2025-06-22 12:23:21.209919"
+    },
+    {
+      "hash": "8dfbbbe3855d549d7d07fa6bf2edf088515a486ba3ca4bc5b6021d9b7f3c5bf5",
+      "content": "I once knew a startup that clung to their outdated tech stack out of loyalty #TechBusiness #Startup ...",
+      "date": "2025-06-22 16:14:42.609393"
+    },
+    {
+      "hash": "29cc0f49976a06885b7dd6365f7ff679266fc4ac376e20079c46c88a397ad5c5",
+      "content": "Ever spent hours debugging only to find a misplaced comma in your env config? Don't get caught out! ...",
+      "date": "2025-06-22 20:13:36.557032"
+    },
+    {
+      "hash": "3e8d70d9d0f5d15da6cc3cc3b9ed43be4a5883721d0091643274f1d4c080a211",
+      "content": "Unpopular opinion: Agile project management tools are overhyped. Most devs I know spend more time up...",
+      "date": "2025-06-23 01:09:19.580233"
+    },
+    {
+      "hash": "fd1de57dc1ec7a99c51145cb5d1112dbe4033788b050df0c2b5090f94aa7fa93",
+      "content": "NASA's Apollo missions shared every step of their journey to the moon, from failures to triumphs #AI...",
+      "date": "2025-06-23 04:28:38.467346"
+    },
+    {
+      "hash": "2d8896b0317ec4b9e4735a7bd00107447ea738773919c11bef050355567b10af",
+      "content": "Assuming AI will only augment human tasks, not replace them? Think again. Chatbots are already handl...",
+      "date": "2025-06-23 08:19:44.664394"
+    },
+    {
+      "hash": "2851c49ae8f8fc3ce40a49e7ae155bb8e6bc6892e911315c2ffab22d7f72c85d",
+      "content": "Did you know that 70% of innovation comes from recombining existing ideas, not creating new ones? Mo...",
+      "date": "2025-06-23 12:28:06.959553"
+    },
+    {
+      "hash": "c9d12b16ef4aa7ecca5f56641979cf6495f60131adc907b0aaa69cf28c66b8a9",
+      "content": "A good tech stack is like a LEGO castle: it looks simple from afar, but up close, it's a intricate s...",
+      "date": "2025-06-23 16:17:08.727580"
+    },
+    {
+      "hash": "b55116f52ed85ce77d1823fe62d968100a88540ffe4e64c2bbe1dc2d47c868aa",
+      "content": "AI is like a superpowered personal assistant, automating tedious tasks and freeing us to focus on hi...",
+      "date": "2025-06-23 20:15:04.048209"
+    },
+    {
+      "hash": "d1df2822afac8b11f728e5eb7ba748ca42557cd3f932485e0b10c3d628930c9a",
+      "content": "Tired of feeling like you're stuck in a dev rut? I was too, until I realized I was focusing on maste...",
+      "date": "2025-06-24 01:05:53.518341"
+    },
+    {
+      "hash": "42ca5d60761954f2527e2e3707b8992f81b598f14cc32a6af56b810abe0e912e",
+      "content": "Tired of vendor lock-in? Self-hosted solutions give you control, but at the cost of maintenance head...",
+      "date": "2025-06-24 04:23:36.458054"
+    },
+    {
+      "hash": "79d9d209138ed68cc2d24d5917cbaea3b5dddf4f73c69422cba5468dcb3d54f3",
+      "content": "Tired of reinventing the wheel with every new product? Frameworks like Webflow and Bubble are changi...",
+      "date": "2025-06-24 08:18:49.295367"
+    },
+    {
+      "hash": "93adef5776bad581b0362a8f1b2a71a4c3a15fd33194704ee15acb416c33073f",
+      "content": "Assuming AI will automate our way to efficiency? Not so fast #MachineLearning #TechInnovation #AI",
+      "date": "2025-06-24 12:27:16.817482"
+    },
+    {
+      "hash": "66cfd48090e7415d16f2cf414dc21f5079e83c4b6cf3b55e2d4e231f6785e5b3",
+      "content": "What's the true cost of freedom to you? #Innovation #Future #Tech",
+      "date": "2025-06-24 16:16:56.146327"
+    },
+    {
+      "hash": "f12ebefd3b08b093e579947488fff6fd959e6abca337e9a59e2a0b1c6effc131",
+      "content": "What are we really trying to solve for? #Innovation #Future #Tech",
+      "date": "2025-06-24 20:15:13.427844"
+    },
+    {
+      "hash": "97f966f86274180212a223593f4db5b8cbb3fcd6d71cbe25fea1f35cd2504559",
+      "content": "Most devs will tell you to wake up at 5am to code, but I've seen top performers thrive on 'bad' habi...",
+      "date": "2025-06-25 01:06:26.916237"
+    },
+    {
+      "hash": "9726bbf7c0eee1df83c54b401c38b6dbf5ffcbea3f5c1415da94b941f96c02b3",
+      "content": "Tired of tech stacks that feel like playing Jenga - add one more tool and everything crashes? I've l...",
+      "date": "2025-06-25 04:24:19.060384"
+    },
+    {
+      "hash": "4c03aae3dbc5b59bd410bda5b546f9e868cab3608ed2fb4ebd46ba60d60a617f",
+      "content": "Remember when you bought a house vs renting an apt? Self-hosted solutions are like owning: control &...",
+      "date": "2025-06-25 08:19:33.077013"
+    },
+    {
+      "hash": "ef5b39f3c8e8a2c3b4beef85f13682a2e1d4fa4b8f0908534cfc1d92ead4f14a",
+      "content": "Building code is like cooking a meal. Pro devs don't follow recipes, they master a few key ingredien...",
+      "date": "2025-06-25 12:27:30.030748"
+    },
+    {
+      "hash": "68f42d84ceb77c518dccb181d28443bea5e58ee35159f7ca5747c83feb84d0e5",
+      "content": "Did you know that top developers spend only 20% of their time writing new code? The rest is debuggin...",
+      "date": "2025-06-25 16:17:15.026980"
+    },
+    {
+      "hash": "3e4ba0f1853d55707b48d82b73315d504cca5e85c21ae0be655fa89c5ec52402",
+      "content": "Did you know the Post-it Note was invented by accident? A 3M scientist's failed adhesive experiment ...",
+      "date": "2025-06-25 20:15:09.851584"
+    },
+    {
+      "hash": "d6b1b19cf75035083155aa1e46e0f7f06ee13a0b6a99168f333710ab083df89d",
+      "content": "By 2025, 75% of companies will abandon their current tech stacks for more agile alternatives #Innova...",
+      "date": "2025-06-26 01:05:43.062133"
+    },
+    {
+      "hash": "8071e7c4e117309db1086146a1d8134bbe99dd0c3d128287ee0e6fbb816a9fdc",
+      "content": "Ever wonder how some tech stacks seem simple yet scale like a dream? It's because they're built on m...",
+      "date": "2025-06-26 04:22:52.148576"
+    },
+    {
+      "hash": "28dcd275dc10160965299c16148d828a53c7e4638246333c500c6d2bbd6e048e",
+      "content": "Building in public is overrated #Tech #Innovation #Future",
+      "date": "2025-06-26 08:18:40.846285"
+    },
+    {
+      "hash": "f6e27745351df57b7b7bb1e0728a90ecf20f739faf441c8b84ea4d53b9edcbbb",
+      "content": "Innovation isn't about being the first, it's about being the best at iterating #TechTrends #Innovati...",
+      "date": "2025-06-26 12:27:10.106922"
+    },
+    {
+      "hash": "20dfecbc764f54ec8489c5bc8e28cd7d541fe0cf1c43f192077c2a1f94530a98",
+      "content": "Did you know that Google's devs use a '2-minute rule' to boost productivity? If a task can be done i...",
+      "date": "2025-06-26 16:16:50.795713"
+    },
+    {
+      "hash": "1e21cc1b71fcb759af7ff24e3aeefaf85dec1526fb050368f411cad1a1fb2609",
+      "content": "Thinking AI is only for self-driving cars and robots? Not even close! Most AI apps are quietly impro...",
+      "date": "2025-06-26 20:14:39.161956"
+    },
+    {
+      "hash": "bc8b5fb321b6a7cdccf7d601107f8fdb021beab99244e760af5f93ad5d0cc048",
+      "content": "Did you know that 70% of innovation attempts fail? It's not because they're bad ideas, but because t...",
+      "date": "2025-06-27 01:06:28.234180"
+    },
+    {
+      "hash": "a42038b5196e34bd1e4525fba3ef595331dd54764fd796332c99d1b6dacba0e9",
+      "content": "Unpopular opinion: just because you've invested 5 years into your current tech stack doesn't mean yo...",
+      "date": "2025-06-27 04:22:54.216151"
+    },
+    {
+      "hash": "d6e27abcff797aafd879626785e10047ccedcaa016bead3dea81d6c513f90836",
+      "content": "You've poured your heart into your MVP, but it's still not gaining traction #AI #TechInnovation #Mac...",
+      "date": "2025-06-27 08:18:17.017870"
+    },
+    {
+      "hash": "3a6251eead5e3f1785cc1f55dddf141dbb46a1cd7b9d017640c7f1af62c6cc69",
+      "content": "Tired of being locked into SaaS contracts, but worried about the overhead of self-hosted solutions? ...",
+      "date": "2025-06-27 12:26:33.862343"
+    },
+    {
+      "hash": "11a26f3d7919781ccca9705407f9286cf4c3f057710b8f91abae16e9ffcf823d",
+      "content": "Ever wonder how some tech stacks feel deceptively simple, yet scale like a dream? It's because they'...",
+      "date": "2025-06-27 16:17:14.884500"
+    },
+    {
+      "hash": "91b19997b6013b2ba2f90bd7208b52790af680f7cc97e7b6a6a5984a0ce6503d",
+      "content": "Unpopular opinion: The best way for devs to grow isn't by learning new tech, but by improving their ...",
+      "date": "2025-06-27 20:14:27.517133"
+    },
+    {
+      "hash": "ef2e36d7368cb8220d773b0b3cc3ca272378e46c8aa6100fbf4e2f9c9164ef66",
+      "content": "Did you know that 70% of startups scale too quickly and ultimately fail? It's because we often confu...",
+      "date": "2025-06-28 01:03:50.719349"
+    },
+    {
+      "hash": "2597fb93130617c60dc4dd7f1fb129f76e502a79cbd28810b3bd74a4bf259d97",
+      "content": "Most people think innovation is about being the first to market, but it's actually about being the f...",
+      "date": "2025-06-28 04:17:25.983899"
+    },
+    {
+      "hash": "689fe3ed2f5751fddd83d3284ed7aa028e5d19a879ff0e9b5f5a00d33eb6b0d8",
+      "content": "Ever wondered why some tech stacks feel lightweight yet scale like champions? It's because they're b...",
+      "date": "2025-06-28 08:16:19.933997"
+    },
+    {
+      "hash": "170ac82bba5d2c6b07c2ceaf3009e9f973bdf331db746911d33de52cc35d5fb6",
+      "content": "80% of MVPs fail because they solve a problem that doesn't exist or solve an existing problem in a w...",
+      "date": "2025-06-28 12:23:53.499954"
+    },
+    {
+      "hash": "98f828a0472d6ad597b77ccd0e965e4764885771a3a23d2671c7e3a1c7a912d7",
+      "content": "Most startups fail because they're too innovative, not too conservative #MachineLearning #TechInnova...",
+      "date": "2025-06-28 16:14:39.459276"
+    },
+    {
+      "hash": "d3ee8cf6a12cdc017886cf778ee756a08075b0a8065cd4a06fb270dd621ffd36",
+      "content": "I once knew a dev who coded 10hrs/day, but still struggled to meet deadlines #Programming #SoftwareD...",
+      "date": "2025-06-28 20:13:30.437729"
+    },
+    {
+      "hash": "be6617f1bb6bf488a6116e183516a4b8c2d05fdec83f3a6ac741d6b5d2fbbb09",
+      "content": "Imagine a virtual project manager that not only assigns tasks, but also predicts and prevents bottle...",
+      "date": "2025-06-29 01:13:16.317606"
+    },
+    {
+      "hash": "07cbd76d6a3b38404b616fbfa8e414554f64ac77aa0066c097e4de8711283e6d",
+      "content": "Most devs spend 80% of their time on 20% of the code #Programming #SoftwareDev #Coding",
+      "date": "2025-06-29 04:29:38.017620"
+    },
+    {
+      "hash": "8c22bff202ad560bfc3324b2c76c4dc1fd183ff55c0ed9fff974a904ef5884ea",
+      "content": "Innovation isn't about being first, it's about being better #Innovation #TechTrends #FutureTech",
+      "date": "2025-06-29 08:16:18.889463"
+    },
+    {
+      "hash": "70b3d073680a844a7700db02cb23a9cd18cfcf8a3e9f96227a715d85a1e71601",
+      "content": "Tired of tedious coding tasks eating away at your day? I've found that 80% of devs use keyboard shor...",
+      "date": "2025-06-29 12:24:21.959805"
+    },
+    {
+      "hash": "dfcbdb385200b91f1b9c47ac763391c3431bc982c2eb072966289bdc87873a08",
+      "content": "Think hiring a 'rockstar dev' will save your project? Truth is, it's often the systems, not the star...",
+      "date": "2025-06-29 16:14:45.618407"
+    },
+    {
+      "hash": "cff6915a82abfa71cee0b12d068d2c531765873cc85efc4501508d6aa73da888",
+      "content": "Tired of feeling like you're rebuilding the wheel with every new project? I know I am #Future #Innov...",
+      "date": "2025-06-29 20:13:56.145311"
+    },
+    {
+      "hash": "86aafd7eab77509c1a603cf9b98c7ce6b0eeea8ff1ae5932cfc951f532af54d2",
+      "content": "Tired of vendor lock-in? Self-hosted solutions give you control, but at the cost of maintenance head...",
+      "date": "2025-06-30 01:10:05.127160"
+    },
+    {
+      "hash": "8f21bfe0833f10a1d058f641c0cc6d290c90408e0cf830e53245c61db7e4fd78",
+      "content": "By 2025, 80% of new products will be built on no-code stacks #SoftwareDev #Coding #Programming",
+      "date": "2025-06-30 04:28:07.371805"
+    },
+    {
+      "hash": "7c37e4e7bc59f6fd1c4a5b556995110825d0a8069f656673380e57c9cfc2eb04",
+      "content": "Airbnb's early prototype was built in just 3 days! They focused on solving one problem at a time, ra...",
+      "date": "2025-06-30 08:19:28.791257"
+    },
+    {
+      "hash": "bb38b1d9e306eab27fa96dad93d066709c8826b4a68ad13ea377c3601709969d",
+      "content": "Ever wondered why your dev workflow feels clunky? I'd argue it's because we're over-relying on trend...",
+      "date": "2025-06-30 12:27:08.845829"
+    },
+    {
+      "hash": "a53155163ae2ffb37306b830778c76da31233c769ddeb15fe6c61e13d2b1df54",
+      "content": "Most startups fail because they're too focused on innovation, not iteration #MachineLearning #TechBu...",
+      "date": "2025-06-30 16:16:40.395407"
+    },
+    {
+      "hash": "d6a6e4b92e440d28981310ee1d37197fa89ed3beac2f8dd58c01b6a01dfa2605",
+      "content": "Tired of tabbing between browser and code editor? Try using a split-screen terminal like tmux - it's...",
+      "date": "2025-06-30 20:14:25.910267"
+    },
+    {
+      "hash": "ded36aa8fca006fac7b3881a34f6c813cf043a577b7d6dc1dc343ff5997f289e",
+      "content": "Error 404: Human Bias Found #Tech #Future #Innovation",
+      "date": "2025-07-01 01:13:32.810443"
+    },
+    {
+      "hash": "937eb3ddef46537e7d09b3e010e6d6f6b2ec6fda329cdef747aa5fed97d28ec3",
+      "content": "Last week, I used an AI-powered virtual assistant to book a flight, and it even negotiated a refund ...",
+      "date": "2025-07-01 04:32:43.641921"
+    },
+    {
+      "hash": "b7f8caf01f71a86ec756fa8bd1c85940fcbb2a14a933504947e270fedefb5869",
+      "content": "I once knew a startup that spent 6 months perfecting their app's UI, only to launch to crickets #Sta...",
+      "date": "2025-07-01 08:19:03.746153"
+    },
+    {
+      "hash": "858219e6caac8a4c09d5a85fcdb0a6116535c452b1e322a28598eb80c02478d6",
+      "content": "Most people think innovation is about creating something new, but what if it's actually about solvin...",
+      "date": "2025-07-01 12:27:26.531452"
+    },
+    {
+      "hash": "776a8b61dad75a199f54181e0f3a9331c47518892b4b6663d9486a8ca6eb612d",
+      "content": "What if the future of work with AI isn't about augmentation, but automation of boredom? Imagine AI h...",
+      "date": "2025-07-01 16:17:19.300517"
+    },
+    {
+      "hash": "813eaf831262b84cd259d6972c0779cfe49f2493531abc4733623258e5941e85",
+      "content": "Did you know that 77% of side projects never make it past the prototype phase? One major reason is t...",
+      "date": "2025-07-01 20:14:42.087719"
+    },
+    {
+      "hash": "6265d02a6092c738dbbc8daa363eb9430dea0cd48fcafc8112810849f12fd4a6",
+      "content": "Building an MVP is like planting a tree #Innovation #Future #Tech",
+      "date": "2025-07-02 01:06:13.314804"
+    },
+    {
+      "hash": "38ea01c24ca6add5bed6eb9501174aef30f2034c31a77e3330bf8ad177705819",
+      "content": "By 2025, most dev teams will ditch their bloated project management tools for async workflows #Futur...",
+      "date": "2025-07-02 04:23:54.048410"
+    },
+    {
+      "hash": "661e91eded03fb566016b7a84b31d77d4cdb7c3f08dc1ab15855eb2302c22f6e",
+      "content": "By 2025, 80% of new products will be built on no-code frameworks. Why? They're slashing dev time and...",
+      "date": "2025-07-02 08:18:58.543620"
+    },
+    {
+      "hash": "051878374035a46fbcf183cc65eb7219a125ad065f5adb6876aed99de6ed07aa",
+      "content": "Did you know that 70% of dev time is spent on maintenance, not new features? We're so focused on shi...",
+      "date": "2025-07-02 12:27:10.580107"
+    },
+    {
+      "hash": "b86d6ec2e556247f65190dfb50c8d7cebf0ab95aae4052d21f31857b906af1d6",
+      "content": "Remember that time you spent 3 weeks building a feature only to realize nobody needed it? I did #Tec...",
+      "date": "2025-07-02 16:16:21.345622"
+    },
+    {
+      "hash": "ba411809ef9a19aaddf2bb8e84a05e664b227c1f546b74fa2eba06341cd3e872",
+      "content": "Thinking AI is only for futuristic robots? Not quite! Many devs overlook AI's practical uses, like a...",
+      "date": "2025-07-02 20:13:38.291865"
+    },
+    {
+      "hash": "798e484648d92801751e0d5f380dde5dd8e0b7fbac10b44e6d4250565c5871b1",
+      "content": "Over-engineering: the silent killer of side projects #Tech #Innovation #Future",
+      "date": "2025-07-03 01:05:55.420278"
+    },
+    {
+      "hash": "37cdb9bf98cebfd51ec2af43bae78978b2058e7addc48b9d403ca45cf8e216b2",
+      "content": "Dev mistakes aren't mistakes - they're a rite of passage #Tech #Future #Innovation",
+      "date": "2025-07-03 04:26:04.448461"
+    },
+    {
+      "hash": "24745940329adb3688af5c3beec6320db73b025f5ebebc9f9f65953d8a28425b",
+      "content": "Ever wondered how Netflix knows exactly what you'll love? AI-powered recommendation engines analyze ...",
+      "date": "2025-07-03 08:18:18.137086"
+    },
+    {
+      "hash": "b3d206d122cc3c371e60601e2538b53c07561b7dccf59c2bda04ad7fa2e05e47",
+      "content": "Scaling fast doesn't mean you're winning. I've seen startups with 5x YoY growth still struggle to tu...",
+      "date": "2025-07-03 12:27:16.607695"
+    },
+    {
+      "hash": "7e06f388dac19ddce50c3186be6e529aa48c12e084b147bf5e1af401d4c4b66c",
+      "content": "When's the last time you considered a full stack reboot? #Innovation #Tech #Future",
+      "date": "2025-07-03 16:16:39.040559"
+    },
+    {
+      "hash": "bba9b6fce3acbc323cb35635cddbb5c9bfaf3c2824ee4b23d4bd7575d8039719",
+      "content": "Tired of JIRA's clutter? Try ClickUp for a seamless dev workflow. I ditched JIRA for ClickUp and red...",
+      "date": "2025-07-03 20:14:06.762173"
+    },
+    {
+      "hash": "9daa4b5d3ab497193f57ca143d75b040f4d502573143baed86f9e12b64de6b98",
+      "content": "Most MVPs fail because they're built to validate founders' egos, not solve real problems #AI #Machin...",
+      "date": "2025-07-04 01:05:42.656197"
+    },
+    {
+      "hash": "3d7cd3ceab5ae105c2d48d0d26e3a3f8b3c00e3ba40ec9b061070b5a13f712f3",
+      "content": "Most people think innovation is about creating something new, but it's often about removing the old ...",
+      "date": "2025-07-04 04:24:12.783501"
+    },
+    {
+      "hash": "62572afa0febff9107738200a3cde9d33fd4167a1e639ddef277d9ae3d32bfd4",
+      "content": "I once built an app in secret for 6 months, only to launch to crickets #Tech #Future #Innovation",
+      "date": "2025-07-04 08:18:27.114356"
+    },
+    {
+      "hash": "d1357558223cdc1315488c9962c17a5f8e0cc85e37e8d801cd60037e8dd91b28",
+      "content": "I knew a dev who spent 3 months building a feature from scratch #Innovation #Future #Tech",
+      "date": "2025-07-04 12:26:31.105979"
+    },
+    {
+      "hash": "217805f4ec8ec72a6af84339423bde0b79450f4df1c7afb708b9ebba34239599",
+      "content": "Most startups think they need to scale fast to succeed, but what if I told you that's a myth? In rea...",
+      "date": "2025-07-04 16:16:13.631564"
+    },
+    {
+      "hash": "ffc32f810e2f63e74207d5632acf8f296a3d1a799bc72bc12d06cc527fa90331",
+      "content": "Tired of 'innovation' feeling like a buzzword? Most people miss that it's not about flashy new tech,...",
+      "date": "2025-07-04 20:14:14.376356"
+    },
+    {
+      "hash": "af2dcc184bd6ba86cd52f3d4f3f1fdbab42541852e450f447bb3e9f18fdc7b62",
+      "content": "Still think you need a revolutionary idea to disrupt an industry? Most successful startups just solv...",
+      "date": "2025-07-05 01:03:07.617896"
+    },
+    {
+      "hash": "8bd900064ffb57ba524231363eb14d4ba430f3f962c44bac08971c9f36f65763",
+      "content": "Building an MVP is like planting a seed. Most seeds don't sprout because they're not watered with cu...",
+      "date": "2025-07-05 04:18:31.423093"
+    },
+    {
+      "hash": "e5599a0001a0cd6e6f37b6efcb7152b5cd76da6f9b62beb27d174073bb53e4e0",
+      "content": "Tired of wasting hours debugging? I used to be too, until I started using a 'pre-commit' checklist #...",
+      "date": "2025-07-05 08:16:34.257398"
+    },
+    {
+      "hash": "204dfdbd0fdeb4d1b0399ff3a2050da66043d47e23b513db5ed7e880750c68d7",
+      "content": "Google's 20% time policy allowed devs to dedicate a day to side projects, leading to innovations lik...",
+      "date": "2025-07-05 12:23:43.998557"
+    },
+    {
+      "hash": "4eaab0e5434975994db918608cbd248418e0012acbeaa61d63ec39bd6365e96a",
+      "content": "I once knew a team of 3 that shipped a MVP in 6 weeks #Innovation #Future #Tech",
+      "date": "2025-07-05 16:14:56.681748"
+    },
+    {
+      "hash": "da8b643ba24f9a70f28c3ba3835b2a02f523c2493c6f0bc8b33854ede95a2b52",
+      "content": "Tired of wasting hours on CORS headaches and env config nightmares? Try using a service worker to pr...",
+      "date": "2025-07-05 20:13:24.576363"
+    },
+    {
+      "hash": "8bdf919ecf0c96c3098282af4a56764f2cbff2ce123b74d368882772848e2bcc",
+      "content": "Instead of chasing the latest frameworks and tools, what if developers focused on mastering the fund...",
+      "date": "2025-07-06 01:12:21.433406"
+    },
+    {
+      "hash": "8bf066f8d328c50cf150b534d88810719f4df7c3e81fd58286a2e7d32d37cab0",
+      "content": "Most devs don't use fancy productivity systems or apps #Innovation #Tech #Future",
+      "date": "2025-07-06 04:27:50.049282"
+    },
+    {
+      "hash": "5320d94e89673629cf49494a15133ebc8025bc177adfee098b095a8e9c35aacd",
+      "content": "Did you know 70% of MVPs fail? It's not because of bad tech, but because they solve problems nobody ...",
+      "date": "2025-07-06 08:16:08.328632"
+    },
+    {
+      "hash": "b98fa62c35efc30c62d8f1e80ed21ae101dd103025e093689cae5576ca6dc7a8",
+      "content": "Thinking your project isn't 'good enough' to share yet? Newsflash: nobody starts perfect #Innovation...",
+      "date": "2025-07-06 12:24:02.595881"
+    },
+    {
+      "hash": "9d568c8a25e74972ebd95a8e57c2903567e1b33d2c9332a96a63fd540e64fe9e",
+      "content": "AI isn't going to change the world, it's going to change your morning routine #AI #TechInnovation #M...",
+      "date": "2025-07-06 16:14:39.479052"
+    },
+    {
+      "hash": "7123e2400912b736522dab173b04c8b32551264b13b5d6e20fbd8cd0b040a465",
+      "content": "Think you need to master every tech stack to grow as a dev? Not true! Focus on solving real-world pr...",
+      "date": "2025-07-06 20:14:00.552728"
+    },
+    {
+      "hash": "3208be6bfbbd1805f4fb025ade9e0f098e50fa60f84c8483cdc67be07bddbd6e",
+      "content": "Did you know AI is being used to analyze whale songs to monitor ocean health? It's not just about pa...",
+      "date": "2025-07-07 01:10:22.309758"
+    },
+    {
+      "hash": "2797104f2192e7008da1caa5fc84dbb2d5b2217eaabe492755da01ac1531b966",
+      "content": "Everyone says self-hosted solutions give you control, but I think that's a myth #Tech #Future #Innov...",
+      "date": "2025-07-07 04:28:48.320308"
+    },
+    {
+      "hash": "502b71de2ab3e32fa8dceaa08e9d704436d423818bb76426e0582b58dd2fffef",
+      "content": "Did you know that AI could automate 80% of routine tasks by 2025? That means we'll have more time fo...",
+      "date": "2025-07-07 08:20:00.887414"
+    },
+    {
+      "hash": "234fd4ecfe489c22226cdfc76a3647f24db59249f68b3a000ba38ed6449756b6",
+      "content": "Did you know that AI-powered chatbots are now helping doctors diagnose patients more accurately? By ...",
+      "date": "2025-07-07 12:27:16.103642"
+    },
+    {
+      "hash": "6069106bad84c6d033bfa12c889ebcea6f542685cd8cb6b828d43e11d22094d0",
+      "content": "Did you know 60% of dev time is spent debugging? Often, it's the same old culprits: CORS misconfigs,...",
+      "date": "2025-07-07 16:17:12.256797"
+    },
+    {
+      "hash": "cc8db8286e6bbe337e9638d4e26a646a7a9c678e2e16fbff8f42f56b474c7593",
+      "content": "Building in public is overrated. Most projects fail, and sharing every misstep can be more intimidat...",
+      "date": "2025-07-07 20:15:05.975788"
+    },
+    {
+      "hash": "f2831beb4dd7e1c3a8a1bdb95fdbdc6bd9b53991a8c9a45cfffd5fc83166fee3",
+      "content": "Why do most MVPs fail? It's not because they're too minimal, but because they're built on flawed ass...",
+      "date": "2025-07-08 01:06:33.693309"
+    },
+    {
+      "hash": "435f2d49f2739db64f13a0fba4cf9789d2efe5f583816349a15d0c9d798c0fd8",
+      "content": "MVPs are like first dates - everyone's excited, but most end in disappointment #Innovation #Future #...",
+      "date": "2025-07-08 04:24:25.044575"
+    },
+    {
+      "hash": "ff2bd87b4fe2ce2e7f72a26387c00d6962cb74ba0a63fc52ec1fdfdb6a1e54fc",
+      "content": "A well-designed tech stack is like a Swiss Army knife - it may look simple at first, but it's packed...",
+      "date": "2025-07-08 08:19:11.577770"
+    },
+    {
+      "hash": "13c5eff39373072d68c716c96ca68159b1fcb0fba711c50c73c434ae61bf73cc",
+      "content": "I spent 3 weekends building a side project, only to realize I was solving a problem I didn't truly c...",
+      "date": "2025-07-08 12:27:52.222995"
+    },
+    {
+      "hash": "96b4f58640a3ab9a598f6cee8af868d8a8d4d2d0b2098e0e6927c42e98d161ab",
+      "content": "I spent 3 weekends building a side project, only to realize I was solving a problem I didn't truly c...",
+      "date": "2025-07-08 16:17:08.312267"
+    },
+    {
+      "hash": "8f3e35567676124dac6ec5a6192228071720741eaba97c121c755fd4f12a7821",
+      "content": "AI won't replace most jobs, it'll make them obsolete. We'll focus on tasks that spark joy, not just ...",
+      "date": "2025-07-08 20:15:03.628557"
+    },
+    {
+      "hash": "5317d81291706964ff798945ecc7dd9aaf621bde33dc129b16b733254ff787b0",
+      "content": "Embracing 'boring' tech stacks is the secret to scaling sanity. Netflix still uses Java, and it's do...",
+      "date": "2025-07-09 01:07:23.402679"
+    },
+    {
+      "hash": "caf60c0a0d777cc56f522a7d40594de4e8ab912080b86eab7700a435e58c5e46",
+      "content": "AI won't replace humans, it'll make us lazier #TechInnovation #AI #MachineLearning",
+      "date": "2025-07-09 04:28:45.357186"
+    },
+    {
+      "hash": "e3038f069ec5bbc8eccf7ab90117d676df361b05d365f0541a89f96b3142ba3e",
+      "content": "Building in public? Don't fall into the 'highlight reel' trap! Share your mistakes, not just success...",
+      "date": "2025-07-09 08:18:40.850604"
+    },
+    {
+      "hash": "12d35e0617faaceda1702b438ea9dea0aec8f12b59eba943feda75048b5e1b73",
+      "content": "Remember that friend who built an MVP to solve their own problem, only to realize no one else cared?...",
+      "date": "2025-07-09 12:27:26.395572"
+    },
+    {
+      "hash": "a4b80752321fd8a2d9d1b23526898d4431729b3038fc6ac3ed6571bc3389ca9b",
+      "content": "Stuck on a bug for hours? Try the '20-minute rule': set a timer, focus on the error, and when it goe...",
+      "date": "2025-07-09 16:14:32.430819"
+    },
+    {
+      "hash": "0fca41d248a6ff55b960b3f66a116e3219b4396b6dcbf82efeadcd787476c833",
+      "content": "Ever spent hours debugging only to realize you forgot to update your env variables? It's a classic! ...",
+      "date": "2025-07-09 20:15:05.534529"
+    },
+    {
+      "hash": "2232a91d7020c94377f7e5595e58992dfa274cbc62f6674ce58ef0ec1ceb0fb1",
+      "content": "By 2025, 80% of new products will be built on no-code frameworks #Coding #SoftwareDev #Programming",
+      "date": "2025-07-10 01:07:32.913971"
+    },
+    {
+      "hash": "35b368d725778c8fb6009f76f1f20567ad1f6abc554f69ddc92f64ea97e1d09f",
+      "content": "Most MVPs fail not because they're minimum or viable, but because they're built on unvalidated assum...",
+      "date": "2025-07-10 04:26:57.470906"
+    },
+    {
+      "hash": "1b1bb699bbd82b70a414159b9017be20c49dcef4c24e9714bad6e2024374b49b",
+      "content": "Stop learning new programming languages! Focus on solving real-world problems and you'll grow faster...",
+      "date": "2025-07-10 08:18:53.966355"
+    },
+    {
+      "hash": "7f5c29dd75c08842acd78375c2019227ccd4502525b4cb03a4f1799f9c29b6a9",
+      "content": "Most devs think CORS, env config, and dependency hell are inevitable evils, but what if I told you t...",
+      "date": "2025-07-10 12:27:48.818656"
+    },
+    {
+      "hash": "15994c36fcea480dcf1fecc10ad85cad146ad83e6faa902135f0a43e704ed42b",
+      "content": "Imagine a world where AI assistants help doctors diagnose patients, freeing them to focus on empathy...",
+      "date": "2025-07-10 16:17:05.339913"
+    },
+    {
+      "hash": "b5ddda3670387b20dc9ec59b8279b7a26d75228df6d77ac4ddbf84a86db260f9",
+      "content": "Ever spent hours setting up a flashy new tool, only to realize it's just getting in the way? I'm gui...",
+      "date": "2025-07-10 20:15:04.148615"
+    },
+    {
+      "hash": "817546586d38ee38cb6fd17e0e04e1a39f63abe242ed1f3fba52c687378306ab",
+      "content": "Assuming AI will replace human judgment? Think again #TechInnovation #AI #MachineLearning",
+      "date": "2025-07-11 01:08:10.709060"
     }
   ],
-  "last_cleanup": "2025-06-10 01:05:56.451870"
+  "last_cleanup": "2025-07-11 01:08:09.879603"
 }

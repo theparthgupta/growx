@@ -93,9 +93,9 @@ def add_tweet_to_history(tweet_content, history):
 def generate_tweet_with_groq():
     """Generate a high-engagement tweet using Groq"""
     styles = [
-    "Hot take + quick tip + question 😎",
+    "Hot take + quick tip + question ",
     "Relatable dev fail + fix + poll idea",
-    "Mini startup story + lesson + CTA 🔥",
+    "Mini startup story + lesson + CTA ",
     "Bold prediction + why it matters + vibe check",
     "Coding hack + use case + what’s your take?",
     "Marketing oops + recovery tip + let’s hear yours",
@@ -129,7 +129,7 @@ def generate_tweet_with_groq():
     system_prompt = (
     "You're a startup founder and tech nerd sharing bite-sized insights on X. Focus on AI, automation, web dev, startups, product-building or marketing. "
     "Write in a casual, human, Twitter-like style: punchy hook (question or hot take), quick tip or story, and a vibe-y CTA (question or nudge). "
-    "Keep it under 150 chars, no robotic vibes, use slang or emojis if it fits. Target devs, founders, and marketers."
+    "Keep it under 150 chars, no robotic vibes, use slang if it fits. Target devs, founders, and marketers."
     )
 
     user_prompt = f"Write a tweet in the style of: {selected_style}, about: {selected_topic}."

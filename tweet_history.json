@@ -989,7 +989,12 @@
       "hash": "41763057c87078f1c316af2d83d890f0e2570117658dc5459c47b6ce59191c71",
       "content": "unpopular opinion: when startups start calling bugs 'features' it's not just gaslighting, it's a sig...",
       "date": "2025-07-11 11:25:00.013586"
+    },
+    {
+      "hash": "fc8abf85c820070dd9ce6d712a6bce513c7360fefca5fbfc9cfa1cca5d840ade",
+      "content": "I might delete this later but calling a bug a 'hidden feature' is literally gaslighting your users. ...",
+      "date": "2025-07-11 11:41:59.780935"
     }
   ],
-  "last_cleanup": "2025-07-11 11:24:58.903133"
+  "last_cleanup": "2025-07-11 11:41:58.688715"
 }

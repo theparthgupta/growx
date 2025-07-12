@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "68daa106006bb24aa391678879fc10f1b5f4859c71c56a2dc01b5391488e385d",
-      "content": "Did you know 70% of dev time is spent on maintenance? Sometimes, it's not about optimizing your curr...",
-      "date": "2025-06-12 04:20:33.682941"
-    },
-    {
       "hash": "8410e534ef0f06afba7e663da922547db03ca96a2121be171d6a953ee734bcc1",
       "content": "JIRA is the new Microsoft Office - everyone uses it because everyone uses it. I've seen teams of 5 m...",
       "date": "2025-06-12 08:18:15.154086"
@@ -1079,7 +1074,12 @@
       "hash": "bff4512a71e4df5d5b5624d9dcf97c68d9aa394ac1285466a1bec363f766b4f0",
       "content": "dev confession: i've spent entire weekends 'evaluating' new frameworks only to end up back with reac...",
       "date": "2025-07-12 03:57:00.134134"
+    },
+    {
+      "hash": "8d56e40494ae34e5807c5c60d0076b00eb93c93860195f926b0d304d212ed867",
+      "content": "dev confession: i've written code that works flawlessly but feels like it's held together by duct ta...",
+      "date": "2025-07-12 04:37:58.622988"
     }
   ],
-  "last_cleanup": "2025-07-12 03:56:59.184634"
+  "last_cleanup": "2025-07-12 04:37:57.643999"
 }

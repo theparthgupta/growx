@@ -1084,7 +1084,12 @@
       "hash": "82654db6fec8115e5233ad0adbdd42aa56a3a7b8dc74ee94b3e3c84686380f51",
       "content": "unpopular opinion: frameworks that require a 3-hour setup process for a 5-minute hello world app can...",
       "date": "2025-07-12 04:57:21.453077"
+    },
+    {
+      "hash": "0a3bae6e4976e4633593ff3a5081525c10ac8f65b07a0b635724d003d86da8f0",
+      "content": "tell me i'm wrong: when you write code that works but feels cursed, like it's gonna come back to hau...",
+      "date": "2025-07-12 05:28:52.979300"
     }
   ],
-  "last_cleanup": "2025-07-12 04:57:20.046934"
+  "last_cleanup": "2025-07-12 05:28:51.971270"
 }

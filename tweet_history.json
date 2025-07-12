@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "2145955772ca8d30ffaea3fa8572e1968c04cf6f4cc26d752fc8e988a74cf48b",
-      "content": "Built an MVP to test the market, but users barely showed up #Entrepreneurship #TechBusiness #Startup",
-      "date": "2025-06-12 16:16:40.091945"
-    },
-    {
       "hash": "3553a6e01cf3f82d75311d49503b580c8e20fe6a35037be239accb8cef5e226d",
       "content": "Building a side project is like gardening in the dark #Innovation #Tech #Future",
       "date": "2025-06-12 20:15:00.465318"
@@ -1139,7 +1134,12 @@
       "hash": "914fa78b6ec840eeb426c1a8c2a466e4f45de72242fea2444ef8dea89d03c53d",
       "content": "unpopular opinion: shipping an mvp just to feel productive is basically just masturbating. yeah, you...",
       "date": "2025-07-12 14:57:38.758981"
+    },
+    {
+      "hash": "51a46e7fbaf498d034ab5e80fd3d07d55a3a378457bea84d7269e1dcc7bc933e",
+      "content": "tell me i'm wrong: any framework that requires a 3-hour tutorial to get a 'hello world' app running ...",
+      "date": "2025-07-12 16:53:24.467985"
     }
   ],
-  "last_cleanup": "2025-07-12 14:57:37.917359"
+  "last_cleanup": "2025-07-12 16:53:23.431181"
 }

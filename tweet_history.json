@@ -1204,7 +1204,12 @@
       "hash": "1482f2c4d3e7853b7cef210914359641d2b924b76abdc6441b24493349c7fd7b",
       "content": "dev confession: i'm pretty sure cors was invented by a sadist who hated devs and wanted to see us su...",
       "date": "2025-07-12 21:41:53.773795"
+    },
+    {
+      "hash": "8927cc2cec5583e1c8b4051cd44ba2423fe2a0b531717842dddd9c6524f14071",
+      "content": "Not to sound bitter, but self-hosted tools that promise 'total control' are just code for 'ruin your...",
+      "date": "2025-07-12 21:57:29.424997"
     }
   ],
-  "last_cleanup": "2025-07-12 21:41:52.664127"
+  "last_cleanup": "2025-07-12 21:57:28.613178"
 }

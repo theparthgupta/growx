@@ -1224,7 +1224,12 @@
       "hash": "4c95e52e46e234880d142a0cad209040cb3a0fdd16ecda2b6943a988d0a2de53",
       "content": "unpopular opinion: CORS exists solely to punish us for our past life mistakes. like, 'hey, you thoug...",
       "date": "2025-07-12 23:46:18.491856"
+    },
+    {
+      "hash": "52cba1109aa9d67f0eae9ea77978d2aa9a92d25cb90139d0007f0126e8afde4b",
+      "content": "tell me i'm wrong: when ur code 'just works' but u have no idea why and it feels like the dev equiva...",
+      "date": "2025-07-12 23:58:52.353059"
     }
   ],
-  "last_cleanup": "2025-07-12 23:46:17.539822"
+  "last_cleanup": "2025-07-12 23:58:51.443744"
 }

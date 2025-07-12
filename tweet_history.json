@@ -1079,7 +1079,12 @@
       "hash": "8d56e40494ae34e5807c5c60d0076b00eb93c93860195f926b0d304d212ed867",
       "content": "dev confession: i've written code that works flawlessly but feels like it's held together by duct ta...",
       "date": "2025-07-12 04:37:58.622988"
+    },
+    {
+      "hash": "82654db6fec8115e5233ad0adbdd42aa56a3a7b8dc74ee94b3e3c84686380f51",
+      "content": "unpopular opinion: frameworks that require a 3-hour setup process for a 5-minute hello world app can...",
+      "date": "2025-07-12 04:57:21.453077"
     }
   ],
-  "last_cleanup": "2025-07-12 04:37:57.643999"
+  "last_cleanup": "2025-07-12 04:57:20.046934"
 }

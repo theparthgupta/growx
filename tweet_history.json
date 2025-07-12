@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "92dc7aa4e15541978b5eeafde9cfdaa56777f22ab551729a05db0604c9c57811",
-      "content": "Building a startup is like trying to fix a leaky faucet - everyone thinks it's just a simple fix, bu...",
-      "date": "2025-06-12 12:26:24.560344"
-    },
-    {
       "hash": "2145955772ca8d30ffaea3fa8572e1968c04cf6f4cc26d752fc8e988a74cf48b",
       "content": "Built an MVP to test the market, but users barely showed up #Entrepreneurship #TechBusiness #Startup",
       "date": "2025-06-12 16:16:40.091945"
@@ -1124,7 +1119,12 @@
       "hash": "381edc3f971bbeda5eb51eddadcaa37b51462d610aceb6de0ad59af2199f2bfd",
       "content": "tell me i'm wrong: shipping an mvp just to feel productive is basically just rearranging deck chairs...",
       "date": "2025-07-12 09:42:59.754099"
+    },
+    {
+      "hash": "72ccf06b383d6fdcb80ae15d412bbd2843b4e1511c9bb88c2d4604a0ac0b2fa5",
+      "content": "I might delete this later but.. #Tech #Future #Innovation",
+      "date": "2025-07-12 13:32:19.600106"
     }
   ],
-  "last_cleanup": "2025-07-12 09:42:58.773239"
+  "last_cleanup": "2025-07-12 13:32:18.444574"
 }

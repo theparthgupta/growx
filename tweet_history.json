@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "e333d3264a8e5414a31dae31bb63131ab71520f02e861d5fc34fc6415fbcd3f5",
-      "content": "Did you know that 75% of top coders use a 'stop' timer to boost focus? It's not about being more pro...",
-      "date": "2025-06-12 01:04:41.748404"
-    },
-    {
       "hash": "68daa106006bb24aa391678879fc10f1b5f4859c71c56a2dc01b5391488e385d",
       "content": "Did you know 70% of dev time is spent on maintenance? Sometimes, it's not about optimizing your curr...",
       "date": "2025-06-12 04:20:33.682941"
@@ -1074,7 +1069,12 @@
       "hash": "939351ef60e3b99cf0bf87c33ae04c19c8bcfdf36af37cc07d01559a3d36d0e0",
       "content": "dev confession: i'm starting to think CORS was invented solely to torment developers and make them q...",
       "date": "2025-07-11 23:30:52.380891"
+    },
+    {
+      "hash": "fe48a6c7d5c059c7526aeb6ef0dfd6996a7346afaffb173b31d0431c0af7616c",
+      "content": "unpopular opinion: most job descriptions are just polite lies. 'collaborative team environment' mean...",
+      "date": "2025-07-12 02:56:05.132645"
     }
   ],
-  "last_cleanup": "2025-07-11 23:30:51.448898"
+  "last_cleanup": "2025-07-12 02:56:04.262485"
 }

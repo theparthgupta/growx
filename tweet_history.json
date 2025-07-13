@@ -1284,7 +1284,12 @@
       "hash": "372c65ba2aa093886a18ba7ae849d5fc52192fbf559e4c5c828f22fc31dfda14",
       "content": "Waiting for the 'perfect' design upfront is a myth.\nI've seen devs spend weeks on a 'flawless' archi...",
       "date": "2025-07-13 09:57:46.513284"
+    },
+    {
+      "hash": "18d938d05482abf5ec3244237c0d08a86982c42821bdaf119d9f0f3751c1f263",
+      "content": "just realized using an empty line to separate logical blocks of code makes a huge difference in read...",
+      "date": "2025-07-13 10:30:56.133688"
     }
   ],
-  "last_cleanup": "2025-07-13 09:57:45.486351"
+  "last_cleanup": "2025-07-13 10:30:55.244374"
 }

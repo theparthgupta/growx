@@ -1334,7 +1334,12 @@
       "hash": "0515741903a410d797a8946b2bc6213b7c4e54b2003fe9937b5e1e15ceea7cf2",
       "content": "Just found out you can use `Object.\nvalues()` to convert an object to an array in JS.\nNo more `Objec...",
       "date": "2025-07-13 20:49:25.065628"
+    },
+    {
+      "hash": "c9c0a55ad7f6200d3bffa9e20467f3b685eefb14e2c7c88851e7c129cd734732",
+      "content": "Just discovered I can use sed to automate renaming hundreds of files \n`sed 's/old/new/g' <<<${files[...",
+      "date": "2025-07-13 21:30:31.128981"
     }
   ],
-  "last_cleanup": "2025-07-13 20:49:24.241463"
+  "last_cleanup": "2025-07-13 21:30:30.305416"
 }

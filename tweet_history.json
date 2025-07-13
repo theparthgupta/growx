@@ -1279,7 +1279,12 @@
       "hash": "ebb8627d6053d608956b0f1957502589b53108ddd884034c3ac70b45b0ee3189",
       "content": "just found out you can use ` ||= ` to initialize a var only if it's nil/false in ruby.\n.\n.\n`config |...",
       "date": "2025-07-13 09:45:04.715167"
+    },
+    {
+      "hash": "372c65ba2aa093886a18ba7ae849d5fc52192fbf559e4c5c828f22fc31dfda14",
+      "content": "Waiting for the 'perfect' design upfront is a myth.\nI've seen devs spend weeks on a 'flawless' archi...",
+      "date": "2025-07-13 09:57:46.513284"
     }
   ],
-  "last_cleanup": "2025-07-13 09:45:03.837562"
+  "last_cleanup": "2025-07-13 09:57:45.486351"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "bcfd38ab2717bb4efe97a1955c15f4af0f7490946fc082a40100d5a8f61e5243",
-      "content": "Most MVPs fail because they're built on assumptions, not problems. I saw a startup spend 6 months bu...",
-      "date": "2025-06-13 16:16:33.735306"
-    },
-    {
       "hash": "b56b1c707dc03cd32dd0befd85f8e0e686b62c0a5d39247e39f9ff77e919a3b9",
       "content": "Just learned about a hospital using AI to detect breast cancer more accurately than human doctors #A...",
       "date": "2025-06-13 20:14:32.433921"
@@ -1304,7 +1299,12 @@
       "hash": "dc1a3d51cd95f3bc8980245151531cf8099077227c27be579c63207c6e2711e9",
       "content": "I just learned that in many langs, you can use underscores as thousands separators in numeric litera...",
       "date": "2025-07-13 15:43:52.925486"
+    },
+    {
+      "hash": "4233806458ceec6de7c4dc126af391420c54bc91bf1fccdbf49fe034f1eb5af2",
+      "content": "Just spent an hour debugging someone's code only to realize the issue was a missing whitespace betwe...",
+      "date": "2025-07-13 17:20:37.533533"
     }
   ],
-  "last_cleanup": "2025-07-13 15:43:51.927399"
+  "last_cleanup": "2025-07-13 17:20:36.579374"
 }

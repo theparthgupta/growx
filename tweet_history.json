@@ -1319,7 +1319,12 @@
       "hash": "5b8186ebf14da45944d8b8b7f260f8ec6d18d449bfc1129d809ecbd0ffea3f73",
       "content": "Just used `git lsfiles` to find all nonignored files in my project and generated a list of TODOs fro...",
       "date": "2025-07-13 18:54:09.970884"
+    },
+    {
+      "hash": "099aecb4bba3f66e12a15d81080b5f26986e87c8344efe2d0f5a013e78bb9d32",
+      "content": "just spent hours optimizing a query only to realize that adding an unnecessary index slowed it down ...",
+      "date": "2025-07-13 19:33:34.471773"
     }
   ],
-  "last_cleanup": "2025-07-13 18:54:09.167110"
+  "last_cleanup": "2025-07-13 19:33:33.588061"
 }

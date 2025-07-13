@@ -1,10 +1,10 @@
 import random
 import logging
+import re
 from config import groq_client
 
 def generate_tweet_with_groq():
-    """Generate a tweet that is natural, human, under 100 characters, and interesting/useful about tech."""
-    # List of interesting, non-generic, useful tech topics
+    """Generate a tweet that is natural, human, short, uses line breaks, and never contains dashes or em dashes."""
     topics = [
         "A shortcut or trick in a popular programming language",
         "A surprising use of a common tool (like git, VSCode, Docker, etc.)",
@@ -22,8 +22,9 @@ def generate_tweet_with_groq():
     system_prompt = (
         "You are a real, human software engineer. "
         "Write a tweet that is NOT generic, does NOT use any template or repeated prefix, and sounds like a quick, natural thought. "
-        "Keep it under 100 characters. "
-        "Use double spaces between sentences for readability and don't use dashes or em dashes between words. "
+        "Keep it short, ideally around 100 characters, but never long. "
+        "Use line breaks for readability, especially after code, tips, or sentences. "
+        "Never use dashes or em dashes anywhere in the tweet. "
         "Share something interesting, useful, or surprising about tech, programming, or dev life. "
         "No cliches, no corporate speak, no hashtags, no intros like 'Pro tip:' or 'Did you know'. "
         "Just a punchy, human, useful or surprising insight."
@@ -41,7 +42,7 @@ def generate_tweet_with_groq():
                 {"role": "user", "content": user_prompt}
             ],
             temperature=0.95,
-            max_tokens=80,
+            max_tokens=120,
             top_p=0.95
         )
 
@@ -50,12 +51,21 @@ def generate_tweet_with_groq():
         # Remove quotes and trim
         generated_tweet = generated_tweet.replace('"', '').strip()
 
-        # Add double spaces between sentences
-        generated_tweet = generated_tweet.replace('. ', '.  ')
+        # Remove all dashes and em dashes
+        generated_tweet = generated_tweet.replace('—', '').replace('-', '')
 
-        # Truncate to 100 characters
-        if len(generated_tweet) > 100:
-            generated_tweet = generated_tweet[:100].rstrip('. ')
+        # Add line breaks after code blocks, semicolons, and punctuation for readability
+        generated_tweet = re.sub(r'(;|\.|!|\?)\s*', r'\1\n', generated_tweet)
+        # Remove extra blank lines
+        generated_tweet = re.sub(r'\n+', r'\n', generated_tweet).strip()
+
+        # Only truncate if over 280 chars (Twitter/X hard limit), and do so at a word boundary
+        if len(generated_tweet) > 280:
+            cutoff = generated_tweet[:280].rstrip()
+            if ' ' in cutoff:
+                generated_tweet = cutoff[:cutoff.rfind(' ')]
+            else:
+                generated_tweet = cutoff
 
         return generated_tweet
 

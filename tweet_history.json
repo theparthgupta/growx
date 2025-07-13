@@ -1229,7 +1229,32 @@
       "hash": "d60016bbef4de15465ad2bf0082e6056a98176cc9519bbccf16cad07b8759ea7",
       "content": "Sometimes adding an index to a database column can slow down writes because the index has to be upda",
       "date": "2025-07-13 09:03:42.266484"
+    },
+    {
+      "hash": "ca8707009e66438bf4b43852c5f54aa7ecc0565938a372eea54a1457b0149ffb",
+      "content": "Most devs waste so much time on 'perfect' code reviews, thinking it saves time in the long run.  In ...",
+      "date": "2025-07-13 09:06:58.564933"
+    },
+    {
+      "hash": "0cca5699662c0ca27827439d0afc489abf9a8f04f2e7704e7ff5711a709cc66c",
+      "content": "Just realized I can use GitHub's code search to automate updating import statements in our monorepo ...",
+      "date": "2025-07-13 09:07:57.752853"
+    },
+    {
+      "hash": "8b2980b7c3738f727e775bdfb9ad3f60b6adaa2a4735b6e638354908098ec2ea",
+      "content": "When debugging, I temporarily add a console.log(JSON.stringify(obj, null, 2)); to make complex objec...",
+      "date": "2025-07-13 09:09:19.261213"
+    },
+    {
+      "hash": "658f1ec86f05c588e0588ceae31369a0461be5a3669cf7c551c834e2c66eb634",
+      "content": "Just used `git log` to visualize my coding productivity over time by piping it to `gnuplot`!\nNever t...",
+      "date": "2025-07-13 09:12:26.283716"
+    },
+    {
+      "hash": "8ad7330aaf46807579aa97bcd74c72bcd411f9d653e2c2bab2e045485279c89b",
+      "content": "I'm convinced that 'perfect' code reviews are a myth.\nWe spend so much time nitpicking minor style i...",
+      "date": "2025-07-13 09:14:58.714223"
     }
   ],
-  "last_cleanup": "2025-07-13 09:03:40.255811"
+  "last_cleanup": "2025-07-13 09:14:56.757914"
 }

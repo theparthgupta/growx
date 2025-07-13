@@ -1299,7 +1299,12 @@
       "hash": "4e89c7235d6bf2a97bacf700c58f7c7031e343ee78e7e5b0d1d856afdde1e63d",
       "content": "Just spent an hour debugging why our API was vulnerable to CSRF.\nTurns out, `SameOrigin` policy does...",
       "date": "2025-07-13 15:27:01.896839"
+    },
+    {
+      "hash": "dc1a3d51cd95f3bc8980245151531cf8099077227c27be579c63207c6e2711e9",
+      "content": "I just learned that in many langs, you can use underscores as thousands separators in numeric litera...",
+      "date": "2025-07-13 15:43:52.925486"
     }
   ],
-  "last_cleanup": "2025-07-13 15:27:00.904566"
+  "last_cleanup": "2025-07-13 15:43:51.927399"
 }

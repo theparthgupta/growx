@@ -1324,7 +1324,12 @@
       "hash": "099aecb4bba3f66e12a15d81080b5f26986e87c8344efe2d0f5a013e78bb9d32",
       "content": "just spent hours optimizing a query only to realize that adding an unnecessary index slowed it down ...",
       "date": "2025-07-13 19:33:34.471773"
+    },
+    {
+      "hash": "d41477bc80d8accc760683867d0917f4268419d7c1ed8f26a2942abbea6f0307",
+      "content": "When naming variables, use nouns for state and verbs for actions.\nMakes code read like a story.",
+      "date": "2025-07-13 20:00:21.919585"
     }
   ],
-  "last_cleanup": "2025-07-13 19:33:33.588061"
+  "last_cleanup": "2025-07-13 20:00:19.956328"
 }

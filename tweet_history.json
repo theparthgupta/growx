@@ -1264,7 +1264,12 @@
       "hash": "8dcb5f23a8873c554f77ebd969199df03b559ecf353a013c1b0e1a619e6dad2c",
       "content": "Just spent the morning scripting a Git hook to autoformat my commit messages.\nNow I can stop worryin...",
       "date": "2025-07-13 05:40:42.529399"
+    },
+    {
+      "hash": "e20b0458820b6aa1bb3500afc8e9d010f322a1912e1228e8f412bdff4f03025b",
+      "content": "Thinking you need to fully understand a problem before starting to code?\nIn reality, the act of codi...",
+      "date": "2025-07-13 06:38:47.819475"
     }
   ],
-  "last_cleanup": "2025-07-13 05:40:41.607716"
+  "last_cleanup": "2025-07-13 06:38:46.752552"
 }

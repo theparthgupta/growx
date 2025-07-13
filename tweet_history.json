@@ -1289,7 +1289,12 @@
       "hash": "d9f5ec05e358c30c9a024f75ce4b40be8c75312210c377994c974c5d43ce8aa0",
       "content": "Just spent 3 hours debugging a issue that turned out to be a single trailing comma in a JSON object....",
       "date": "2025-07-13 13:02:43.307293"
+    },
+    {
+      "hash": "3c45791564b92bc3821a86bc208b8fb5c9ee9af5e0513a97eae84b5c3e3ce9d2",
+      "content": "Just spent hours debugging a bug that turned out to be due to a missing 'secure' flag on my HTTPOnly...",
+      "date": "2025-07-13 13:52:32.629629"
     }
   ],
-  "last_cleanup": "2025-07-13 13:02:42.193763"
+  "last_cleanup": "2025-07-13 13:52:31.723136"
 }

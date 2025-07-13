@@ -1224,7 +1224,12 @@
       "hash": "cdd2eb7168ab59917b44ccfd2f53d43050c396c698ec70d90d6a209f3cee733a",
       "content": "dev confession: most frameworks are just excuses to not learn the underlying tech. and honestly, who...",
       "date": "2025-07-13 08:50:09.916242"
+    },
+    {
+      "hash": "d60016bbef4de15465ad2bf0082e6056a98176cc9519bbccf16cad07b8759ea7",
+      "content": "Sometimes adding an index to a database column can slow down writes because the index has to be upda",
+      "date": "2025-07-13 09:03:42.266484"
     }
   ],
-  "last_cleanup": "2025-07-13 08:50:08.889361"
+  "last_cleanup": "2025-07-13 09:03:40.255811"
 }

@@ -1329,7 +1329,12 @@
       "hash": "cf62702cfb225e55f744248b78260cab5007f720070d86c67155a3f622a7b629",
       "content": "Spent hours tracking a bug, convinced it was a complex threading issue.\n.\n.\nturned out to be a singl...",
       "date": "2025-07-13 20:31:17.605831"
+    },
+    {
+      "hash": "0515741903a410d797a8946b2bc6213b7c4e54b2003fe9937b5e1e15ceea7cf2",
+      "content": "Just found out you can use `Object.\nvalues()` to convert an object to an array in JS.\nNo more `Objec...",
+      "date": "2025-07-13 20:49:25.065628"
     }
   ],
-  "last_cleanup": "2025-07-13 20:31:16.839994"
+  "last_cleanup": "2025-07-13 20:49:24.241463"
 }

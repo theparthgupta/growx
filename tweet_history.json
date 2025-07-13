@@ -1269,7 +1269,12 @@
       "hash": "e20b0458820b6aa1bb3500afc8e9d010f322a1912e1228e8f412bdff4f03025b",
       "content": "Thinking you need to fully understand a problem before starting to code?\nIn reality, the act of codi...",
       "date": "2025-07-13 06:38:47.819475"
+    },
+    {
+      "hash": "9ebfe0afbf267b6eba17c8cf69f462018a2b42e2fdbd79ab684e9e2781e1f705",
+      "content": "Just used `git lsfiles` to generate a list of files to include in a deployment script.\nNever thought...",
+      "date": "2025-07-13 07:28:41.762413"
     }
   ],
-  "last_cleanup": "2025-07-13 06:38:46.752552"
+  "last_cleanup": "2025-07-13 07:28:40.927752"
 }

@@ -1304,7 +1304,12 @@
       "hash": "4233806458ceec6de7c4dc126af391420c54bc91bf1fccdbf49fe034f1eb5af2",
       "content": "Just spent an hour debugging someone's code only to realize the issue was a missing whitespace betwe...",
       "date": "2025-07-13 17:20:37.533533"
+    },
+    {
+      "hash": "05014b7fd8b98623e513ab77473b18bdcabd4e82225af1c31633bc6227f79b42",
+      "content": "Just found `ripgrep` and it's blowing my mind!\nThis tiny CLI tool is 25x faster than `grep` and supp...",
+      "date": "2025-07-13 17:44:33.559496"
     }
   ],
-  "last_cleanup": "2025-07-13 17:20:36.579374"
+  "last_cleanup": "2025-07-13 17:44:32.690893"
 }

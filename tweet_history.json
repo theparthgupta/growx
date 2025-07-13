@@ -1349,7 +1349,12 @@
       "hash": "20b45382e386a960973b9737b97a66a272b8a48511643226029ed39613228393",
       "content": "Just set up GitHub Actions to autogen API docs from my OpenAPI specs.\nNo more manual updating!\nNow I...",
       "date": "2025-07-13 22:00:20.386363"
+    },
+    {
+      "hash": "809bf98512b4bb80a12c6b0ef2ada86410d9b6db9093f94e2a6ff7cb49285464",
+      "content": "just learned that holding Ctrl + Shift while hovering over a method in IntelliJ IDEA shows its usage...",
+      "date": "2025-07-13 22:50:51.360235"
     }
   ],
-  "last_cleanup": "2025-07-13 22:00:19.509557"
+  "last_cleanup": "2025-07-13 22:50:50.439936"
 }

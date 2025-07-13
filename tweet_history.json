@@ -1294,7 +1294,12 @@
       "hash": "3c45791564b92bc3821a86bc208b8fb5c9ee9af5e0513a97eae84b5c3e3ce9d2",
       "content": "Just spent hours debugging a bug that turned out to be due to a missing 'secure' flag on my HTTPOnly...",
       "date": "2025-07-13 13:52:32.629629"
+    },
+    {
+      "hash": "4e89c7235d6bf2a97bacf700c58f7c7031e343ee78e7e5b0d1d856afdde1e63d",
+      "content": "Just spent an hour debugging why our API was vulnerable to CSRF.\nTurns out, `SameOrigin` policy does...",
+      "date": "2025-07-13 15:27:01.896839"
     }
   ],
-  "last_cleanup": "2025-07-13 13:52:31.723136"
+  "last_cleanup": "2025-07-13 15:27:00.904566"
 }

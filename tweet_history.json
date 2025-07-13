@@ -1254,7 +1254,12 @@
       "hash": "8ad7330aaf46807579aa97bcd74c72bcd411f9d653e2c2bab2e045485279c89b",
       "content": "I'm convinced that 'perfect' code reviews are a myth.\nWe spend so much time nitpicking minor style i...",
       "date": "2025-07-13 09:14:58.714223"
+    },
+    {
+      "hash": "d3f4f304f62bf661feaa531917ab04b8bb36731b5f51fa1d9b4e455fbaa8ec21",
+      "content": "Thinking you need to write perfect, bugfree code from the start is a huge time sink.\nReality: it's o...",
+      "date": "2025-07-13 05:10:35.117695"
     }
   ],
-  "last_cleanup": "2025-07-13 09:14:56.757914"
+  "last_cleanup": "2025-07-13 05:10:34.098494"
 }

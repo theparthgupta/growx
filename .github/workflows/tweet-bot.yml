@@ -44,7 +44,7 @@ jobs:
         GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       run: |
         echo "Running tweet bot..."
-        python test.py || echo "Tweet bot failed, check logs for details"
+        python main.py || echo "Tweet bot failed, check logs for details"
     
     - name: Commit and push tweet history
       run: |

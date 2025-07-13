@@ -1,16 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "789c0787ddc20a4e592e6a4224dd583ed39a067af745b46d9d625abaf365ba75",
-      "content": "By 2025, devs who master AI-assisted coding will outpace peers by 30%! It's not about replacing huma...",
-      "date": "2025-06-13 04:21:39.646921"
-    },
-    {
-      "hash": "ef1fc527e698ebece8279c450e7ab54238d165fe40b4eb5bcd162eafc3c6e3a6",
-      "content": "By 2025, AI will have replaced 10% of human managers #MachineLearning #AI #TechInnovation",
-      "date": "2025-06-13 08:18:09.985700"
-    },
-    {
       "hash": "c6d66c8897f29f103c049897b7e0824d413ffb4c4faf5dd4c69679ab129d8705",
       "content": "I once built a custom app, only to spend 90% of my time maintaining it #AI #TechInnovation #MachineL...",
       "date": "2025-06-13 12:26:30.867690"
@@ -1229,7 +1219,12 @@
       "hash": "6e224f9175c6484cd3a368e502c4d49030ed74340319cebdfbc079fcf9a91a34",
       "content": "Tell me I\u2019m wrong: 99% of job descriptions are just AI-generated fantasies and the other 1% are writ...",
       "date": "2025-07-13 02:32:36.842294"
+    },
+    {
+      "hash": "cdd2eb7168ab59917b44ccfd2f53d43050c396c698ec70d90d6a209f3cee733a",
+      "content": "dev confession: most frameworks are just excuses to not learn the underlying tech. and honestly, who...",
+      "date": "2025-07-13 08:50:09.916242"
     }
   ],
-  "last_cleanup": "2025-07-13 02:32:35.871990"
+  "last_cleanup": "2025-07-13 08:50:08.889361"
 }

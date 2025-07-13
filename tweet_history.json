@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "95a989d3e5c4d371e99b7ab538a34b6f2131e6173324966d6dd81cbe7334fe5b",
-      "content": "Building a side project? You're not alone #Innovation #Future #Tech",
-      "date": "2025-06-13 01:05:52.988835"
-    },
-    {
       "hash": "789c0787ddc20a4e592e6a4224dd583ed39a067af745b46d9d625abaf365ba75",
       "content": "By 2025, devs who master AI-assisted coding will outpace peers by 30%! It's not about replacing huma...",
       "date": "2025-06-13 04:21:39.646921"
@@ -1229,7 +1224,12 @@
       "hash": "52cba1109aa9d67f0eae9ea77978d2aa9a92d25cb90139d0007f0126e8afde4b",
       "content": "tell me i'm wrong: when ur code 'just works' but u have no idea why and it feels like the dev equiva...",
       "date": "2025-07-12 23:58:52.353059"
+    },
+    {
+      "hash": "6e224f9175c6484cd3a368e502c4d49030ed74340319cebdfbc079fcf9a91a34",
+      "content": "Tell me I\u2019m wrong: 99% of job descriptions are just AI-generated fantasies and the other 1% are writ...",
+      "date": "2025-07-13 02:32:36.842294"
     }
   ],
-  "last_cleanup": "2025-07-12 23:58:51.443744"
+  "last_cleanup": "2025-07-13 02:32:35.871990"
 }

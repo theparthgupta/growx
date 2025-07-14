@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "713bf5207c163309853cfc2a04c00d0c59fb196e14dfd8bda5b6abc3dfae6bd8",
-      "content": "Tired of side projects feeling like a second job? I've been there #Future #Tech #Innovation",
-      "date": "2025-06-14 12:23:06.489320"
-    },
-    {
       "hash": "d3cab5fb41f8c67793ad2dd67bb68f7804dbc6c141882ed669434dbf5a008855",
       "content": "Unpopular opinion: most dev 'mistakes' aren't mistakes at all - they're just CORS, env vars, and dep...",
       "date": "2025-06-14 16:14:25.644166"
@@ -1389,7 +1384,12 @@
       "hash": "12fbea6e3a25e13a46709ea87b6e7eb32a2102760844df8aca1704d1550051e8",
       "content": "Realized that India's obsession with 'jugaad' (hacky fixes) is a reflection of its geopolitics  prio...",
       "date": "2025-07-14 11:42:31.816513"
+    },
+    {
+      "hash": "7a2822a9aed2b3d67b6243901ba13b60493ff69c3934b1d7bfa072a064c9fc15",
+      "content": "Forgot that console.\nlog() in dev?\nIt's not just a debugging leftover.\n.\n.\nin a XSS attack, an attac...",
+      "date": "2025-07-14 12:59:11.192386"
     }
   ],
-  "last_cleanup": "2025-07-14 11:42:30.765329"
+  "last_cleanup": "2025-07-14 12:59:10.345992"
 }

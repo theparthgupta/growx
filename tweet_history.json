@@ -1424,7 +1424,12 @@
       "hash": "e488be617a9a88395d282b2b20ddd27eaac2fdeb1b65a3b0ae53497b70ee7163",
       "content": "Who knew Kubernetes could be used for machine learning hyperparameter tuning?\nUsed k8s to scale up B...",
       "date": "2025-07-14 19:25:09.303213"
+    },
+    {
+      "hash": "39cb550667efdc8b30b7863f7c57aaf88677c8dc70096de3a7496352b1770f18",
+      "content": "Realized that adding an index to a column can sometimes slow down write performance in a database.\nT...",
+      "date": "2025-07-14 19:41:20.695279"
     }
   ],
-  "last_cleanup": "2025-07-14 19:25:08.430008"
+  "last_cleanup": "2025-07-14 19:41:19.762328"
 }

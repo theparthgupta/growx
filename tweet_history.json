@@ -1369,7 +1369,12 @@
       "hash": "1bd7a290a16c6de5dd22eb1dbbd0e2e4a04a55baaa158e9c2ff8bb590a5869fa",
       "content": "Spent 2 hours chasing a bug only to realize I was reading the wrong Git branch.\n.\n.\nMoral of the sto...",
       "date": "2025-07-14 05:45:16.216107"
+    },
+    {
+      "hash": "ce56b116da83e1412537ee328ad25dcf61fde7b0373f8f32b1c7a81bbd633f03",
+      "content": "just spent an hour debugging why my token auth was failing.\n.\n.\nturns out I forgot that `SetCookie` ...",
+      "date": "2025-07-14 05:58:04.850860"
     }
   ],
-  "last_cleanup": "2025-07-14 05:45:15.336246"
+  "last_cleanup": "2025-07-14 05:58:04.135492"
 }

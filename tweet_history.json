@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "fdaeca387dd1f92f035c60b5f802d2be77cbea884090d521f85a590b89abf81d",
-      "content": "Did you know that 60% of tech debt is caused by sticking with outdated tools too long? It's like hol...",
-      "date": "2025-06-14 01:02:45.597766"
-    },
-    {
       "hash": "dbc942e67b6fcc5e9b5785c2c4b3d4adee341382d200be3f479f83756490cfc8",
       "content": "Ever wondered how some tech stacks feel ridiculously simple, yet scale like a beast? It's because th...",
       "date": "2025-06-14 04:17:10.326671"
@@ -1354,7 +1349,12 @@
       "hash": "809bf98512b4bb80a12c6b0ef2ada86410d9b6db9093f94e2a6ff7cb49285464",
       "content": "just learned that holding Ctrl + Shift while hovering over a method in IntelliJ IDEA shows its usage...",
       "date": "2025-07-13 22:50:51.360235"
+    },
+    {
+      "hash": "745d0f763201ff78fb407676a1ed24aea8d0b32e6d1e746ce9cb400c13d40946",
+      "content": "Just used git as a makeshift incremental backup system for a noncode project!\nInitialized a repo in ...",
+      "date": "2025-07-14 02:27:39.323974"
     }
   ],
-  "last_cleanup": "2025-07-13 22:50:50.439936"
+  "last_cleanup": "2025-07-14 02:27:38.368665"
 }

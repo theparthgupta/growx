@@ -1389,7 +1389,12 @@
       "hash": "7a2822a9aed2b3d67b6243901ba13b60493ff69c3934b1d7bfa072a064c9fc15",
       "content": "Forgot that console.\nlog() in dev?\nIt's not just a debugging leftover.\n.\n.\nin a XSS attack, an attac...",
       "date": "2025-07-14 12:59:11.192386"
+    },
+    {
+      "hash": "f0a5393b93749487c4122864204b31d7f4de39b7d83e382d29dd6a037dcaaf44",
+      "content": "Spent 3 hours chasing a bug only to find out it was a typo in a function name.\nMoral of the story: n...",
+      "date": "2025-07-14 14:00:38.432588"
     }
   ],
-  "last_cleanup": "2025-07-14 12:59:10.345992"
+  "last_cleanup": "2025-07-14 14:00:37.578814"
 }

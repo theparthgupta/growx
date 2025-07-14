@@ -1414,7 +1414,12 @@
       "hash": "af3edeaee966d8a55292e335a6e6c0f697ae5ec1d0f3db1bb9f09039e560f241",
       "content": "recently stumbled upon `fzf`, a tiny cmdline fuzzy finder that's revolutionized my workflow.\ninstant...",
       "date": "2025-07-14 18:38:37.157667"
+    },
+    {
+      "hash": "473f11871f322e6c6d6c99ccd89cef6ab7c01043b6c2cbe53be61a89755facfd",
+      "content": "Discovered that using tmux's 'setw synchronizepanes' command syncs inputs across all panes, saving m...",
+      "date": "2025-07-14 18:59:45.483071"
     }
   ],
-  "last_cleanup": "2025-07-14 18:38:36.329237"
+  "last_cleanup": "2025-07-14 18:59:44.468886"
 }

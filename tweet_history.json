@@ -1384,7 +1384,12 @@
       "hash": "eee7175d5466f7b37e652963f44031918a406fca19c26d3f51f293ec0717648f",
       "content": "Geopolitics: Why do nations still cling to borders?\nIndia's societal drawbacks: casteism & patriarch...",
       "date": "2025-07-14 07:12:33.533622"
+    },
+    {
+      "hash": "dfa4fc1a2660722aaf539afbd1e92c5b8d9a21bc852097918d37c48f80d026de",
+      "content": "Realized I can use sed to automate updating dozens of import statements in my codebase after a packa...",
+      "date": "2025-07-14 07:40:14.740227"
     }
   ],
-  "last_cleanup": "2025-07-14 07:12:32.455091"
+  "last_cleanup": "2025-07-14 07:40:13.704230"
 }

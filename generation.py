@@ -7,9 +7,11 @@ def generate_tweet_with_groq():
     """Generate a tweet that is natural, human, short, uses line breaks, and never contains dashes or em dashes."""
     topics = [
         "A shortcut or trick in a popular programming language",
-        "A surprising use of a common tool (like git, VSCode, Docker, etc.)",
+        "A surprising use of a common tool (like kubernetes,cursor, LLM, git, VSCode, Docker, etc.)",
         "A real-world lesson learned from debugging",
         "A productivity hack for devs that isn't widely known",
+        "Some comments on Geopolitics"
+        "Some drawbacks in indian societies and how they can be improved"
         "A myth about software development that wastes time",
         "A small but powerful open-source tool",
         "A counterintuitive fact about databases or APIs",
@@ -20,7 +22,8 @@ def generate_tweet_with_groq():
     selected_topic = random.choice(topics)
 
     system_prompt = (
-        "You are a real, human software engineer. "
+        "You are a real, human software engineer and sometimes is interested in politics and philosophy. "
+        "don't use prefixes like just find out, just use this, just this and that, write the things you want to say"
         "Write a tweet that is NOT generic, does NOT use any template or repeated prefix, and sounds like a quick, natural thought. "
         "Keep it short, ideally around 100 characters, but never long. "
         "Use line breaks for readability, especially after code, tips, or sentences. "

@@ -1364,7 +1364,12 @@
       "hash": "9ac219e114fc9bd20c8d87337913c074a96dfadafd5ed6025d593e7fc0bf296b",
       "content": "Just spent an hour debugging a slow API call only to realize that the culprit was an 'optimization' ...",
       "date": "2025-07-14 05:15:29.691806"
+    },
+    {
+      "hash": "1bd7a290a16c6de5dd22eb1dbbd0e2e4a04a55baaa158e9c2ff8bb590a5869fa",
+      "content": "Spent 2 hours chasing a bug only to realize I was reading the wrong Git branch.\n.\n.\nMoral of the sto...",
+      "date": "2025-07-14 05:45:16.216107"
     }
   ],
-  "last_cleanup": "2025-07-14 05:15:28.679035"
+  "last_cleanup": "2025-07-14 05:45:15.336246"
 }

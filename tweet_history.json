@@ -1409,7 +1409,12 @@
       "hash": "8ab96b55c8e603c600f28d79ad5d5f659ab621bcf3f2ddc3013fb4c786847927",
       "content": "Realized I can use sed to autogenerate boilerplate code for new microservices.\nSaved myself an hour ...",
       "date": "2025-07-14 17:51:33.141153"
+    },
+    {
+      "hash": "af3edeaee966d8a55292e335a6e6c0f697ae5ec1d0f3db1bb9f09039e560f241",
+      "content": "recently stumbled upon `fzf`, a tiny cmdline fuzzy finder that's revolutionized my workflow.\ninstant...",
+      "date": "2025-07-14 18:38:37.157667"
     }
   ],
-  "last_cleanup": "2025-07-14 17:51:32.219154"
+  "last_cleanup": "2025-07-14 18:38:36.329237"
 }

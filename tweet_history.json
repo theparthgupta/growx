@@ -1449,7 +1449,12 @@
       "hash": "57d3a4d75f978c6c0796e06ce56e6da35d6a0a1a80a03e63d657a62694d0b12f",
       "content": "Here are three tweets:\n**Tweet 1: Geopolitics**\nRealized that countries with strong manufacturing ba...",
       "date": "2025-07-14 21:42:06.955113"
+    },
+    {
+      "hash": "e6d1478c6bde8d9f4d1deaa827ade8f7f432026303abaf9e0ba43757fba47879",
+      "content": "Surprised to learn that adding an index to a database column can actually slow down writes, even if ...",
+      "date": "2025-07-14 21:57:44.016527"
     }
   ],
-  "last_cleanup": "2025-07-14 21:42:05.741075"
+  "last_cleanup": "2025-07-14 21:57:42.934554"
 }

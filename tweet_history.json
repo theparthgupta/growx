@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "d3cab5fb41f8c67793ad2dd67bb68f7804dbc6c141882ed669434dbf5a008855",
-      "content": "Unpopular opinion: most dev 'mistakes' aren't mistakes at all - they're just CORS, env vars, and dep...",
-      "date": "2025-06-14 16:14:25.644166"
-    },
-    {
       "hash": "7c16b2ecce3577efd7042eacfbe3246bdbd8c7aedd4bb6479c29bfe16f02a297",
       "content": "I once spent 3 hours debugging a 'simple' React app, only to find the issue was a misplaced semicolo...",
       "date": "2025-06-14 20:13:21.751063"
@@ -1404,7 +1399,12 @@
       "hash": "5e859a06b44021438c18e076d7f04ce0184939aba25d2e6206f4f83f4d6527cf",
       "content": "Resurrected an old project thanks to fzf, a tiny commandline fuzzy finder that's a gamechanger for n...",
       "date": "2025-07-14 15:28:49.370478"
+    },
+    {
+      "hash": "75c7e833182892f97c08b3e3016ff5e39df84aed3c77665e656fb7a25c26cacf",
+      "content": "Who knew you could use Kubernetes to generate music?\nI stumbled upon a project that uses k8s to orch...",
+      "date": "2025-07-14 17:33:59.414693"
     }
   ],
-  "last_cleanup": "2025-07-14 15:28:48.332717"
+  "last_cleanup": "2025-07-14 17:33:58.593896"
 }

@@ -1,31 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "c6d66c8897f29f103c049897b7e0824d413ffb4c4faf5dd4c69679ab129d8705",
-      "content": "I once built a custom app, only to spend 90% of my time maintaining it #AI #TechInnovation #MachineL...",
-      "date": "2025-06-13 12:26:30.867690"
-    },
-    {
-      "hash": "bcfd38ab2717bb4efe97a1955c15f4af0f7490946fc082a40100d5a8f61e5243",
-      "content": "Most MVPs fail because they're built on assumptions, not problems. I saw a startup spend 6 months bu...",
-      "date": "2025-06-13 16:16:33.735306"
-    },
-    {
-      "hash": "b56b1c707dc03cd32dd0befd85f8e0e686b62c0a5d39247e39f9ff77e919a3b9",
-      "content": "Just learned about a hospital using AI to detect breast cancer more accurately than human doctors #A...",
-      "date": "2025-06-13 20:14:32.433921"
-    },
-    {
-      "hash": "fdaeca387dd1f92f035c60b5f802d2be77cbea884090d521f85a590b89abf81d",
-      "content": "Did you know that 60% of tech debt is caused by sticking with outdated tools too long? It's like hol...",
-      "date": "2025-06-14 01:02:45.597766"
-    },
-    {
-      "hash": "dbc942e67b6fcc5e9b5785c2c4b3d4adee341382d200be3f479f83756490cfc8",
-      "content": "Ever wondered how some tech stacks feel ridiculously simple, yet scale like a beast? It's because th...",
-      "date": "2025-06-14 04:17:10.326671"
-    },
-    {
       "hash": "edf9e63a5ccd9327187ec0f9492fb201f773baef30094a0f44248821d7ed0648",
       "content": "Tired of tedious coding? I've found a game-changer: AI-powered code completion tool that learns from...",
       "date": "2025-06-14 08:15:33.484946"
@@ -1254,7 +1229,152 @@
       "hash": "8ad7330aaf46807579aa97bcd74c72bcd411f9d653e2c2bab2e045485279c89b",
       "content": "I'm convinced that 'perfect' code reviews are a myth.\nWe spend so much time nitpicking minor style i...",
       "date": "2025-07-13 09:14:58.714223"
+    },
+    {
+      "hash": "d3f4f304f62bf661feaa531917ab04b8bb36731b5f51fa1d9b4e455fbaa8ec21",
+      "content": "Thinking you need to write perfect, bugfree code from the start is a huge time sink.\nReality: it's o...",
+      "date": "2025-07-13 05:10:35.117695"
+    },
+    {
+      "hash": "8dcb5f23a8873c554f77ebd969199df03b559ecf353a013c1b0e1a619e6dad2c",
+      "content": "Just spent the morning scripting a Git hook to autoformat my commit messages.\nNow I can stop worryin...",
+      "date": "2025-07-13 05:40:42.529399"
+    },
+    {
+      "hash": "e20b0458820b6aa1bb3500afc8e9d010f322a1912e1228e8f412bdff4f03025b",
+      "content": "Thinking you need to fully understand a problem before starting to code?\nIn reality, the act of codi...",
+      "date": "2025-07-13 06:38:47.819475"
+    },
+    {
+      "hash": "9ebfe0afbf267b6eba17c8cf69f462018a2b42e2fdbd79ab684e9e2781e1f705",
+      "content": "Just used `git lsfiles` to generate a list of files to include in a deployment script.\nNever thought...",
+      "date": "2025-07-13 07:28:41.762413"
+    },
+    {
+      "hash": "ebb8627d6053d608956b0f1957502589b53108ddd884034c3ac70b45b0ee3189",
+      "content": "just found out you can use ` ||= ` to initialize a var only if it's nil/false in ruby.\n.\n.\n`config |...",
+      "date": "2025-07-13 09:45:04.715167"
+    },
+    {
+      "hash": "372c65ba2aa093886a18ba7ae849d5fc52192fbf559e4c5c828f22fc31dfda14",
+      "content": "Waiting for the 'perfect' design upfront is a myth.\nI've seen devs spend weeks on a 'flawless' archi...",
+      "date": "2025-07-13 09:57:46.513284"
+    },
+    {
+      "hash": "18d938d05482abf5ec3244237c0d08a86982c42821bdaf119d9f0f3751c1f263",
+      "content": "just realized using an empty line to separate logical blocks of code makes a huge difference in read...",
+      "date": "2025-07-13 10:30:56.133688"
+    },
+    {
+      "hash": "d9f5ec05e358c30c9a024f75ce4b40be8c75312210c377994c974c5d43ce8aa0",
+      "content": "Just spent 3 hours debugging a issue that turned out to be a single trailing comma in a JSON object....",
+      "date": "2025-07-13 13:02:43.307293"
+    },
+    {
+      "hash": "3c45791564b92bc3821a86bc208b8fb5c9ee9af5e0513a97eae84b5c3e3ce9d2",
+      "content": "Just spent hours debugging a bug that turned out to be due to a missing 'secure' flag on my HTTPOnly...",
+      "date": "2025-07-13 13:52:32.629629"
+    },
+    {
+      "hash": "4e89c7235d6bf2a97bacf700c58f7c7031e343ee78e7e5b0d1d856afdde1e63d",
+      "content": "Just spent an hour debugging why our API was vulnerable to CSRF.\nTurns out, `SameOrigin` policy does...",
+      "date": "2025-07-13 15:27:01.896839"
+    },
+    {
+      "hash": "dc1a3d51cd95f3bc8980245151531cf8099077227c27be579c63207c6e2711e9",
+      "content": "I just learned that in many langs, you can use underscores as thousands separators in numeric litera...",
+      "date": "2025-07-13 15:43:52.925486"
+    },
+    {
+      "hash": "4233806458ceec6de7c4dc126af391420c54bc91bf1fccdbf49fe034f1eb5af2",
+      "content": "Just spent an hour debugging someone's code only to realize the issue was a missing whitespace betwe...",
+      "date": "2025-07-13 17:20:37.533533"
+    },
+    {
+      "hash": "05014b7fd8b98623e513ab77473b18bdcabd4e82225af1c31633bc6227f79b42",
+      "content": "Just found `ripgrep` and it's blowing my mind!\nThis tiny CLI tool is 25x faster than `grep` and supp...",
+      "date": "2025-07-13 17:44:33.559496"
+    },
+    {
+      "hash": "b0c57d4d03b56f1f9b64424cc0a6f99472614bfef4de408accbf644530298867",
+      "content": "just realized that adding a blank line between logical code blocks makes a huge diff in readability....",
+      "date": "2025-07-13 18:36:35.173980"
+    },
+    {
+      "hash": "5b8186ebf14da45944d8b8b7f260f8ec6d18d449bfc1129d809ecbd0ffea3f73",
+      "content": "Just used `git lsfiles` to find all nonignored files in my project and generated a list of TODOs fro...",
+      "date": "2025-07-13 18:54:09.970884"
+    },
+    {
+      "hash": "099aecb4bba3f66e12a15d81080b5f26986e87c8344efe2d0f5a013e78bb9d32",
+      "content": "just spent hours optimizing a query only to realize that adding an unnecessary index slowed it down ...",
+      "date": "2025-07-13 19:33:34.471773"
+    },
+    {
+      "hash": "d41477bc80d8accc760683867d0917f4268419d7c1ed8f26a2942abbea6f0307",
+      "content": "When naming variables, use nouns for state and verbs for actions.\nMakes code read like a story.",
+      "date": "2025-07-13 20:00:21.919585"
+    },
+    {
+      "hash": "cf62702cfb225e55f744248b78260cab5007f720070d86c67155a3f622a7b629",
+      "content": "Spent hours tracking a bug, convinced it was a complex threading issue.\n.\n.\nturned out to be a singl...",
+      "date": "2025-07-13 20:31:17.605831"
+    },
+    {
+      "hash": "0515741903a410d797a8946b2bc6213b7c4e54b2003fe9937b5e1e15ceea7cf2",
+      "content": "Just found out you can use `Object.\nvalues()` to convert an object to an array in JS.\nNo more `Objec...",
+      "date": "2025-07-13 20:49:25.065628"
+    },
+    {
+      "hash": "c9c0a55ad7f6200d3bffa9e20467f3b685eefb14e2c7c88851e7c129cd734732",
+      "content": "Just discovered I can use sed to automate renaming hundreds of files \n`sed 's/old/new/g' <<<${files[...",
+      "date": "2025-07-13 21:30:31.128981"
+    },
+    {
+      "hash": "cbb26ee80a41ae50eadfee434559644a890d0bcee07a41775a30f2832bf3816c",
+      "content": "Just used `git diff worddiff` to compare two huge JSON files \nNever knew git could do that!",
+      "date": "2025-07-13 21:47:44.435174"
+    },
+    {
+      "hash": "20b45382e386a960973b9737b97a66a272b8a48511643226029ed39613228393",
+      "content": "Just set up GitHub Actions to autogen API docs from my OpenAPI specs.\nNo more manual updating!\nNow I...",
+      "date": "2025-07-13 22:00:20.386363"
+    },
+    {
+      "hash": "809bf98512b4bb80a12c6b0ef2ada86410d9b6db9093f94e2a6ff7cb49285464",
+      "content": "just learned that holding Ctrl + Shift while hovering over a method in IntelliJ IDEA shows its usage...",
+      "date": "2025-07-13 22:50:51.360235"
+    },
+    {
+      "hash": "745d0f763201ff78fb407676a1ed24aea8d0b32e6d1e746ce9cb400c13d40946",
+      "content": "Just used git as a makeshift incremental backup system for a noncode project!\nInitialized a repo in ...",
+      "date": "2025-07-14 02:27:39.323974"
+    },
+    {
+      "hash": "18f840058d1e7348e08d268022c2825ab0db56de630521bd56d817c1443adf5a",
+      "content": "When debugging, I add a TODO comment on the line above the error.\nThen I can just cmd+shift+F to fin...",
+      "date": "2025-07-14 03:51:38.073802"
+    },
+    {
+      "hash": "6ac573b99d496e476da2b9d1787058067ca811928e54519a2e714a4c04686403",
+      "content": "Just used git to diff two CSV files and find the rows that changed.\nMind blown.\nNever thought I'd be...",
+      "date": "2025-07-14 04:46:42.423021"
+    },
+    {
+      "hash": "9ac219e114fc9bd20c8d87337913c074a96dfadafd5ed6025d593e7fc0bf296b",
+      "content": "Just spent an hour debugging a slow API call only to realize that the culprit was an 'optimization' ...",
+      "date": "2025-07-14 05:15:29.691806"
+    },
+    {
+      "hash": "1bd7a290a16c6de5dd22eb1dbbd0e2e4a04a55baaa158e9c2ff8bb590a5869fa",
+      "content": "Spent 2 hours chasing a bug only to realize I was reading the wrong Git branch.\n.\n.\nMoral of the sto...",
+      "date": "2025-07-14 05:45:16.216107"
+    },
+    {
+      "hash": "ce56b116da83e1412537ee328ad25dcf61fde7b0373f8f32b1c7a81bbd633f03",
+      "content": "just spent an hour debugging why my token auth was failing.\n.\n.\nturns out I forgot that `SetCookie` ...",
+      "date": "2025-07-14 05:58:04.850860"
     }
   ],
-  "last_cleanup": "2025-07-13 09:14:56.757914"
+  "last_cleanup": "2025-07-14 05:58:04.135492"
 }

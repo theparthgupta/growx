@@ -1429,7 +1429,12 @@
       "hash": "39cb550667efdc8b30b7863f7c57aaf88677c8dc70096de3a7496352b1770f18",
       "content": "Realized that adding an index to a column can sometimes slow down write performance in a database.\nT...",
       "date": "2025-07-14 19:41:20.695279"
+    },
+    {
+      "hash": "b71da7748e7be38b8eeb4915c0c38c6d57f86c79f723a48f595cad198d8f58aa",
+      "content": "Reflecting on geopolitics, I realize how India's societal drawbacks like casteism & patriarchy hinde...",
+      "date": "2025-07-14 19:57:51.644385"
     }
   ],
-  "last_cleanup": "2025-07-14 19:41:19.762328"
+  "last_cleanup": "2025-07-14 19:57:50.468176"
 }

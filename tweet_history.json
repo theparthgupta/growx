@@ -1434,7 +1434,12 @@
       "hash": "0e920931d175d5bf6fefb050b4c4944d696eb5b9bfd557af1f5cbbfd39299e70",
       "content": "When debugging, add a blank line between logical sections of code.\nIt's like paragraphs in an essay ...",
       "date": "2025-07-14 20:31:32.903373"
+    },
+    {
+      "hash": "17966be538d33a77d9cf620375718134f783081552427f922ed1aa06e235788d",
+      "content": "In Python, you can use `!\n=` to negate entire conditional expressions, not just individual condition...",
+      "date": "2025-07-14 20:52:07.109914"
     }
   ],
-  "last_cleanup": "2025-07-14 20:31:32.112888"
+  "last_cleanup": "2025-07-14 20:52:06.043031"
 }

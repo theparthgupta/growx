@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "edf9e63a5ccd9327187ec0f9492fb201f773baef30094a0f44248821d7ed0648",
-      "content": "Tired of tedious coding? I've found a game-changer: AI-powered code completion tool that learns from...",
-      "date": "2025-06-14 08:15:33.484946"
-    },
-    {
       "hash": "713bf5207c163309853cfc2a04c00d0c59fb196e14dfd8bda5b6abc3dfae6bd8",
       "content": "Tired of side projects feeling like a second job? I've been there #Future #Tech #Innovation",
       "date": "2025-06-14 12:23:06.489320"
@@ -1389,7 +1384,12 @@
       "hash": "dfa4fc1a2660722aaf539afbd1e92c5b8d9a21bc852097918d37c48f80d026de",
       "content": "Realized I can use sed to automate updating dozens of import statements in my codebase after a packa...",
       "date": "2025-07-14 07:40:14.740227"
+    },
+    {
+      "hash": "12fbea6e3a25e13a46709ea87b6e7eb32a2102760844df8aca1704d1550051e8",
+      "content": "Realized that India's obsession with 'jugaad' (hacky fixes) is a reflection of its geopolitics  prio...",
+      "date": "2025-07-14 11:42:31.816513"
     }
   ],
-  "last_cleanup": "2025-07-14 07:40:13.704230"
+  "last_cleanup": "2025-07-14 11:42:30.765329"
 }

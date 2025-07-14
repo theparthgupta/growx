@@ -1399,7 +1399,12 @@
       "hash": "e4ef0defc77ef16279d0f9d82483962f973167439259d35111ded1d3eb66b6f6",
       "content": "Spent hours debugging a weird issue only to realize I was looking at the wrong server.\nMoral of the ...",
       "date": "2025-07-14 14:54:31.944669"
+    },
+    {
+      "hash": "5e859a06b44021438c18e076d7f04ce0184939aba25d2e6206f4f83f4d6527cf",
+      "content": "Resurrected an old project thanks to fzf, a tiny commandline fuzzy finder that's a gamechanger for n...",
+      "date": "2025-07-14 15:28:49.370478"
     }
   ],
-  "last_cleanup": "2025-07-14 14:54:30.931609"
+  "last_cleanup": "2025-07-14 15:28:48.332717"
 }

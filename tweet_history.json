@@ -1374,7 +1374,12 @@
       "hash": "ce56b116da83e1412537ee328ad25dcf61fde7b0373f8f32b1c7a81bbd633f03",
       "content": "just spent an hour debugging why my token auth was failing.\n.\n.\nturns out I forgot that `SetCookie` ...",
       "date": "2025-07-14 05:58:04.850860"
+    },
+    {
+      "hash": "f9bb03d4f54d636cce10a8bb03d116d5b16e04f97715a23f22794de45d19abb1",
+      "content": "I'm obsessed with `fd`  a tiny opensource alternative to `find`.\nIt's 5x faster and has a more intui...",
+      "date": "2025-07-14 06:06:42.810833"
     }
   ],
-  "last_cleanup": "2025-07-14 05:58:04.135492"
+  "last_cleanup": "2025-07-14 06:06:41.838513"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "dbc942e67b6fcc5e9b5785c2c4b3d4adee341382d200be3f479f83756490cfc8",
-      "content": "Ever wondered how some tech stacks feel ridiculously simple, yet scale like a beast? It's because th...",
-      "date": "2025-06-14 04:17:10.326671"
-    },
-    {
       "hash": "edf9e63a5ccd9327187ec0f9492fb201f773baef30094a0f44248821d7ed0648",
       "content": "Tired of tedious coding? I've found a game-changer: AI-powered code completion tool that learns from...",
       "date": "2025-06-14 08:15:33.484946"
@@ -1359,7 +1354,12 @@
       "hash": "18f840058d1e7348e08d268022c2825ab0db56de630521bd56d817c1443adf5a",
       "content": "When debugging, I add a TODO comment on the line above the error.\nThen I can just cmd+shift+F to fin...",
       "date": "2025-07-14 03:51:38.073802"
+    },
+    {
+      "hash": "6ac573b99d496e476da2b9d1787058067ca811928e54519a2e714a4c04686403",
+      "content": "Just used git to diff two CSV files and find the rows that changed.\nMind blown.\nNever thought I'd be...",
+      "date": "2025-07-14 04:46:42.423021"
     }
   ],
-  "last_cleanup": "2025-07-14 03:51:37.108581"
+  "last_cleanup": "2025-07-14 04:46:41.493770"
 }

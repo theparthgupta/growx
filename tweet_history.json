@@ -1354,7 +1354,12 @@
       "hash": "745d0f763201ff78fb407676a1ed24aea8d0b32e6d1e746ce9cb400c13d40946",
       "content": "Just used git as a makeshift incremental backup system for a noncode project!\nInitialized a repo in ...",
       "date": "2025-07-14 02:27:39.323974"
+    },
+    {
+      "hash": "18f840058d1e7348e08d268022c2825ab0db56de630521bd56d817c1443adf5a",
+      "content": "When debugging, I add a TODO comment on the line above the error.\nThen I can just cmd+shift+F to fin...",
+      "date": "2025-07-14 03:51:38.073802"
     }
   ],
-  "last_cleanup": "2025-07-14 02:27:38.368665"
+  "last_cleanup": "2025-07-14 03:51:37.108581"
 }

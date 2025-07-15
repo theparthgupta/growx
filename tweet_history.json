@@ -1484,7 +1484,12 @@
       "hash": "a421ad21b1924c44ee8d97dbabf4bc4c230dd8b23c979b7303ecb75892b1b863",
       "content": "Found a hidden gem in IntelliJ: you can hold alt + click on a method to see its implementation in a ...",
       "date": "2025-07-15 07:00:07.989809"
+    },
+    {
+      "hash": "e2c2d0861f80b10915ae5d3cb9d97163964bf7bb3758ae37c7eb25a37ef39d11",
+      "content": "I used kubernetes to automate my home garden's irrigation system.\nWho knew pod scheduling could opti...",
+      "date": "2025-07-15 07:31:31.890474"
     }
   ],
-  "last_cleanup": "2025-07-15 07:00:07.072135"
+  "last_cleanup": "2025-07-15 07:31:31.082751"
 }

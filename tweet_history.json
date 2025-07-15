@@ -1524,7 +1524,12 @@
       "hash": "47d2aaec60667b09ba0132706dccc079e628cc0f62a9dfc7c41b4e861ee52d5a",
       "content": "Who knew `git submodule` can be used to version control datasets?\nNow my ML models are reproducible ...",
       "date": "2025-07-15 19:01:55.336679"
+    },
+    {
+      "hash": "2a313c3339e1d36b1ee8ab6b647e699cdf37521dc004d78cb95086e7307f31d7",
+      "content": "Spent 3 hours debugging a 'logic' error only to realize I was reading the code, not running it in my...",
+      "date": "2025-07-15 19:28:55.214947"
     }
   ],
-  "last_cleanup": "2025-07-15 19:01:54.476071"
+  "last_cleanup": "2025-07-15 19:28:54.404549"
 }

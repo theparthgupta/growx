@@ -1539,7 +1539,12 @@
       "hash": "f0244d198c124918e0de72919bf445fc97fc563db114f8ca0387b877f7a24085",
       "content": "Use your browser's dev tools to set a 'breakpoint' on a specific DOM element.\nWhen its state changes...",
       "date": "2025-07-15 20:32:13.921551"
+    },
+    {
+      "hash": "cdc61cba68698e791ccb75c21dc98ccd0b7a05cc1a2806010c5a0a8c6a93b5f6",
+      "content": "Spent hours debugging a 'logic error' only to realize I was reading the code, not running it.\nMoral ...",
+      "date": "2025-07-15 20:52:58.136360"
     }
   ],
-  "last_cleanup": "2025-07-15 20:32:12.945195"
+  "last_cleanup": "2025-07-15 20:52:57.136441"
 }

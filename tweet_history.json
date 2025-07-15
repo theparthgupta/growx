@@ -1519,7 +1519,12 @@
       "hash": "b96f424fe915eabc51e80bfb1079b52bd8d404ec4e7e551f52a2e474a39c6e03",
       "content": "Used Kubernetes to manage my home network's IoT devices!\nDeploying smart light bulb configs as deplo...",
       "date": "2025-07-15 18:43:16.798804"
+    },
+    {
+      "hash": "47d2aaec60667b09ba0132706dccc079e628cc0f62a9dfc7c41b4e861ee52d5a",
+      "content": "Who knew `git submodule` can be used to version control datasets?\nNow my ML models are reproducible ...",
+      "date": "2025-07-15 19:01:55.336679"
     }
   ],
-  "last_cleanup": "2025-07-15 18:43:15.781082"
+  "last_cleanup": "2025-07-15 19:01:54.476071"
 }

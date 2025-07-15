@@ -1494,7 +1494,12 @@
       "hash": "c252cbe32d685fb5a27294cdcf29f1a8447bd1c4edf3c2fc8e9ac1bb478d29f1",
       "content": "Used kubernetes to deploy a Jupyter notebook for data exploration on a remote GPU box.\nNow I can sca...",
       "date": "2025-07-15 08:35:01.349746"
+    },
+    {
+      "hash": "a6593d8f14fc69e120987b3aa1937017d63ce55ebeaafc26377c024bfbcfa845",
+      "content": "Use `Ctrl + Shift + F` in your code editor to format code in selection, not just the whole file.\nSav...",
+      "date": "2025-07-15 09:03:00.804063"
     }
   ],
-  "last_cleanup": "2025-07-15 08:35:00.544957"
+  "last_cleanup": "2025-07-15 09:02:59.819097"
 }

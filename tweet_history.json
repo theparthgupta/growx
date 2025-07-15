@@ -1459,7 +1459,12 @@
       "hash": "8b78f17899837150d0420eecb6e7692e0eac600bd2282d52af69d1df7528245c",
       "content": "Realized I can use sed to autogenerate boilerplate code for my API controllers.\nSaved myself an hour...",
       "date": "2025-07-14 23:13:02.638212"
+    },
+    {
+      "hash": "8adfec11d28535c3ab3d3861fcefd2c5d15ba506964037554284a289094cd4cb",
+      "content": "Surprised to learn that in some cases, adding an index to a DB column can actually slow down write p...",
+      "date": "2025-07-15 00:58:38.763481"
     }
   ],
-  "last_cleanup": "2025-07-14 23:13:01.952514"
+  "last_cleanup": "2025-07-15 00:58:37.914248"
 }

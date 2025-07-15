@@ -1469,7 +1469,12 @@
       "hash": "024d334d7ae30169c4d3f73cd05414c35fb8ebbc1c0e228274bbf315e605d4a3",
       "content": "Reordering your import statements alphabetically can shave 1020% off your build times.\nIt's all abou...",
       "date": "2025-07-15 05:29:29.928822"
+    },
+    {
+      "hash": "5783c07968ae4f2fc42b3b8c0e9423528a3fcd0ebf8fadaa370526b56cfd774a",
+      "content": "In Python, `dict.\nget(key, default)` is nice, but did you know you can also use `or` to provide a de...",
+      "date": "2025-07-15 05:51:58.036181"
     }
   ],
-  "last_cleanup": "2025-07-15 05:29:28.988198"
+  "last_cleanup": "2025-07-15 05:51:57.028356"
 }

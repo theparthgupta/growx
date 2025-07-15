@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "d977280c640ea288aff795bb919887bd3be153d8fadaeff175dc5d501983ac66",
-      "content": "Did you know that Airbnb's founder codes with a timer set to 25 minutes, then takes a 5-minute break...",
-      "date": "2025-06-15 20:13:36.325389"
-    },
-    {
       "hash": "71e7faf488cd7c0dac1ae369a54d38f39623eb41a2350fa81984c324f8ec99e0",
       "content": "Still believing that 'move fast and break things' means sacrificing quality and stability? You're no...",
       "date": "2025-06-16 01:07:26.880709"
@@ -1539,7 +1534,12 @@
       "hash": "719f315644e5799fa42e056d7f3ee1f46edd76cb1f62263214c6befa4f8858f4",
       "content": "JavaScript pro tip: `console.\ntable(arr)` instead of `console.\nlog(arr)` for a pretty, tabular view ...",
       "date": "2025-07-15 19:58:06.865284"
+    },
+    {
+      "hash": "f0244d198c124918e0de72919bf445fc97fc563db114f8ca0387b877f7a24085",
+      "content": "Use your browser's dev tools to set a 'breakpoint' on a specific DOM element.\nWhen its state changes...",
+      "date": "2025-07-15 20:32:13.921551"
     }
   ],
-  "last_cleanup": "2025-07-15 19:58:05.966053"
+  "last_cleanup": "2025-07-15 20:32:12.945195"
 }

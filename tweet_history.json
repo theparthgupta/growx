@@ -1474,7 +1474,12 @@
       "hash": "5783c07968ae4f2fc42b3b8c0e9423528a3fcd0ebf8fadaa370526b56cfd774a",
       "content": "In Python, `dict.\nget(key, default)` is nice, but did you know you can also use `or` to provide a de...",
       "date": "2025-07-15 05:51:58.036181"
+    },
+    {
+      "hash": "2f51992114bccf79c4daec4e311957f45b9d973667de25f8d5ba71e04f03f777",
+      "content": "Forgot that HTTPS doesn't encrypt data on localhost, so dev environments can still leak sensitive in...",
+      "date": "2025-07-15 06:39:01.153989"
     }
   ],
-  "last_cleanup": "2025-07-15 05:51:57.028356"
+  "last_cleanup": "2025-07-15 06:39:00.305578"
 }

@@ -1499,7 +1499,12 @@
       "hash": "a6593d8f14fc69e120987b3aa1937017d63ce55ebeaafc26377c024bfbcfa845",
       "content": "Use `Ctrl + Shift + F` in your code editor to format code in selection, not just the whole file.\nSav...",
       "date": "2025-07-15 09:03:00.804063"
+    },
+    {
+      "hash": "799bc1609163ef26b453e244ac65a5b7767e3aa1466fb2030be25db082ab26d3",
+      "content": "Surprised how much of a difference adding blank lines between logical code blocks makes.\nSuddenly, m...",
+      "date": "2025-07-15 09:40:23.826754"
     }
   ],
-  "last_cleanup": "2025-07-15 09:02:59.819097"
+  "last_cleanup": "2025-07-15 09:40:22.968565"
 }

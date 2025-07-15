@@ -1554,7 +1554,12 @@
       "hash": "8d8ceb5b758dec3737a3f22371f4d4819876bf3198c9411677625d1612be1e2a",
       "content": "Fed up with messy JSON logs?\nCheck out `jq`, a tiny CLI tool that lets you parse & format JSON on th...",
       "date": "2025-07-15 21:43:25.825153"
+    },
+    {
+      "hash": "23fb48e2b56d10a6e2b106776d76ede40761eb4f3d177c8e5379f29855bce253",
+      "content": "Fascinating how geopolitics plays out in tech  India's cultural emphasis on hierarchy hinders openso...",
+      "date": "2025-07-15 21:57:24.230258"
     }
   ],
-  "last_cleanup": "2025-07-15 21:43:24.815806"
+  "last_cleanup": "2025-07-15 21:57:23.335625"
 }

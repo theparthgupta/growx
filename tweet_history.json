@@ -1549,7 +1549,12 @@
       "hash": "a21c3dc9df340b2e5c66c1f23ee14b9ece65ad1176e29922d2ad80a13f81f53e",
       "content": "Whoa, just realized in Python you can use `{**dict1, **dict2}` to merge two dictionaries in one line...",
       "date": "2025-07-15 21:25:08.631803"
+    },
+    {
+      "hash": "8d8ceb5b758dec3737a3f22371f4d4819876bf3198c9411677625d1612be1e2a",
+      "content": "Fed up with messy JSON logs?\nCheck out `jq`, a tiny CLI tool that lets you parse & format JSON on th...",
+      "date": "2025-07-15 21:43:25.825153"
     }
   ],
-  "last_cleanup": "2025-07-15 21:25:07.846824"
+  "last_cleanup": "2025-07-15 21:43:24.815806"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "afa417ca84e44cba782c1d964011d8cf2edaaf3b54d245484f2ba2ff5ab335f3",
-      "content": "Most devs think innovation means building something entirely from scratch #Innovation #TechTrends #F...",
-      "date": "2025-06-15 01:12:20.716578"
-    },
-    {
       "hash": "82388c320cb244ea7f1cc9cadd806be195abbd061033eae4f98ee401cd6237ca",
       "content": "Tired of juggling multiple tools for your side hustle? I switched to a single platform for dev, depl...",
       "date": "2025-06-15 04:23:39.153692"
@@ -1464,7 +1459,12 @@
       "hash": "8adfec11d28535c3ab3d3861fcefd2c5d15ba506964037554284a289094cd4cb",
       "content": "Surprised to learn that in some cases, adding an index to a DB column can actually slow down write p...",
       "date": "2025-07-15 00:58:38.763481"
+    },
+    {
+      "hash": "7b66ba7634e630d883b6337fd6efaf5dad9470072dfd0046d3a407705054729c",
+      "content": "Been using `ripgrep` lately and it's a game changer for searching codebases.\nFaster than `grep`, mor...",
+      "date": "2025-07-15 03:03:50.402012"
     }
   ],
-  "last_cleanup": "2025-07-15 00:58:37.914248"
+  "last_cleanup": "2025-07-15 03:03:49.455713"
 }

@@ -1579,7 +1579,12 @@
       "hash": "a4da94ca4d69382565df5d41c8a9ef6b5891bb521c260266dfa751fe06335db8",
       "content": "Use whitespace to group related logic together in your code, makes it way easier to follow the flow ...",
       "date": "2025-07-15 23:35:17.098886"
+    },
+    {
+      "hash": "af5f170e6fe16366b5c292172fd5d91109008ab071ac5b28c4b9711684cdb075",
+      "content": "When using JWTs, don't store sensitive data in the payload!\nAnyone with the token can decode it, not...",
+      "date": "2025-07-15 23:51:44.542337"
     }
   ],
-  "last_cleanup": "2025-07-15 23:35:16.265695"
+  "last_cleanup": "2025-07-15 23:51:43.633278"
 }

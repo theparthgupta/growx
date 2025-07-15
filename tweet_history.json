@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "6d56160296e1ffe102e093f7d0a9e11d33d3ff88bf673c8315151e44b240532b",
-      "content": "Tired of scrambling for answers on Stack Overflow? Try pairing with a seasoned dev for a week - you'...",
-      "date": "2025-06-15 16:14:44.629577"
-    },
-    {
       "hash": "d977280c640ea288aff795bb919887bd3be153d8fadaeff175dc5d501983ac66",
       "content": "Did you know that Airbnb's founder codes with a timer set to 25 minutes, then takes a 5-minute break...",
       "date": "2025-06-15 20:13:36.325389"
@@ -1514,7 +1509,12 @@
       "hash": "68e5d1d6497e193676e102523c3112c3c972d950ac27020520c9d061646bf921",
       "content": "Spent 2 hours debugging a 'bug' that turned out to be a misconfigured dev env variable.\nMoral of the...",
       "date": "2025-07-15 15:27:14.856227"
+    },
+    {
+      "hash": "279393238c1ca04f7d743c322c80c069c45693236cb6b23c8064b8959136bc75",
+      "content": "Never trust `localhost` in your app's auth flow.\nAn attacker can set their own machine's hostname to...",
+      "date": "2025-07-15 17:59:19.454225"
     }
   ],
-  "last_cleanup": "2025-07-15 15:27:13.808012"
+  "last_cleanup": "2025-07-15 17:59:18.310617"
 }

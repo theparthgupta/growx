@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "82388c320cb244ea7f1cc9cadd806be195abbd061033eae4f98ee401cd6237ca",
-      "content": "Tired of juggling multiple tools for your side hustle? I switched to a single platform for dev, depl...",
-      "date": "2025-06-15 04:23:39.153692"
-    },
-    {
       "hash": "216841726363e7abecf45bf997f5153bf6527090900089b1ffd0867dba7d5b2d",
       "content": "My grandma's Alexa-powered walker alerts her family if she needs help #Future #Tech #Innovation",
       "date": "2025-06-15 08:15:49.153256"
@@ -1464,7 +1459,12 @@
       "hash": "7b66ba7634e630d883b6337fd6efaf5dad9470072dfd0046d3a407705054729c",
       "content": "Been using `ripgrep` lately and it's a game changer for searching codebases.\nFaster than `grep`, mor...",
       "date": "2025-07-15 03:03:50.402012"
+    },
+    {
+      "hash": "d73d3385fbd3c9427fb0a58d9cf985110029f4eaddbf97bc830be02c7efef59a",
+      "content": "Spent hours debugging a issue only to realize it was a typo in a single character.\nMoral of the stor...",
+      "date": "2025-07-15 04:50:55.194443"
     }
   ],
-  "last_cleanup": "2025-07-15 03:03:49.455713"
+  "last_cleanup": "2025-07-15 04:50:54.347378"
 }

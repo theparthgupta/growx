@@ -1544,7 +1544,12 @@
       "hash": "cdc61cba68698e791ccb75c21dc98ccd0b7a05cc1a2806010c5a0a8c6a93b5f6",
       "content": "Spent hours debugging a 'logic error' only to realize I was reading the code, not running it.\nMoral ...",
       "date": "2025-07-15 20:52:58.136360"
+    },
+    {
+      "hash": "a21c3dc9df340b2e5c66c1f23ee14b9ece65ad1176e29922d2ad80a13f81f53e",
+      "content": "Whoa, just realized in Python you can use `{**dict1, **dict2}` to merge two dictionaries in one line...",
+      "date": "2025-07-15 21:25:08.631803"
     }
   ],
-  "last_cleanup": "2025-07-15 20:52:57.136441"
+  "last_cleanup": "2025-07-15 21:25:07.846824"
 }

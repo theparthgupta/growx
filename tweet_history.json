@@ -1514,7 +1514,12 @@
       "hash": "279393238c1ca04f7d743c322c80c069c45693236cb6b23c8064b8959136bc75",
       "content": "Never trust `localhost` in your app's auth flow.\nAn attacker can set their own machine's hostname to...",
       "date": "2025-07-15 17:59:19.454225"
+    },
+    {
+      "hash": "b96f424fe915eabc51e80bfb1079b52bd8d404ec4e7e551f52a2e474a39c6e03",
+      "content": "Used Kubernetes to manage my home network's IoT devices!\nDeploying smart light bulb configs as deplo...",
+      "date": "2025-07-15 18:43:16.798804"
     }
   ],
-  "last_cleanup": "2025-07-15 17:59:18.310617"
+  "last_cleanup": "2025-07-15 18:43:15.781082"
 }

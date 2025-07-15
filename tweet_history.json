@@ -1559,7 +1559,12 @@
       "hash": "23fb48e2b56d10a6e2b106776d76ede40761eb4f3d177c8e5379f29855bce253",
       "content": "Fascinating how geopolitics plays out in tech  India's cultural emphasis on hierarchy hinders openso...",
       "date": "2025-07-15 21:57:24.230258"
+    },
+    {
+      "hash": "702ac06bd252a90b7325475219b444302abdd224fc81f6a37bb5111e2a0c608a",
+      "content": "Used Kubernetes to deploy a TensorFlow model on a Raspberry Pi cluster to analyze audio signals from...",
+      "date": "2025-07-15 22:29:35.690767"
     }
   ],
-  "last_cleanup": "2025-07-15 21:57:23.335625"
+  "last_cleanup": "2025-07-15 22:29:34.860815"
 }

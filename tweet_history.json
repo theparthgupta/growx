@@ -1479,7 +1479,12 @@
       "hash": "2f51992114bccf79c4daec4e311957f45b9d973667de25f8d5ba71e04f03f777",
       "content": "Forgot that HTTPS doesn't encrypt data on localhost, so dev environments can still leak sensitive in...",
       "date": "2025-07-15 06:39:01.153989"
+    },
+    {
+      "hash": "a421ad21b1924c44ee8d97dbabf4bc4c230dd8b23c979b7303ecb75892b1b863",
+      "content": "Found a hidden gem in IntelliJ: you can hold alt + click on a method to see its implementation in a ...",
+      "date": "2025-07-15 07:00:07.989809"
     }
   ],
-  "last_cleanup": "2025-07-15 06:39:00.305578"
+  "last_cleanup": "2025-07-15 07:00:07.072135"
 }

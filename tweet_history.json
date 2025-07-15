@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "216841726363e7abecf45bf997f5153bf6527090900089b1ffd0867dba7d5b2d",
-      "content": "My grandma's Alexa-powered walker alerts her family if she needs help #Future #Tech #Innovation",
-      "date": "2025-06-15 08:15:49.153256"
-    },
-    {
       "hash": "80625236292010d2076f82f21c84513071c62581df6111765b531fac851abf2a",
       "content": "WhatsApp's entire infrastructure was built on top of just 2 programming languages: Erlang and Java #...",
       "date": "2025-06-15 12:23:34.816740"
@@ -1494,7 +1489,12 @@
       "hash": "bc9b46f88833d2a2c7afd2692cec755be5fada37212a9f84a13cc716c21cedd6",
       "content": "Stored XSS vuln in localStorage?\nYep, it's a thing.\nAttacker manipulates your 'secure' auth token, a...",
       "date": "2025-07-15 07:50:35.316727"
+    },
+    {
+      "hash": "c252cbe32d685fb5a27294cdcf29f1a8447bd1c4edf3c2fc8e9ac1bb478d29f1",
+      "content": "Used kubernetes to deploy a Jupyter notebook for data exploration on a remote GPU box.\nNow I can sca...",
+      "date": "2025-07-15 08:35:01.349746"
     }
   ],
-  "last_cleanup": "2025-07-15 07:50:34.333964"
+  "last_cleanup": "2025-07-15 08:35:00.544957"
 }

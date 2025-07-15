@@ -1489,7 +1489,12 @@
       "hash": "e2c2d0861f80b10915ae5d3cb9d97163964bf7bb3758ae37c7eb25a37ef39d11",
       "content": "I used kubernetes to automate my home garden's irrigation system.\nWho knew pod scheduling could opti...",
       "date": "2025-07-15 07:31:31.890474"
+    },
+    {
+      "hash": "bc9b46f88833d2a2c7afd2692cec755be5fada37212a9f84a13cc716c21cedd6",
+      "content": "Stored XSS vuln in localStorage?\nYep, it's a thing.\nAttacker manipulates your 'secure' auth token, a...",
+      "date": "2025-07-15 07:50:35.316727"
     }
   ],
-  "last_cleanup": "2025-07-15 07:31:31.082751"
+  "last_cleanup": "2025-07-15 07:50:34.333964"
 }

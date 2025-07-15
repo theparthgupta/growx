@@ -1564,7 +1564,12 @@
       "hash": "702ac06bd252a90b7325475219b444302abdd224fc81f6a37bb5111e2a0c608a",
       "content": "Used Kubernetes to deploy a TensorFlow model on a Raspberry Pi cluster to analyze audio signals from...",
       "date": "2025-07-15 22:29:35.690767"
+    },
+    {
+      "hash": "9267d9680781537371c80a8e710331e09fef47de0a54e370b7b8dd8fc75887bd",
+      "content": "Geopolitics 101: national interests often trump human rights.\nIn India, hierarchical thinking hinder...",
+      "date": "2025-07-15 22:49:29.946798"
     }
   ],
-  "last_cleanup": "2025-07-15 22:29:34.860815"
+  "last_cleanup": "2025-07-15 22:49:29.059836"
 }

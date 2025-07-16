@@ -1589,7 +1589,12 @@
       "hash": "accd2d7318c82cacc64fbd3ab4b1019b84f63e8ab5dcff54bcc183d57caedba4",
       "content": "Surprised to learn that adding an index to a database column can sometimes slow down writes.\nIt's li...",
       "date": "2025-07-16 04:26:29.864692"
+    },
+    {
+      "hash": "5ea8902b265f42c423f4c5e40c7510e3338e9a9d899ad5329d3a814467a1ca70",
+      "content": "Fed up with bloated IDEs?\nI stumbled upon `lazygit`  a tiny, terminalbased Git UI that's changed my ...",
+      "date": "2025-07-16 05:00:17.799656"
     }
   ],
-  "last_cleanup": "2025-07-16 04:26:29.197904"
+  "last_cleanup": "2025-07-16 05:00:17.010408"
 }

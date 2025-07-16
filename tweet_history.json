@@ -1614,7 +1614,12 @@
       "hash": "7d79796d02528ef32b53d034f3c4471ecac5d8b4f760b543d8b80b4987b71775",
       "content": "Used Kubernetes to manage my home lab's gardening system  automated watering, pruning, and soil moni...",
       "date": "2025-07-16 16:47:35.113628"
+    },
+    {
+      "hash": "e809688c1c748761c00249f26ce51c39ca3b1933ea0376e88dd2774e8e963a4b",
+      "content": "Surprised to learn that adding an index to a database column can actually slow down write performanc...",
+      "date": "2025-07-16 17:41:45.093400"
     }
   ],
-  "last_cleanup": "2025-07-16 16:47:34.301403"
+  "last_cleanup": "2025-07-16 17:41:44.272984"
 }

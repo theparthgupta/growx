@@ -1654,7 +1654,12 @@
       "hash": "ff4b7f426e1fdb79f6e52bb5a6302b7499319126641743eb45ae92934980bc24",
       "content": "Naming variables is like naming kids  give them distinct names so you don't confuse them later",
       "date": "2025-07-16 21:25:14.779853"
+    },
+    {
+      "hash": "7194ba71e5fe807adefb78fb3b4fe91ec8f718b2242acf041cc028e6970f01b0",
+      "content": "JavaScript's console.\ntable() is a gamechanger for debugging objects.\nNo more logging individual pro...",
+      "date": "2025-07-16 21:43:53.557949"
     }
   ],
-  "last_cleanup": "2025-07-16 21:25:14.194754"
+  "last_cleanup": "2025-07-16 21:43:52.966032"
 }

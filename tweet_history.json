@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "71e7faf488cd7c0dac1ae369a54d38f39623eb41a2350fa81984c324f8ec99e0",
-      "content": "Still believing that 'move fast and break things' means sacrificing quality and stability? You're no...",
-      "date": "2025-06-16 01:07:26.880709"
-    },
-    {
       "hash": "6480728cc9f5186fe5d56ac74a1dfc44810cfafc39fad647afe8da9a6e1ac216",
       "content": "Thinking AI will replace human intuition? Not so fast. AI amplifies our biases if we don't diversify...",
       "date": "2025-06-16 04:26:22.719613"
@@ -1584,7 +1579,12 @@
       "hash": "af5f170e6fe16366b5c292172fd5d91109008ab071ac5b28c4b9711684cdb075",
       "content": "When using JWTs, don't store sensitive data in the payload!\nAnyone with the token can decode it, not...",
       "date": "2025-07-15 23:51:44.542337"
+    },
+    {
+      "hash": "8b5e603f5df9764af91614ef1f32fd930dd4d261d3bb13adc88f4467be666183",
+      "content": "Increasing the connection pool size in your app doesn't always improve database performance.\nIn fact...",
+      "date": "2025-07-16 02:08:43.191982"
     }
   ],
-  "last_cleanup": "2025-07-15 23:51:43.633278"
+  "last_cleanup": "2025-07-16 02:08:42.365439"
 }

@@ -1599,7 +1599,12 @@
       "hash": "01112a0c1bef67df6c6d6a02b3f89c2efce7bb7470d487e8304c1fac362ca15a",
       "content": "Realized I can use sed to autogenerate boilerplate code for my API routes.\nSaved myself an hour of c...",
       "date": "2025-07-16 05:40:55.625836"
+    },
+    {
+      "hash": "79cca0fbb42b44a1d86a9d3b32745d8345a4ce705b006358dd3c4dce0b2151b5",
+      "content": "Ran into `fzf` today  a tiny cmdline fuzzy finder that's changed my dev workflow.\nInstantly find fil...",
+      "date": "2025-07-16 05:58:19.662400"
     }
   ],
-  "last_cleanup": "2025-07-16 05:40:55.028999"
+  "last_cleanup": "2025-07-16 05:58:18.961952"
 }

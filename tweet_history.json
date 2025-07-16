@@ -1624,7 +1624,12 @@
       "hash": "edcb7b4b867aa3e990efd7affbc9311dd8f3014b28479697907abe68f723303f",
       "content": "Here are three tweets:\nGeopolitics is like a dependency graph  one misconfigured node can bring down...",
       "date": "2025-07-16 18:41:03.456581"
+    },
+    {
+      "hash": "3e21014800bbab7387a4905ec06eb00f5a606831dfadfa2ebec56b624c8db166",
+      "content": "Realized today that many devs forget to validate user input on the server side, even when they're va...",
+      "date": "2025-07-16 19:01:36.320774"
     }
   ],
-  "last_cleanup": "2025-07-16 18:41:02.412671"
+  "last_cleanup": "2025-07-16 19:01:35.659233"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "daab6d809573e3456febf98b4c9c096e1a7864c1d8823869ef214d2438c78a57",
-      "content": "Building a house with a broken hammer is just a fancy way of saying you're overcomplicating things. ...",
-      "date": "2025-06-16 20:14:41.444424"
-    },
-    {
       "hash": "16f270a4ef9296921f17c46fc2588634e50eb9f95478f37c04d3d406cba4025c",
       "content": "Building a product is like cooking a recipe #Innovation #Future #Tech",
       "date": "2025-06-17 01:05:37.338022"
@@ -1644,7 +1639,12 @@
       "hash": "6334c99a44c0d4295b80c407571751e777b4dc3b20a5916fb7a166c5d57105bb",
       "content": "Realized I can use sed to autogenerate boilerplate code for new API endpoints.\nSaves me ~30 mins per...",
       "date": "2025-07-16 19:57:45.887090"
+    },
+    {
+      "hash": "4a66faa974e344df65728335723ad4eb69357ad9f87c2b2df74206e6aaaaddb5",
+      "content": "When debugging, I realized that most 'random' errors aren't random at all  they're just symptoms of ...",
+      "date": "2025-07-16 20:32:09.346054"
     }
   ],
-  "last_cleanup": "2025-07-16 19:57:45.265268"
+  "last_cleanup": "2025-07-16 20:32:08.421392"
 }

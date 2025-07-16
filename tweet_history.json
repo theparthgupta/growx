@@ -1619,7 +1619,12 @@
       "hash": "e809688c1c748761c00249f26ce51c39ca3b1933ea0376e88dd2774e8e963a4b",
       "content": "Surprised to learn that adding an index to a database column can actually slow down write performanc...",
       "date": "2025-07-16 17:41:45.093400"
+    },
+    {
+      "hash": "edcb7b4b867aa3e990efd7affbc9311dd8f3014b28479697907abe68f723303f",
+      "content": "Here are three tweets:\nGeopolitics is like a dependency graph  one misconfigured node can bring down...",
+      "date": "2025-07-16 18:41:03.456581"
     }
   ],
-  "last_cleanup": "2025-07-16 17:41:44.272984"
+  "last_cleanup": "2025-07-16 18:41:02.412671"
 }

@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "6480728cc9f5186fe5d56ac74a1dfc44810cfafc39fad647afe8da9a6e1ac216",
-      "content": "Thinking AI will replace human intuition? Not so fast. AI amplifies our biases if we don't diversify...",
-      "date": "2025-06-16 04:26:22.719613"
-    },
-    {
       "hash": "f83de84c936942782780f178dc3c5af9e486c47d73626678ac9e9e9a3d0647b0",
       "content": "Imagine a master chef who's also a brilliant engineer. That's the future of work with AI - humans de...",
       "date": "2025-06-16 08:19:43.157624"
@@ -1589,7 +1584,12 @@
       "hash": "ceb5743917a609296731b47fa5b1fab880e3a3574194b062329d220b15248bca",
       "content": "Realized I can use sed to automate updating version numbers in my project's config files.\nSaves me 1...",
       "date": "2025-07-16 03:41:47.115555"
+    },
+    {
+      "hash": "accd2d7318c82cacc64fbd3ab4b1019b84f63e8ab5dcff54bcc183d57caedba4",
+      "content": "Surprised to learn that adding an index to a database column can sometimes slow down writes.\nIt's li...",
+      "date": "2025-07-16 04:26:29.864692"
     }
   ],
-  "last_cleanup": "2025-07-16 03:41:46.544795"
+  "last_cleanup": "2025-07-16 04:26:29.197904"
 }

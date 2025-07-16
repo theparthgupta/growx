@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "0ae1eceb3311392a1c0156df0b77d8daac408e76d3071f0190ae81ebe743b000",
-      "content": "Most devs don't use fancy productivity systems. They just use a few reliable shortcuts to get stuff ...",
-      "date": "2025-06-16 12:27:39.609898"
-    },
-    {
       "hash": "ab4edb806cb9c639f84f815cfe940f8e43aa0921e1c8dcf55867215018cf677a",
       "content": "Airbnb's earliest devs built the entire site in 2 weeks #AI #TechInnovation #MachineLearning",
       "date": "2025-06-16 16:17:01.592073"
@@ -1614,7 +1609,12 @@
       "hash": "f75bdbbb4834eebe0de4e99f71ab3815e0f944c7d8320a9b6d727ea6ca02eca3",
       "content": "Sometimes adding an index to a database column can slow down writes.\nIt's like adding a speed bump t...",
       "date": "2025-07-16 10:52:10.952628"
+    },
+    {
+      "hash": "65e59ae5d7175acb099398076d891505a3c844513aaf8db7d25b5c07cecbf1a1",
+      "content": "Used Kubernetes to deploy a Jupyter notebook on my laptop to demo a data sci project to a nontechnic...",
+      "date": "2025-07-16 16:12:49.132486"
     }
   ],
-  "last_cleanup": "2025-07-16 10:52:10.332773"
+  "last_cleanup": "2025-07-16 16:12:48.272160"
 }

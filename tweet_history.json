@@ -1704,7 +1704,12 @@
       "hash": "8d58d3d53d48538227f5346a7436050421b7b8a34b88c062b98b8f612e4ad88c",
       "content": "Forgot that Environment Variables are not secure in containerized apps.\nAnyone can `docker inspect` ...",
       "date": "2025-07-17 05:53:59.228428"
+    },
+    {
+      "hash": "d7b1f844aaa664a37d66326fb69dfb9b5b339b0504ac2fb39727e97c077270fc",
+      "content": "When logging exceptions, don't log the exception object itself!\nIt can contain sensitive user data, ...",
+      "date": "2025-07-17 06:38:48.496412"
     }
   ],
-  "last_cleanup": "2025-07-17 05:53:58.491380"
+  "last_cleanup": "2025-07-17 06:38:47.712212"
 }

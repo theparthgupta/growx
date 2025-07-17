@@ -1689,7 +1689,12 @@
       "hash": "9bf647f8b6c3d3cb5201576246517cb1a4b6bb75ca097b4005491c3d945cc459",
       "content": "When refactoring, I replace nested conditionals with a single function that returns early.\nSuddenly,...",
       "date": "2025-07-17 04:26:08.471798"
+    },
+    {
+      "hash": "4ab0b7ba89bd9b867dbe112a20cae34b2d016fa1063f2a3ea2e6c8603a268087",
+      "content": "Insecure direct object references can sneak up on you.\nRemember, user input !\n= user identity.\nDoubl...",
+      "date": "2025-07-17 05:00:21.942286"
     }
   ],
-  "last_cleanup": "2025-07-17 04:26:07.210612"
+  "last_cleanup": "2025-07-17 05:00:21.060150"
 }

@@ -1684,7 +1684,12 @@
       "hash": "1b5b6d4bd6bc71db2de1eea2091586a29ad680b37f30ba0af1dc93e9fd3f43d2",
       "content": "Using `Ctrl + Shift + E` in IntelliJ IDEA toggles code folds, making it ridiculously easy to hide im...",
       "date": "2025-07-17 02:24:17.497136"
+    },
+    {
+      "hash": "6007d66306b91d54de821c661f930d7a1b20e9655e6a978b9eba7f6b2afd3352",
+      "content": "Spent 2 hours debugging a 'bug' that was just a misplaced async await.\nReminder: when you're stuck, ...",
+      "date": "2025-07-17 03:46:06.545138"
     }
   ],
-  "last_cleanup": "2025-07-17 02:24:16.721617"
+  "last_cleanup": "2025-07-17 03:46:05.815473"
 }

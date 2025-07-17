@@ -1694,7 +1694,12 @@
       "hash": "4ab0b7ba89bd9b867dbe112a20cae34b2d016fa1063f2a3ea2e6c8603a268087",
       "content": "Insecure direct object references can sneak up on you.\nRemember, user input !\n= user identity.\nDoubl...",
       "date": "2025-07-17 05:00:21.942286"
+    },
+    {
+      "hash": "08da9ee2deaa9b69d4613a99802d0dafcdc4ace40689ab8b741d69ccc7aa65bc",
+      "content": "Spent hours chasing a bug only to find it was a missing 'await' in a Promise chain.\nMoral of the sto...",
+      "date": "2025-07-17 05:36:16.386852"
     }
   ],
-  "last_cleanup": "2025-07-17 05:00:21.060150"
+  "last_cleanup": "2025-07-17 05:36:15.622421"
 }

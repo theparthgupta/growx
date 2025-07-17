@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "8a22806e9b38419216d18b0d9f69b40eff5df1cc4dcdf09dc7796209758e300a",
-      "content": "Most people think innovation is about creating something new, but what if it's actually about removi...",
-      "date": "2025-06-17 12:27:39.047581"
-    },
-    {
       "hash": "98b1e12df1b49ecc82ff18de8ae576cb213e1ecc42a8269fcc9c9649df0e3ac8",
       "content": "Still think MVP means 'minimum viable product'? Newsflash: it's about minimum viable proposition. Wh...",
       "date": "2025-06-17 16:17:02.804687"
@@ -1724,7 +1719,12 @@
       "hash": "e8d2fa885976a6513dc4407d2ddd95b9520654623bc20f654d18a49aecd8cc9b",
       "content": "I used kubernetes to deploy a poetry generator at a literary festival.\nAuthors could input themes an...",
       "date": "2025-07-17 10:54:13.894265"
+    },
+    {
+      "hash": "2bd3e800ad1a20b22d49ad3de67496acb0cfacad6983ec63c17c2c4aec585dd9",
+      "content": "Realized I was wasting an hour weekly merging upstream changes into my fork.\nWrote a simple GitHub A...",
+      "date": "2025-07-17 14:35:31.779909"
     }
   ],
-  "last_cleanup": "2025-07-17 10:54:12.967791"
+  "last_cleanup": "2025-07-17 14:35:30.885031"
 }

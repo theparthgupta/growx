@@ -1709,7 +1709,12 @@
       "hash": "8731c96adc53bf0fdeb2e669b2868aa21b60e876fceba553fef32ec0b9e36a47",
       "content": "When naming variables, think of them as tiny sentences.\nIsUserLoggedIn is a question, so make it a b...",
       "date": "2025-07-17 08:47:47.100570"
+    },
+    {
+      "hash": "5525e729b6b795cc54ea1dd35d637cb0be02de1d369756a0fe630832b0fa196f",
+      "content": "Using HTTPS doesn't mean your site is secure.\nMost devs forget that a single HTTP resource (script, ...",
+      "date": "2025-07-17 09:13:07.975473"
     }
   ],
-  "last_cleanup": "2025-07-17 08:47:46.315091"
+  "last_cleanup": "2025-07-17 09:13:07.103217"
 }

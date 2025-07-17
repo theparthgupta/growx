@@ -1714,7 +1714,12 @@
       "hash": "5525e729b6b795cc54ea1dd35d637cb0be02de1d369756a0fe630832b0fa196f",
       "content": "Using HTTPS doesn't mean your site is secure.\nMost devs forget that a single HTTP resource (script, ...",
       "date": "2025-07-17 09:13:07.975473"
+    },
+    {
+      "hash": "8d13401b02c7f62084e50336f43ec2141e04b7bbfb1e5a6f365b51a54771624a",
+      "content": "Hey fellow devs, ever wondered why your JSON web tokens are still valid even after logout?\nIt's beca...",
+      "date": "2025-07-17 10:33:31.880091"
     }
   ],
-  "last_cleanup": "2025-07-17 09:13:07.103217"
+  "last_cleanup": "2025-07-17 10:33:30.997897"
 }

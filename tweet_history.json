@@ -1724,7 +1724,12 @@
       "hash": "2bd3e800ad1a20b22d49ad3de67496acb0cfacad6983ec63c17c2c4aec585dd9",
       "content": "Realized I was wasting an hour weekly merging upstream changes into my fork.\nWrote a simple GitHub A...",
       "date": "2025-07-17 14:35:31.779909"
+    },
+    {
+      "hash": "971caf27802d2fb03597d54319bfc9db62faafc49a1923adc1e75ca9373817eb",
+      "content": "I've been using the 'Pomodoro Timer in reverse' trick: set a 25min timer, work as usual, then take a...",
+      "date": "2025-07-17 15:29:04.875181"
     }
   ],
-  "last_cleanup": "2025-07-17 14:35:30.885031"
+  "last_cleanup": "2025-07-17 15:29:03.826516"
 }

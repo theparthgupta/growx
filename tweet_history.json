@@ -1,11 +1,6 @@
 {
   "posted_tweets": [
     {
-      "hash": "16f270a4ef9296921f17c46fc2588634e50eb9f95478f37c04d3d406cba4025c",
-      "content": "Building a product is like cooking a recipe #Innovation #Future #Tech",
-      "date": "2025-06-17 01:05:37.338022"
-    },
-    {
       "hash": "1e7d96356652296d53a3226a9b6cb56435bcf58d16dd8268f71dc126f1f7ad48",
       "content": "Who else has wasted an entire day on a 'simple' bug, only to find out it was a CORS issue? I've lost...",
       "date": "2025-06-17 04:22:34.238892"
@@ -1684,7 +1679,12 @@
       "hash": "12d457641f30210f852fd8bbd20bea4d26a2a835fc5a6a30e455505719bf32d6",
       "content": "Surprised to learn that in many databases, having more indexes can actually slow down writes.\nGuess ...",
       "date": "2025-07-16 23:43:59.840778"
+    },
+    {
+      "hash": "1b5b6d4bd6bc71db2de1eea2091586a29ad680b37f30ba0af1dc93e9fd3f43d2",
+      "content": "Using `Ctrl + Shift + E` in IntelliJ IDEA toggles code folds, making it ridiculously easy to hide im...",
+      "date": "2025-07-17 02:24:17.497136"
     }
   ],
-  "last_cleanup": "2025-07-16 23:43:58.998346"
+  "last_cleanup": "2025-07-17 02:24:16.721617"
 }

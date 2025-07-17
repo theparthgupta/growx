@@ -1699,7 +1699,12 @@
       "hash": "08da9ee2deaa9b69d4613a99802d0dafcdc4ace40689ab8b741d69ccc7aa65bc",
       "content": "Spent hours chasing a bug only to find it was a missing 'await' in a Promise chain.\nMoral of the sto...",
       "date": "2025-07-17 05:36:16.386852"
+    },
+    {
+      "hash": "8d58d3d53d48538227f5346a7436050421b7b8a34b88c062b98b8f612e4ad88c",
+      "content": "Forgot that Environment Variables are not secure in containerized apps.\nAnyone can `docker inspect` ...",
+      "date": "2025-07-17 05:53:59.228428"
     }
   ],
-  "last_cleanup": "2025-07-17 05:36:15.622421"
+  "last_cleanup": "2025-07-17 05:53:58.491380"
 }
